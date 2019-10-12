@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'CodecWarmRegular';
+    src: url('fonts/CodecWarmRegular.eot');
+    src: url('fonts/CodecWarmRegular.eot') format('embedded-opentype'),
+         url('fonts/CodecWarmRegular.woff2') format('woff2'),
+         url('fonts/CodecWarmRegular.woff') format('woff'),
+         url('fonts/CodecWarmRegular.ttf') format('truetype'),
+         url('fonts/CodecWarmRegular.svg#CodecWarmRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'CodecWarmBold';
+    src: url('fonts/CodecWarmBold.eot');
+    src: url('fonts/CodecWarmBold.eot') format('embedded-opentype'),
+         url('fonts/CodecWarmBold.woff2') format('woff2'),
+         url('fonts/CodecWarmBold.woff') format('woff'),
+         url('fonts/CodecWarmBold.ttf') format('truetype'),
+         url('fonts/CodecWarmBold.svg#CodecWarmBold') format('svg');
+}
+
+@font-face {
+    font-family: 'CodecWarmLight';
+    src: url('fonts/CodecWarmLight.eot');
+    src: url('fonts/CodecWarmLight.eot') format('embedded-opentype'),
+         url('fonts/CodecWarmLight.woff2') format('woff2'),
+         url('fonts/CodecWarmLight.woff') format('woff'),
+         url('fonts/CodecWarmLight.ttf') format('truetype'),
+         url('fonts/CodecWarmLight.svg#CodecWarmLight') format('svg');
+}
+
+
+@font-face {
+    font-family: 'CodecWarmNews';
+    src: url('fonts/CodecWarmNews.eot');
+    src: url('fonts/CodecWarmNews.eot') format('embedded-opentype'),
+         url('fonts/CodecWarmNews.woff2') format('woff2'),
+         url('fonts/CodecWarmNews.woff') format('woff'),
+         url('fonts/CodecWarmNews.ttf') format('truetype'),
+         url('fonts/CodecWarmNews.svg#CodecWarmNews') format('svg');
+}
