@@ -1,0 +1,964 @@
+<!doctype html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+		<!--meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0"-->
+    <meta name="viewport" content="width=1200"><!--, initial-scale=1, maximum-scale=1">-->
+		<!--meta name="apple-mobile-web-app-capable" content="yes" /-->
+
+		<!-- Fonts and Material Icons -->
+    <title>Ripio - main</title>
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+
+		<!-- Styles -->
+		<link href="css/slides.css" rel="stylesheet" type="text/css">
+
+		<!-- Custom Styles -->
+		<link href="js/owl/owl.carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Scripts -->
+		<script src="js/jquery-2.2.4.min.js"></script>
+		<script src="js/plugins.js" type="text/javascript" name="plugins"></script>
+		<script src="js/slides.js" type="text/javascript" name="main-scripts"></script>
+    <script src="js/owl/owl.carousel.min.js" type="text/javascript" name="owl-script"></script>
+
+
+		<!-- Custom Scripts -->
+		<!--script src="js/custom.js" type="text/javascript" name="custom-scripts"></script-->
+
+	</head>
+	<body class="slides smoothScroll zen animated">
+
+<!-- Navigation Arrows -->
+<nav class="side circle medium">
+  <div class="navigation">
+    <ul></ul>
+  </div>
+</nav>
+
+<!-- SVG Library -->
+
+<div id="bg"> <canvas></canvas> <canvas></canvas> <canvas></canvas></div>
+
+<div class="cs-wrapper">
+  <div class="super-wrapper">
+    <div class="header panel top forceMobileView">
+      <div class="container" style="width: 100%; min-width: 100%;">
+        <div class="header-content row flex-middle">
+          <div class="col-xs-7 text-left">
+            <a class="logo" href="javascript:void(0)">
+              <img src="img/logo.png" alt="">
+            </a>
+            <div class="main-menu">
+              <ul>
+                <li>
+                  <a href="#" onClick="$('.navigation li').eq(1).trigger('click')">
+                    О компании
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onClick="$('.navigation li').eq(2).trigger('click')">
+                    Токен
+                  </a>
+                </li>
+                <li>
+                  <a href="#" onClick="$('.navigation li').eq(3).trigger('click')">
+                    Инвесторам
+                  </a>
+                </li>
+                <!--li>
+                  <a href="#">
+                    FAQ
+                  </a>
+                </li-->
+                <li>
+                  <a href="/site/contact">
+                    Контакты
+                  </a>
+                </li>
+                <li>
+                  <a href="/site/login">
+                    Вход
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-5 text-right">
+            <div class="contacts">
+              <p>Свяжитесь с нами</p>
+              <a href="tel:+380441564578" class="phone underline-hover">
+                +38 (044) 156 - 45 - 78
+              </a>
+            </div>
+            <div class="lang">
+              ru <i class="fa fa-angle-down" aria-hidden="true"></i>
+              <ul>
+                <li><a href="#">en</a></li>
+                <li><a href="#">en</a></li>
+                <li><a href="#">en</a></li>
+              </ul>
+            </div>
+            <a href="#" class="btn-blue">
+              Регистрация
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 1 (#16) -->
+    <section class="slide fade kenBurns">
+      <div class="content">
+        <div class="first-screen screen">
+          <div class="container">
+            <div class="wrap">
+              <div class="circle-block">
+                <img class="circle-1" src="img/circle1.png" alt="">
+                <img class="circle-2" src="img/circle2.png" alt="">
+                <img class="circle-3" src="img/circle3.png" alt="">
+                <img class="circle-4" src="img/circle4.png" alt="">
+              </div>
+              <div class="row">
+                <div class="col-xs-7">
+                  <div class="slogan-title">
+                    <div class="title">
+                      <p class="ae-1 fromLeft">Ripio</p>
+                      <span class=" ae-3 fromLeft">
+                        Investment Network
+                      </span>
+                    </div>
+                    <p class="description ae-5 fromCenter">
+                      Инвестиции в бизнес, доступные каждому
+                    </p>
+                    <a href="/site/login" class="btn-yellow ae-4 fromCenter">
+                      Стать инвестором
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 2 (#17) -->
+    <section class="slide fade kenBurns" id="second">
+      <div class="content">
+        <div class="screen second-screen text-left">
+          <div class="container">
+            <div class="wrap">
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="slider-controls ae-1 fromCenter">
+                    <a href="#" class="control btn_prev">
+                      <img src="img/sl-left.png" alt="">
+                    </a>
+                    <p class="count_active"><span>1</span> из 3</p>
+                    <a href="#" class="control btn_next">
+                      <img src="img/sl-right.png" alt="">
+                    </a>
+                  </div>
+                  <div class="main-slider owl-theme owl-carousel">
+                    <div class="slider-item">
+                      <div class="section-title mb50 ae-2 fromLeft">
+                        О компании
+                      </div>
+                      <div class="description ae-3 fromCenter">
+                        <p class="mb20 ae-3 fromCenter">Ripio Investment Network, объединяет современные технологии блокчейна и инвестиционного бизнеса. Наша цель – создание полноценной децентрализованной платформы, направленной на кредитование бизнеса по всему миру.</p>
+                        <p class=" ae-4 fromCenter">Нас поддержали авторитетные венчурные институциональные инвесторы, такие как: Тим Дрейпер, DCG, Pantera Capital, Fenbushi Capital, Medici Ventures, Funders Club, Boost VC и Huiyin Blockchain Ventures. Это свидетельствует о правильном векторе компании RIN</p>
+                      </div>
+                      <a href="#" class="btn-yellow ">Подробнее</a>
+                    </div>
+                    <div class="slider-item">
+                      <div class="section-title mb50">
+                        Ripio coin
+                      </div>
+                      <div class="description ">
+                        <p>Единой внутренней валютой нашей системы является Ripio coin, сокращенное название RCN. Он разработан на стандарте ERC20 блока Ethereum и поддерживает технологию smart contract. На текущий момент, капитализация Ripio coin составляет более $190 млн. и он демонстрирует активное развитие – всего за 3 месяца после выпуска, его стоимость увеличилась на 600% с $0.065 до $0,39 за 1 монету В результате успешного ICO, нам удалось привлечь более $37 млн. инвестиций, необходимых для развития проекта.</p>
+                      </div>
+                      <a href="#" class="btn-yellow ae-4 fromBottom">Подробнее</a>
+                    </div>
+                    <div class="slider-item">
+                      <div class="section-title mb50">
+                        Партнерская программа
+                      </div>
+                      <div class="description ">
+                        <p>Наши инвесторы получают выплаты ежедневно. Размер дохода варьируется от 15 до 30% месячных. Также, для дополнительной мотивации инвесторов, мы разработали специальную маркетинговую программу, которая состоит из 12-ти агентских уровней. Изначально, каждому пользователю присваивается первый уровень. Для перехода на второй и последующие уровни, необходимо иметь определённую сумму депозита и развивать собственную партнерскую сеть.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background" style="background: url(img/second-screen-right.png) top left no-repeat;background-size: cover !important;width: 50%;float: right;right: 0;left: auto;"></div>
+    </section>
+    <section class="slide fade kenBurns">
+      <div class="content">
+        <div class="ninth-screen screen"  id="third">
+          <div class="container">
+            <div class="wrap">
+              <p class="section-title ae-1 fromCenter">
+                Схема работы RIN
+              </p>
+              <div class="scheme-content">
+                <div class="inline-for-line">
+                  <div class="scheme-block first-block ae-1 fromCenter">
+                    <span class=" ae-2 fromCenter">
+                      1
+                    </span>
+                    <p class=" ae-3 fromCenter">
+                      Ripio Credit<br>
+                      Network
+                    </p>
+                  </div>
+                </div>
+                <div class="scheme-element">
+                  <div class="scheme-block ae-4 fromCenter">
+                    <span class="ae-5 fromCenter">
+                      2
+                    </span>
+                    <p class="ae-6 fromCenter">
+                      Smart contract<br>
+                      <small>
+                        Lenders
+                      </small>
+                    </p>
+                  </div>
+                  <div class="scheme-block item ae-7 fromCenter">
+                    <span class=" ae-8 fromCenter">
+                      3
+                    </span>
+                    <p class=" ae-9 fromCenter">
+                      Ripio Invest<br>
+                      Network
+                    </p>
+                  </div>
+                  <div class="scheme-block ae-10 fromCenter">
+                    <span class=" ae-11 fromCenter">
+                      4
+                    </span>
+                    <p class=" ae-12 fromCenter">
+                      RCN Myning Pool<br>
+                      Coming Soon
+                    </p>
+                  </div>
+                </div>
+                <div class="scheme-element ae-13 fromCenter">
+                 <div class="scheme-block item">
+                    <span class=" ae-14 fromCenter">
+                      5
+                    </span>
+                    <p class=" ae-15 fromCenter">
+                      Deposit<br>
+                      of Partner
+                    </p>
+                  </div>
+                </div>
+                <div class="scheme-element item scheme-element-type2 ae-16 fromCenter">
+                  <div class="scheme-block  ae-17 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme1.png" alt="">
+                    </div>
+                    <p>
+                      Wallet
+                    </p>
+                  </div>
+                  <div class="scheme-block ae-18 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme1.png" alt="">
+                    </div>
+                    <p>
+                      Wallet
+                    </p>
+                  </div>
+                  <div class="scheme-block ae-19 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme1.png" alt="">
+                    </div>
+                    <p>
+                      Wallet
+                    </p>
+                  </div>
+                </div>
+                <div class="scheme-element ae-20 fromCenter">
+                 <div class="scheme-block item">
+                    <span>
+                      7
+                    </span>
+                    <p>
+                     Crypto-<br>
+                      Exchange
+                    </p>
+                  </div>
+                </div>
+                <div class="scheme-element item scheme-element-type2 ae-21 fromCenter">
+                  <div class="scheme-block ae-22 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme2.png" alt="">
+                    </div>
+                    <p>
+                      Growth
+                    </p>
+                  </div>
+                  <div class="scheme-block ae-23 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme2.png" alt="">
+                    </div>
+                    <p>
+                      Growth
+                    </p>
+                  </div>
+                  <div class="scheme-block ae-24 fromCenter">
+                    <div class="scheme-img">
+                      <img src="img/scheme2.png" alt="">
+                    </div>
+                    <p>
+                      Growth
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(img/clouds.png)"></div>
+    </section>
+    <!-- Slide 3 (#33) -->
+    <!--section class="slide fade kenBurns">
+      <div class="content">
+        <div class="screen third-screen text-center">
+          <div class="container">
+            <div class="wrap">
+              <div class="main-title text-left ae-2 fromTopLeft">
+                Узнай больше
+              </div>
+              <div class="video-block ae-4 fromCenter">
+                <div class="video-image">
+                  <img src="img/macbook.png" alt="">
+                  <div class="player">
+                    <a href="#" class="play_btn ae-6 fromLeft">
+                      <img src="img/play-btn.png" alt="">
+                    </a>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/C0DPdy98e4c" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+                    <div class="description ae-7 fromCenter">
+                      <p>Узнай больше<br/>
+                      о деятельности RIN<br/>
+                      в видео
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background third-screen__background" style="background-image:url(img/colors.png)"></div>
+    </section-->
+
+    <!-- Slide 4 (#84) -->
+    <section class="slide fade kenBurns"  id="fourth">
+      <div class="content">
+        <div class="fourth-screen screen">
+          <div class="container">
+            <div class="wrap">
+              <p class="section-title ae-1 fromTop">
+                Преимущества для инвесторов
+              </p>
+              <div class="row">
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-2 fromLeft">
+                      <img src="img/advantages1.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-4 fromLeft">
+                      <p>
+                        Получение стабильного пассивного дохода от инвестиций, который выплачивается ежедневно
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-4 fromCenter">
+                      <img src="img/advantages2.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-5 fromCenter">
+                      <p>
+                        Абсолютно прозрачные условия инвестирования и отсутствие рисков при вложении
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-6 fromRight">
+                      <img src="img/advantages3.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-8 fromRight">
+                      <p>
+                        Возможность получить дополнительный доход за активное участие в развитии проекта и привлечение новых инвесторов
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-7 fromLeft">
+                      <img src="img/advantages4.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-9 fromLeft">
+                      <p>
+                        Круглосуточная поддержка пользователей посредством собственного call center
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-10 fromCenter">
+                      <img src="img/advantages5.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-12 fromCenter">
+                      <p>
+                       Для успешных инвестиций в бизнес с RIN, не требуется специфических экономических знаний и опыта инвестирования
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-3 col-xs-offset-1">
+                  <div class="advantages-block text-left">
+                    <div class="advantages-img ae-11 fromRight">
+                      <img src="img/advantages6.png" alt="">
+                    </div>
+                    <div class="advantages-info ae-13 fromRight">
+                      <p>
+                        Нотариальное заверение своих инвестиций, что обеспечивает 100% безопасность своих вложений
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="join-us-block ae-15 fromBottom">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-9 text-left">
+                      <div class="description">
+                        <p>
+                          Наше сообщество развиваeтся с каждым днем.
+                        </p>
+                        <span>
+                          Присоеденяйся к нам!
+                        </span>
+                      </div>
+                    </div>
+                    <div class="col-xs-3 text-right">
+                      <a href="/site/login" class="btn-yellow">
+                        Стать инвестором
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 5 (#85) -->
+    <section class="slide fade kenBurns" id="fifth">
+      <div class="content">
+        <div class="screen fifth-screen text-left">
+          <div class="container">
+            <div class="wrap">
+              <div class="section-title ae-1 fromTop">
+                Достижения и стратегические цели <br/>
+                нашей компании
+              </div>
+              <div class="timeline" id="timeline">
+                <div class="container">
+                  <div class="timecode">
+                    <div class="timecode-element ae-2 fromCenter">
+                      <div class="date">
+                        <p>May 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>Внедрение Ripio Credit в TechCrunch Disrupt</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element ae-4 fromCenter">
+                      <div class="date">
+                        <p>June 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>Первый платеж Ripio Credit в частной сети</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element ae-6 fromCenter">
+                      <div class="date">
+                        <p>Jan 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>Концепция, дизайн и исследование RCN</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element ae-8 fromCenter">
+                      <div class="date">
+                        <p>Sep 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>Запуск веб-сайта + выпуск на бумажном носителе</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element ae-10 fromCenter">
+                      <div class="date">
+                        <p>Oct 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>RCN Token sale + сетевой релиз</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element ae-12 fromCenter">
+                      <div class="date">
+                        <p>Dec 2017</p>
+                      </div>
+                      <div class="description">
+                        <p>Расширенный интелектуальные контракты + сетевые агенты + реализация SDK</p>
+                      </div>
+                    </div>
+                    <div class="timecode-element text-center active ae-14 fromCenter">
+                      <small>
+                        <div class="date">
+                          <p>Apr 2017</p>
+                        </div>
+                      </small>
+                      <div class="description" style=" margin-top: 23px; ">
+                        <p>RCN идет вживую!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="background" style="background-image:url(img/galaxy.png)"></div>
+    </section>
+
+    <!-- Slide 6 (#85) -->
+    <section class="slide fade kenBurns" id="sixth">
+      <div class="content">
+        <div class="screen sixth-screen text-left">
+          <div class="container">
+            <div class="wrap">
+              <div class="section-title ae-4 fromCenter">
+                Команда RСN
+              </div>
+              <div class="main-title ae-1 fromLeft">
+                Our Team
+              </div>
+              <div class="row">
+                <div class="col-xs-12 text-center member-main">
+                  <div class="member">
+                    <div>.</div>
+                    <img class="main-img ae-5 fromCenter" src="img/main-img.png" alt="">
+                    <p class="description ae-8 fromCenter">
+                      <span class="name">Sebastian Serrano</span>
+                      <span>Founder & CEO</span>
+                      <span>Former DevsArCEO</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-4 text-center item left">
+                  <div class="member">
+                    <img src="img/team1.png" class=" ae-6 fromCenter" alt="">
+                    <p class="description  ae-9 fromCenter">
+                      <span class="name">David Garcia</span>
+                      <span>SVP & Board Member</span>
+                      <span>Former PayU Country Manager</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xs-4 text-center mt65">
+                  <div class="member">
+                    <img src="img/team2.png" class=" ae-7 fromCenter" alt="">
+                    <p class="description ae-11 fromCenter">
+                      <span class="name">Luciana Gruszeczka</span>
+                      <span>Compliance Officer</span>
+                      <span>Former DevsAr co-founder</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xs-4 text-center item right">
+                  <div class="member">
+                    <img src="img/team3.png" class=" ae-10 fromCenter" alt="">
+                    <p class="description ae-12 fromCenter">
+                      <span class="name">Andres Fleischer</span>
+                      <span>Head of Operations & Admin</span>
+                      <span>Former IBM Admin Analyst</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt75">
+                <div class="col-xs-3 text-center">
+                  <div class="member">
+                    <img src="img/team4.png" class=" ae-13 fromCenter" alt="">
+                    <p class="description ae-18 fromCenter">
+                      <span class="name">Eugenio Cocimano</span>
+                      <span>Actuary & Data Scientist</span>
+                      <span>Former Risk Data Analytics at <br/>Banco Galicia</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xs-3 text-center">
+                  <div class="member">
+                    <img src="img/team5.png" class=" ae-14 fromCenter" alt="">
+                    <p class="description ae-18 fromCenter">
+                      <span class="name">Melody Bohn</span>
+                      <span>Controller</span>
+                      <span>Former Fin Director at <br/>Schweber Securities</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xs-3 text-center">
+                  <div class="member">
+                    <img src="img/team6.png" class=" ae-15 fromCenter" alt="">
+                    <p class="description ae-19 fromCenter">
+                      <span class="name">Juan Mendez</span>
+                      <span>Head of Growth & Content</span>
+                      <span>Former Yum Yum Videos <br/>content manager</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-xs-3 text-center">
+                  <div class="member">
+                    <img src="img/team7.png" class="ae-16 fromCenter" alt="">
+                    <p class="description ae-17 fromCenter">
+                      <span class="name">Bruno Acorsi</span>
+                      <span>Head of Support & CX</span>
+                      <span>Former Head of Support <br/>at Accenture</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="investors">
+                <div class="section-title ae-21 fromCenter">
+                  Инвесторы RСN
+                </div>
+                <div class="main-title ae-21 fromCenter">
+                  Investors
+                </div>
+                <div class="row">
+                  <div class="col-xs-3 text-center ae-22 fromCenter">
+                    <div class="investor-item">
+                      <a href="#" class="investor-logo">
+                        <img src="img/mrm.png" alt="">
+                      </a>
+                      <p class="title">
+                        MRM
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 text-center ae-25 fromCenter">
+                    <div class="investor-item">
+                      <a href="#" class="investor-logo">
+                        <img src="img/fintech.png" alt="">
+                      </a>
+                      <p class="title">
+                        FBG
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 text-center ae-23 fromCenter">
+                    <div class="investor-item">
+                      <a href="#" class="investor-logo">
+                        <img src="img/coral.png" alt="">
+                      </a>
+                      <p class="title">
+                        Coral
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 text-center ae-24 fromCenter">
+                    <div class="investor-item">
+                      <a href="#" class="investor-logo">
+                        <img src="img/zeppelin.png" alt="">
+                      </a>
+                      <p class="title">
+                        Zeppelin
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 7 (#85) -->
+    <section class="slide fade kenBurns" id="seven">
+      <div class="content">
+        <div class="screen seventh-screen text-left">
+          <div class="container">
+            <div class="wrap">
+              <div class="section-title ae-2 fromCenter">
+                СМИ о RCN
+              </div>
+              <div class="row">
+                <div class="col-xs-4 ae-3 fromLeft">
+                  <a href="https://www.coindesk.com/ripio-credit-network-37-million/" target="_blank" class="media-block">
+                    <img src="img/01_coindesk.png" class="" alt="">
+                    <span class="title">Coindesk</span>
+                    <span class="description">
+                      Ripio Closes $37 Million ICO for Ethereum Lending Network.
+                    </span>
+                  </a>
+                </div>
+                <div class="col-xs-4 ae-5 fromLeft">
+                  <a href="https://techcrunch.com/2017/09/20/ripio-credit-network-launches-aiming-to-attack-bank-loan-fees-in-emerging-markets/" target="_blank" class="media-block">
+                    <img src="img/02_techcrunch.png" class="" alt="">
+                    <span class="title">Techcrunch</span>
+                    <span class="description">
+                      Ripio Investment Network launches, aiming to attack bank loan fees in emerging markets.
+                    </span>
+                  </a>
+                </div>
+                <div class="col-xs-4 ae-6 fromCenter">
+                  <a href="https://thenextweb.com/contributors/2017/09/25/three-companies-shaking-traditional-markets-thanks-blockchain/?utm_content=61068875&utm_medium=social&utm_source=twitter#.tnw_m2vU4SSz" class="media-block" target="_blank">
+                    <img src="img/03_the-next-web.png" class="" alt="">
+                    <span class="title">The Next Web</span>
+                    <span class="description">
+                      3 companies that are shaking up traditional markets thanks to blockchain.
+                    </span>
+                  </a>
+                </div>
+                <div class="col-xs-4 ae-5 fromRight">
+                  <a href="http://www.jinse.com/bitcoin/89668.html" class="media-block" target="_blank">
+                    <img src="img/04_jinse.png" class="" alt="">
+                    <span class="title">Jinse</span>
+                    <span class="description">
+                      关于火币全球专业站11月7日上线Ripio（RCN）的公告.
+                    </span>
+                  </a>
+                </div>
+                <div class="col-xs-4 ae-4 fromRight">
+                  <a href="https://forklog.com/ripio-zapustit-sistemu-globalnogo-kreditovaniya-na-blokchejne/" class="media-block" target="_blank">
+                    <img src="img/05_forklog.png" class="" alt="">
+                    <span class="title">Forklog</span>
+                    <span class="description">
+                      Ripio запустит систему глобального кредитования на блокчейне
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 8 (#85) -->
+    <section class="slide fade kenBurns" id="eight">
+      <div class="content">
+        <div class="eighth-screen screen text-left">
+          <div class="container" style="max-width: 100%;padding: 0;">
+            <div class="wrap" style=" padding-bottom: 280px; position: relative; ">
+              <div class="container" style="    width: 100%;">
+                <p class="section-title ae-1 fromTop">
+                  Контакты
+                </p>
+                <p class="main-title ae-2 fromCenter">
+                  Contacts
+                </p>
+                <div class="row">
+                  <div class="col-xs-3 ae-4 fromLeft">
+                    <div class="contact-block">
+                      <div class="contact-element">
+                        <img src="img/contact1.png" alt="">
+                        <p>
+                          Адрес компании
+                        </p>
+                      </div>
+                      <div class="contact-info text-left">
+                        703 Hoey Court Barry Blandford Way, London, United Kingdom, E3 3TR
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 col-xs-offset-1 ae-3 fromLeft">
+                    <div class="contact-block">
+                      <div class="contact-element">
+                        <img src="img/contact2.png" alt="">
+                        <p>
+                          Телефон
+                        </p>
+                      </div>
+                      <div class="contact-info text-left">
+                        <a href="tel:+38(078)4584598">
+                          +38 (078) 458 - 45 -98
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-3 ae-2 fromLeft">
+                    <div class="contact-block">
+                      <div class="contact-element">
+                        <img src="img/contact3.png" alt="">
+                        <p>
+                          E-mail
+                        </p>
+                      </div>
+                      <div class="contact-info text-left">
+                       <a href="mailto:admin@ripioinvest.network">
+                         admin@ripioinvest.network
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="section-title mt20 ae-4 fromLeft">
+                  Социальные сети
+                </p>
+                <div class="socials ae-4 fromLeft">
+                  <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                  <a href="#">
+                    <i class="fa fa-vk" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="footer ae-8 fromBottom" style=" position: absolute; bottom: 5px; left: 0; ">
+                <!--div class="topline">
+                  <div class="container">
+                    <div class="row flex-middle">
+                      <div class="col-xs-6 text-left">
+                        <p class="desc">
+                          Хотите первым узнать о запуске нашего проекта первым?
+                          <span>Заполните форму</span>
+                        </p>
+                      </div>
+                      <div class="col-xs-6">
+                        <form action="">
+                          <div class="row">
+                            <div class="col-xs-4">
+                              <input type="text" class="form-input" placeholder="Имя...">
+                            </div>
+                            <div class="col-xs-4">
+                              <input type="text" class="form-input" placeholder="E-mail...">
+                            </div>
+                            <div class="col-xs-4">
+                              <input type="submit" class="btn-yellow" value="Подписаться">
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div-->
+                <div class="botline">
+                  <div class="container" style="width: 100%;">
+                    <div class="row">
+                      <div class="col-xs-6 text-left">
+                        © 2018. "Ripio Investment Network" - Все права защищены
+                      </div>
+                      <div class="col-xs-6 text-right">
+                        <a href="javascript:void(0)">Публичный договор - оферта</a>
+                          <span class="divider_ mr5 ml5">|</span>
+                        <a href="javascript:void(0)">Политика конфиденциальности</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</div>
+<!-- Preloader -->
+<div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
+
+<script>
+  /*var increment = 1000;
+  $('.timecode-element').each(function(){
+      increment += 1000;
+      setTimeout(function() {
+        $('.timecode-element').removeClass('active');
+        $(this).addClass('active');
+        console.log(increment);
+      }, increment);
+  });*/
+
+  var owlh = $('.main-slider');
+  owlh.owlCarousel({
+      loop:false,
+      nav:true,
+      //autoWidth: true,
+      margin: 30,
+      //animateIn: 'fadeIn',
+      dots: false,
+      navText: [
+          '<i class="fa fa-angle-left"></i>',
+          '<i class="fa fa-angle-right"></i>'
+      ],
+      responsive:{
+          0:{
+              items:1,
+              autoWidth: false
+          },
+          600:{
+              items:1
+          },
+          1000:{
+              items:1
+          },
+      }
+  });
+  owlh.on('translated.owl.carousel', function(event) {
+      var countClass = $(this).find('.active').index() + 1;
+      $('.count_active span').html(countClass);
+  })
+  $('a.btn_next').click(function() {
+       $('.owl-next').trigger('click');
+  });
+  // Or to go to a previous slide
+  $('a.btn_prev').click(function() {
+      $('.owl-prev').trigger('click');
+  });
+  $('.play_btn').click(function(){
+    $('.player .description, .play_btn').remove();
+    $('.player iframe').css('opacity', '1').css('visibility', 'visible');
+    return false;
+  });
+  !function(a){var e=a("#bg").children("canvas"),t=e[0],n=e[1],o=e[2],i=[255,255,255],r=[255,255,255];if(t.getContext){var d=t.getContext("2d"),l=n.getContext("2d"),c=o.getContext("2d"),m=Math,s=20/34*m.PI*2,w=[],h=[],f,u,g;requestAnimationFrame=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||window.msRequestAnimationFrame||window.oRequestAnimationFrame||function(a,e){setTimeout(a,1e3/60)},cancelAnimationFrame=window.cancelAnimationFrame||window.mozCancelAnimationFrame||window.webkitCancelAnimationFrame||window.msCancelAnimationFrame||window.oCancelAnimationFrame||clearTimeout;var p=function(){f=a(window).width(),u=a(window).height(),e.each(function(){this.width=f,this.height=u})},C=function(){var a=m.sin(s),e=m.cos(s);l.clearRect(0,0,f,u);for(var t=0,n=w.length;t<n;t++){var o=w[t],i=o.x,r=o.y,d=o.radius,p=o.speed,i=i>f+d?-d:i<-d?f+d:i+a*p,r=r>u+d?-d:r<-d?u+d:r-e*p;o.x=i,o.y=r;var p=o.color,o=o.alpha,b=l.createRadialGradient(i,r,d,i,r,0);b.addColorStop(0,"rgba("+p[0]+","+p[1]+","+p[2]+","+(o-.8)+")"),b.addColorStop(1,"rgba("+p[0]+","+p[1]+","+p[2]+","+(o-.8)+")"),l.beginPath(),l.arc(i,r,d,0,2*m.PI,!0),l.fillStyle=b,l.fill()}for(c.clearRect(0,0,f,u),t=0,n=h.length;t<n;t++){o=h[t],i=o.x,r=o.y,d=o.width,p=o.speed,i=i>f+d*a?-d*a:i<-d*a?f+d*a:i+a*p,r=r>u+d*e?-d*e:r<-d*e?u+d*e:r-e*p,o.x=i,o.y=r;var b=d,d=o.color,o=o.alpha,p=i+m.sin(s)*b,b=r-m.cos(s)*b,A=c.createLinearGradient(i,r,p,b);A.addColorStop(0,"rgba("+d[0]+","+d[1]+","+d[2]+","+(o-.8)+")"),A.addColorStop(1,"rgba("+d[0]+","+d[1]+","+d[2]+","+(o-.4)+")"),c.beginPath(),c.moveTo(i,r),c.lineTo(p,b),c.lineWidth=1,c.lineCap="round",c.strokeStyle=A,c.stroke()}g=requestAnimationFrame(C)},b=function(){h=[];for(var a=0;6>a;a++)for(var e=0;3>e;e++);for(a=0;8>a;a++)for(e=0;7>e;e++)h.push({x:m.random()*f,y:m.random()*u,width:m.random()*(200+5*e)+(30+5*e),color:r,alpha:.5*m.random()+(.3-.1*e),speed:10*(1+.5*e)});cancelAnimationFrame(g),g=requestAnimationFrame(C),d.clearRect(0,0,f,u),a=[],a[0]=d.createRadialGradient(.3*f,.1*u,0,.3*f,.1*u,.9*f),a[0].addColorStop(0,"rgba(0, 26, 77, 0)"),a[0].addColorStop(1,"transparent"),d.translate(f,0),d.scale(-1,1),d.beginPath(),d.fillStyle=a[0],d.fillRect(0,0,f,u),a[1]=d.createRadialGradient(.1*f,.1*u,0,.3*f,.1*u,f),a[1].addColorStop(0,"rgba(0, 150, 240, 0)"),a[1].addColorStop(.8,"transparent"),d.translate(f,0),d.scale(-1,1),d.beginPath(),d.fillStyle=a[1],d.fillRect(0,0,f,u),a[2]=d.createRadialGradient(.1*f,.5*u,0,.1*f,.5*u,.5*f),a[2].addColorStop(0,"rgba(40, 20, 105,0)"),a[2].addColorStop(1,"transparent"),d.beginPath(),d.fillStyle=a[2],d.fillRect(0,0,f,u)};a(document).ready(function(){p(),b()}),a(window).resize(function(){p(),b()})}}(jQuery);
+</script>
+	</body>
+</html>

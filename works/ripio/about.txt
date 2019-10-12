@@ -1,0 +1,7 @@
+ Ripio.network    250 $ , 4 дня
+Просмотров: 61
+Дата добавления: 29.10.18 в 18:40
+Дата обновления: 29.10.18 в 18:44
+flexbox верстка 5ти страниц, фиксированная 
+front-end: 
+- HTML, CSS, pixel prefect, Bootstrap, JS, jQuery, Canvas 
