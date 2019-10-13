@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="326px" height="17px" viewBox="0 0 326 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>titleLine</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.5797412%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C1985C" offset="0%"></stop>
+            <stop stop-color="#EDE4AA" offset="48.2794436%"></stop>
+            <stop stop-color="#A8863C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🌀-✅--Contacts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="6">
+        <g id="ba_contacts" transform="translate(-367.000000, -412.000000)" fill-rule="nonzero" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="sectionTitle" transform="translate(352.000000, 327.000000)">
+                <path d="M340,93.0761926 C226.405916,102.511116 170.840728,102.511116 173.304437,93.0761926 C175.768146,83.6412691 122.666667,83.6412691 14,93.0761926" id="titleLine" transform="translate(177.000000, 93.076193) scale(1, -1) translate(-177.000000, -93.076193) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>payments/icon-payeer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.5797412%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C1985C" offset="0%"></stop>
+            <stop stop-color="#EDE4AA" offset="48.2794436%"></stop>
+            <stop stop-color="#A8863C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,0 L15,0 C23.2842712,-1.52179594e-15 30,6.71572875 30,15 L30,15 C30,23.2842712 23.2842712,30 15,30 L15,30 C6.71572875,30 1.01453063e-15,23.2842712 0,15 L0,15 C-1.01453063e-15,6.71572875 6.71572875,1.52179594e-15 15,0 Z" id="path-2"></path>
+        <filter x="-100.0%" y="-80.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="payments/icon-payeer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-perfect-money">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <g id="bg" fill-rule="nonzero" transform="translate(15.000000, 15.000000) rotate(-360.000000) translate(-15.000000, -15.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+        <path d="M9,25 L9,5 C13.6766004,5.06257233 16.6310924,5.23376831 17.8634759,5.51358793 C20.5783643,6.13001866 21.8338761,7.88854304 21.9869098,11.1031965 C22.1764361,15.0787741 20.2849433,17.6141273 17.805355,18.2146121 C16.8936587,18.4353986 15.2203227,18.5457919 12.7853472,18.5457919 L12.7853472,25 L9,25 Z M15.4815654,8.39159583 C15.2124615,8.33389201 14.4955575,8.2864839 13.8888378,8.2864839 L12.7853472,8.2864839 L12.7853472,11.7238118 L12.7853472,15.1613791 L14.147347,15.1175626 C16.5664565,15.0397462 17.4839523,14.3259907 17.666651,12.3796241 C17.8823108,10.0834431 17.1524578,8.75146654 15.4815654,8.39159583 Z" id="Combined-Shape" fill="#807F7F" style="mix-blend-mode: color-burn;"></path>
+    </g>
+</svg>

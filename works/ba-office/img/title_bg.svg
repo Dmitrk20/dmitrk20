@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>title_bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="93.0189106%" y1="50%" x2="3.26308699%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#858585" offset="0%"></stop>
+            <stop stop-color="#D5D5D5" offset="48.2794436%"></stop>
+            <stop stop-color="#858585" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37.8725173,16.6543289 L76.8503541,16.6543289 C83.982504,16.6543289 86.5687939,17.3969338 89.1762013,18.7913906 C91.7836087,20.1858473 93.8299173,22.2321559 95.2243741,24.8395633 C96.6188308,27.4469707 97.3614357,30.0332606 97.3614357,37.1654105 L97.3614357,76.1432473 C97.3614357,83.2753973 96.6188308,85.8616872 95.2243741,88.4690946 C93.8299173,91.076502 91.7836087,93.1228106 89.1762013,94.5172673 C86.5687939,95.911724 83.982504,96.6543289 76.8503541,96.6543289 L37.8725173,96.6543289 C30.7403674,96.6543289 28.1540775,95.911724 25.5466701,94.5172673 C22.9392627,93.1228106 20.8929541,91.076502 19.4984973,88.4690946 C18.1040406,85.8616872 17.3614357,83.2753973 17.3614357,76.1432473 L17.3614357,37.1654105 C17.3614357,30.0332606 18.1040406,27.4469707 19.4984973,24.8395633 C20.8929541,22.2321559 22.9392627,20.1858473 25.5466701,18.7913906 C28.1540775,17.3969338 30.7403674,16.6543289 37.8725173,16.6543289 Z" id="path-2"></path>
+    </defs>
+    <g id="🌀-✅--Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.117396763">
+        <g id="ba_home" transform="translate(-358.000000, -952.000000)">
+            <g id="sectionTitle" transform="translate(351.000000, 946.000000)">
+                <g id="title_bg">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(57.361436, 56.654329) rotate(-45.000000) translate(-57.361436, -56.654329) " xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

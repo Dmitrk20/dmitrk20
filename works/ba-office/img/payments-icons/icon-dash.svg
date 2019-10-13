@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>payments/icon-dash</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="97.5797412%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#C1985C" offset="0%"></stop>
+            <stop stop-color="#EDE4AA" offset="48.2794436%"></stop>
+            <stop stop-color="#A8863C" offset="100%"></stop>
+        </linearGradient>
+        <path d="M15,0 L15,0 C23.2842712,-1.52179594e-15 30,6.71572875 30,15 L30,15 C30,23.2842712 23.2842712,30 15,30 L15,30 C6.71572875,30 1.01453063e-15,23.2842712 0,15 L0,15 C-1.01453063e-15,6.71572875 6.71572875,1.52179594e-15 15,0 Z" id="path-2"></path>
+        <filter x="-100.0%" y="-80.0%" width="300.0%" height="300.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="payments/icon-dash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-perfect-money">
+            <mask id="mask-3" fill="white">
+                <use xlink:href="#path-2"></use>
+            </mask>
+            <g id="bg" fill-rule="nonzero" transform="translate(15.000000, 15.000000) rotate(-360.000000) translate(-15.000000, -15.000000) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            </g>
+            <path d="M24.9730144,10.9008767 C25.0384282,11.3119521 24.9839167,11.7341377 24.8203822,12.1118826 L23.0215027,17.8780488 C22.8579681,18.2780141 22.6617267,18.655759 22.4218761,19.0223939 C22.1384163,19.3890287 21.8113473,19.7223331 21.4515714,20.0111969 C21.0808932,20.3222811 20.6448012,20.544484 20.2632206,20.7666869 C19.8823205,20.9102734 19.4808542,20.9890947 19.0748699,21 L5.44699432,21 L6.41729906,18.0335908 L18.7041917,18.0335908 L20.6448012,11.9674507 L8.35790854,11.9674507 L9.32821328,9.00104158 L22.890675,9.00104158 C23.250451,8.98993143 23.6102269,9.06770246 23.9372959,9.23435466 C24.2534626,9.35656627 24.5260201,9.6009895 24.6786523,9.9120736 C24.8530891,10.2120476 24.9512098,10.5564621 24.9730144,10.9008767 Z M13.1985299,13.6228626 L12.3045413,16.3670688 L5,16.3670688 L5.97030474,13.6228626 L13.1985299,13.6228626 Z" id="Combined-Shape" fill="#929393" style="mix-blend-mode: color-burn;" mask="url(#mask-3)"></path>
+        </g>
+    </g>
+</svg>
