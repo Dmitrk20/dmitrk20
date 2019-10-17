@@ -586,7 +586,7 @@ img.aligncenter {
 		display: none;
 	}
 	#menu-wrapper #menu span {
-		padding: 0px 13px;
+		padding: 0px 9px;
 	}
 }
 @media (max-width:575px) {
