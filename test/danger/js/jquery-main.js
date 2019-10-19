@@ -597,29 +597,29 @@ $(document).ready(function(){
 
 
 
-	$('.call-accept').click(function(){
-	$('.thx').addClass('thx-show');
-	$('.call').removeClass('show');
-	$('.close').click(function(){
-	$('.thx').removeClass('thx-show');
-	});
-	});
-
-	$('.credit-accept').click(function(){
-	$('.thx').addClass('thx-show');
-	$('.modal-credit').removeClass('open-credit');
-	$('.close').click(function(){
-	$('.thx').removeClass('thx-show');
-	});
-	});
-
-	$('.test-accept').click(function(){
-	$('.thx').addClass('thx-show');
-	$('.modal-testDrive').removeClass('open-test');
-	$('.close').click(function(){
-	$('.thx').removeClass('thx-show');
-	});
-	});
+	// $('.call-accept').click(function(){
+	// $('.thx').addClass('thx-show');
+	// $('.call').removeClass('show');
+	// $('.close').click(function(){
+	// $('.thx').removeClass('thx-show');
+	// });
+	// });
+	//
+	// $('.credit-accept').click(function(){
+	// $('.thx').addClass('thx-show');
+	// $('.modal-credit').removeClass('open-credit');
+	// $('.close').click(function(){
+	// $('.thx').removeClass('thx-show');
+	// });
+	// });
+	//
+	// $('.test-accept').click(function(){
+	// $('.thx').addClass('thx-show');
+	// $('.modal-testDrive').removeClass('open-test');
+	// $('.close').click(function(){
+	// $('.thx').removeClass('thx-show');
+	// });
+	// });
 
 
 
