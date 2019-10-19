@@ -833,6 +833,10 @@ table td {
     color: #686869;
 }
 
+.logo-mobile {
+	display: none;
+}
+
 @media screen and (max-width:1200px) {
 
 	.car-info {
