@@ -549,19 +549,24 @@ function clearInputs(){
 
 $(document).ready(function(){
 
-	// var cars = document.querySelector('.cars');
-	// var li = document.querySelectorAll('a');
-	//
-	// 	for (var i=0; i<li.length; i++) {
-	// 	li[i].addEventListener('click', function(evt) {
-	// 		evt.preventDefault();
-	// 		li.forEach(c => {
-	// 			c.classList.remove('active');
-	// 		})
-	// 			$(this).addClass('active');
-	//
-	// 	})
-	// };
+	var cars = document.querySelector('.cars');
+	var li = document.querySelectorAll('a');
+
+		for (var i=0; i<li.length; i++) {
+		li[i].addEventListener('click', function(evt) {
+			evt.preventDefault();
+			li.forEach(c => {
+				c.classList.remove('active');
+			})
+				$(this).addClass('active');
+
+		})
+	};
+
+
+
+	// $(".car-photo").hasClass("car-active").addClass('true')
+
 
 
 	$('.red-link').click(function(){
@@ -638,5 +643,70 @@ $(document).ready(function(){
 	});
 
 
+	$('.car1').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.juke').addClass('car-active');
+	});
+
+
+	$('.car2').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.note').addClass('car-active');
+	});
+
+	$('.car3').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.tiida').addClass('car-active');
+	});
+
+	$('.car4').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.x-trail').addClass('car-active');
+	});
+
+	$('.car5').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.patrol').addClass('car-active');
+	});
+
+	$('.car6').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.teana').addClass('car-active');
+	});
+
+	$('.car7').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.murano').addClass('car-active');
+	});
+
+	$('.car8').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.gtr').addClass('car-active');
+	});
+
+	$('.car9').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.navara').addClass('car-active');
+	});
+
+	$('.car10').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.np300').addClass('car-active');
+	});
+
+	$('.car11').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.almera').addClass('car-active');
+	});
+
+	$('.car12').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.pathfinder').addClass('car-active');
+	});
+
+	$('.car13').click(function(){
+	$('.car-photo ').removeClass('car-active')
+	$('.gtr').addClass('car-active');
+	});
 
 });
