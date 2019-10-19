@@ -638,9 +638,7 @@ $(document).ready(function(){
 	$('#nav-icon1').click(function(){
 		$('.nav').toggleClass('open');
 	});
-	$('#nav-icon1').click(function(){
-		$('.img-responsive').toggleClass('top');
-	});
+
 
 
 	$('.car1').click(function(){
