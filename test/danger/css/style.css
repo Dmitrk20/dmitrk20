@@ -687,6 +687,10 @@ tr.even td {
 	display: none;
 }
 
+.thx-open {
+	display: block;
+}
+
 .modal-credit {
 	display: none;
 }

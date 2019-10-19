@@ -19,13 +19,15 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('dsondar@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('dmitrk20@gmail.com');     // Кому будет уходить письмо
+$mail->addAddress('dmitrk20@gmail.com','ssnevmen@mail.ru');     // Кому будет уходить письмо
+$mail->addAddress('ssnevmen@mail.ru');     // Кому будет уходить письмо
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
 //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+$mail->isHTML(true);                                  // Set email format to HTML
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Заявка с тестового сайта';
@@ -35,6 +37,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: index.html');
+    header('location: thx.html');
 }
 ?>
