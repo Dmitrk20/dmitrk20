@@ -1075,4 +1075,23 @@ tr.even td {
 	.modal .phone .arr{
 		display: none;
 	}
+
+	.modal .text-left{
+		width: 399px;
+		text-align: left;
+		margin: 46px 0 0 10px;
+		font-family: "Segoe UI", Verdana, Geneva, sans-serif;
+		font-size: 15px;
+		letter-spacing: normal;
+	}
+
+	.modal .text-left h2 {
+		margin: 0 0 26px 30px;
+	}
+
+
+
+
+
+
 }
