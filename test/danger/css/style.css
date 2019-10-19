@@ -1363,7 +1363,7 @@ table td {
 
 .modal {
 
-    top: 60%;
+    top: 85%;
     left: 83%;
     width: 350px;
     padding-left: 0;
@@ -1387,6 +1387,11 @@ table td {
 
 .logo-mobile a{
 	border: none;
+}
+
+.modal h2 span {
+	padding: 0;
+	height: auto;
 }
 
 }
