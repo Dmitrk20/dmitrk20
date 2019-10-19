@@ -707,4 +707,16 @@ $(document).ready(function(){
 	$('.gtr').addClass('car-active');
 	});
 
+
+
+
+	$('.nav').click(function(){
+	$('.nav').toggleClass('open');
+	});
+
+
+
+
+
+
 });

@@ -1221,7 +1221,7 @@ table td {
 
 	.car-info {
 		margin-left: -111px;
-		margin-top: 261px;
+		margin-top: 54px;
 		margin-bottom: 40px;
 	}
 
@@ -1275,7 +1275,91 @@ table td {
 }
 
 #nav-icon1 {
-	width: 50px;
+
+    width: 27px;
+    left: 10px;
+		margin: 0;
+
+}
+
+
+#nav-icon1 span {
+	height: 5px;
+}
+
+#nav-icon1 span:nth-child(1) {
+
+    top: 0px;
+
+}
+
+#nav-icon1 span:nth-child(2) {
+
+    top: 11px;
+
+}
+
+
+#nav-icon1 span:nth-child(3) {
+
+    top: 22px;
+
+}
+
+.menu {
+	border: none;
+	margin: none;
+}
+
+
+.car-active img {
+
+    width: 459px;
+    padding-left: 123px;
+    position: absolute;
+    top: -252px;
+
+}
+
+.content .right {
+
+    margin: 0;
+    padding-left: 105px;
+    top: 20px;
+
+}
+
+.all-cars img {
+
+    width: 363px;
+    height: auto;
+    margin-top: 34px;
+
+}
+
+.links {
+
+    margin-right: 816px;
+    top: -17px;
+
+}
+
+.footer .left {
+
+    float: left;
+    width: 360px;
+    margin-top: 143px;
+
+}
+
+.modal {
+
+    top: 50%;
+    left: 83%;
+    width: 350px;
+    padding-left: 0;
+    padding-right: 0;
+
 }
 
 
