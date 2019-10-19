@@ -823,6 +823,12 @@ tr.even td {
 	display: none;
 }
 
+
+table td {
+    padding: 1px 15px 2px 17px;
+    color: #686869;
+}
+
 @media screen and (max-width:1200px) {
 
 	.wrapper {

@@ -549,19 +549,19 @@ function clearInputs(){
 
 $(document).ready(function(){
 
-	var cars = document.querySelector('.cars');
-	var li = document.querySelectorAll('a');
-
-		for (var i=0; i<li.length; i++) {
-		li[i].addEventListener('click', function(evt) {
-			evt.preventDefault();
-			li.forEach(c => {
-				c.classList.remove('active');
-			})
-				$(this).addClass('active');
-
-		})
-	};
+	// var cars = document.querySelector('.cars');
+	// var li = document.querySelectorAll('a');
+	//
+	// 	for (var i=0; i<li.length; i++) {
+	// 	li[i].addEventListener('click', function(evt) {
+	// 		evt.preventDefault();
+	// 		li.forEach(c => {
+	// 			c.classList.remove('active');
+	// 		})
+	// 			$(this).addClass('active');
+	//
+	// 	})
+	// };
 
 
 	$('.red-link').click(function(){
