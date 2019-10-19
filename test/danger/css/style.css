@@ -901,7 +901,7 @@ tr.even td {
 
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width:768px) {
 
 		.header .phone {
 	    font-size: 45px;
@@ -945,9 +945,6 @@ tr.even td {
 
 @media screen and (max-width:576px) {
 
-	body {
-		display: none;
-	}
 	.menu {
 		display: block;
 	}
