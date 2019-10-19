@@ -1030,13 +1030,13 @@ table td {
 	}
 
 	.links {
-		margin-right: 808px;
+		margin-right: 878px;
 		top: -195px;
 	}
 
 	.links .red-link {
     background: url(../img/button-red.png) no-repeat 0 -1px;
-    width: 148px;
+    width: 240px;
     height: 51px;
     text-shadow: 0 1px 0px #55080e;
     position: relative;
@@ -1051,6 +1051,7 @@ table td {
 		margin-left: -12px;
 		text-shadow: 0 1px 0px #0e4d5b;
 		font-size: 16px;
+		display: none;
 	}
 
 
