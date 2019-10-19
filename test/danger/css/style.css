@@ -1358,12 +1358,18 @@ table td {
 
 .modal {
 
-    top: 50%;
+    top: 60%;
     left: 83%;
     width: 350px;
     padding-left: 0;
     padding-right: 0;
 
+}
+
+.header .arrow {
+	display: block;
+	margin-left: 150px;
+	transform: rotate(90deg);
 }
 
 
