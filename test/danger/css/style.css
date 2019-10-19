@@ -1313,6 +1313,7 @@ table td {
 .menu {
 	border: none;
 	margin: none;
+	margin-top: 30px;
 }
 
 
@@ -1368,9 +1369,20 @@ table td {
 
 .header .arrow {
 	display: block;
-	margin-left: 140px;
+	margin-left: 150px;
 	transform: rotate(90deg);
 }
 
+
+.logo-mobile {
+	display: block;
+	left: 137px;
+	position: absolute;
+	top: 3px;
+	}
+
+.logo-mobile a{
+	border: none;
+}
 
 }
