@@ -622,67 +622,106 @@ $(document).ready(function(){
 	$('.car1').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.juke').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.juke-info').addClass('info-open');
+	$( '.car-name' ).html( 'JUKE' );
 	});
 
 
 	$('.car2').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.note').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.note-info').addClass('info-open');
+	$( '.car-name' ).html( 'NOTE' );
 	});
 
 	$('.car3').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.tiida').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.tiida-info').addClass('info-open');
+	$( '.car-name' ).html( 'TIIDA' );
 	});
 
 	$('.car4').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.x-trail').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.x-trail-info').addClass('info-open');
+	$( '.car-name' ).html( 'X-TRAIL' );
 	});
 
 	$('.car5').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.patrol').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.patrol-info').addClass('info-open');
+	$( '.car-name' ).html( 'PATROL' );
 	});
 
 	$('.car6').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.teana').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.teana-info').addClass('info-open');
+	$( '.car-name' ).html( 'TEANA' );
 	});
 
 	$('.car7').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.murano').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.murano-info').addClass('info-open');
+	$( '.car-name' ).html( 'MURANO' );
 	});
 
 	$('.car8').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.gtr').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.gtr-info').addClass('info-open');
+	$( '.car-name' ).html( 'QASHQAI' );
 	});
 
 	$('.car9').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.navara').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.navara-info').addClass('info-open');
+	$( '.car-name' ).html( 'NAVARA' );
 	});
 
 	$('.car10').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.np300').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.np300-info').addClass('info-open');
+	$( '.car-name' ).html( 'NP300' );
 	});
 
 	$('.car11').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.almera').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.almera-info').addClass('info-open');
+	$( '.car-name' ).html( 'ALMERA' );
 	});
 
 	$('.car12').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.pathfinder').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.pathfinder-info').addClass('info-open');
+	$( '.car-name' ).html( 'PATHFINDER' );
 	});
 
 	$('.car13').click(function(){
 	$('.car-photo ').removeClass('car-active')
 	$('.gtr').addClass('car-active');
+	$('.car-info').removeClass('info-open');
+	$('.gtr-info').addClass('info-open');
+	$( '.car-name' ).html( 'GTR' );
 	});
 
 
@@ -694,34 +733,11 @@ $(document).ready(function(){
 
 
 
-	// $('.call-accept').click(function(){
-	// $('.thx').addClass('thx-show');
-	// $('.call').removeClass('show');
-	// $('.close').click(function(){
-	// $('.thx').removeClass('thx-show');
-	// });
-	// });
-	//
-	// $('.credit-accept').click(function(){
-	// $('.thx').addClass('thx-show');
-	// $('.modal-credit').removeClass('open-credit');
-	// $('.close').click(function(){
-	// $('.thx').removeClass('thx-show');
-	// });
-	// });
-
-	// $('.test-accept').click(function(){
-	// $('.thx').addClass('thx-show');
-	// $('.modal-testDrive').removeClass('open-test');
-	// $('.close').click(function(){
-	// $('.thx').removeClass('thx-show');
-	// });
-	// });
-
-
 	$('.close').click(function(){
 	$('.thx').removeClass('thx-open');
 	});
+
+
 
 
 

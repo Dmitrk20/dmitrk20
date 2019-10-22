@@ -837,6 +837,10 @@ table td {
 	display: none;
 }
 
+.car-name {
+	display: inline-block;
+}
+
 @media screen and (max-width:1200px) {
 
 	.car-info {
@@ -1362,7 +1366,8 @@ table td {
 }
 
 .modal {
-		position: fixed;
+
+    top: 85%;
     left: 83%;
     width: 350px;
     padding-left: 0;
@@ -1394,4 +1399,16 @@ table td {
 	font-size: 17px;
 }
 
+}
+
+.car-info {
+	display: none;
+}
+
+.info-open {
+	display: block;
+}
+
+table tr td:first-child {
+	text-align: left;
 }
