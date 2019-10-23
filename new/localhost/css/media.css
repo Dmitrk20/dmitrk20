@@ -1,0 +1,343 @@
+/* made by hedindoom http://hedindoom.ru/  */
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 960px) {
+    .top_wrap {
+        display: none;
+    }
+
+    .block960 {
+        width: calc(100% - 30px);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+
+    .head_lead {
+        width: calc(100% - 110px);
+    }
+
+    .module_who,
+    .mb_heading,
+    .kr_sod_1 {
+
+    }
+
+    .module_who {
+
+    }
+
+    .module_over {
+        float: none;
+        width: 100%;
+    }
+
+    .keys_item {
+        width: 400px;
+        max-width: calc(100% - 60px);
+        float: none;
+        background: rgba(0, 0, 0, 0.04);
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .pct_coll {
+        background: #fff;
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .sert {
+        width: 220px;
+        text-align: center;
+        margin: 0 10px;
+        float: none;
+        display: inline-block;
+    }
+
+    .sert_list {
+        text-align: center;
+    }
+
+    .rez_item, .post_item, .for_item {
+        float: none;
+        width: 100%;
+        text-align: center;
+        background-position: center top !important;
+    }
+
+    .for_item, .also {
+        margin-bottom: 60px;
+    }
+
+    .trainer_item {
+        transition: all .5s ease;
+        width: calc(50% - 80px);
+        float: left;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        height: 370px;
+        padding: 40px;
+    }
+
+    .top_wrap_mob {
+        display: block;
+        height: 50px;
+        background: #003c66;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        color: white;
+        z-index: 99999;
+    }
+
+    .top_wrap_mob > div {
+        width: 50%;
+        float: left;
+        height: 100%;
+    }
+
+    .top_wrap_mob > div img {
+        max-height: 50px;
+        cursor: pointer;
+    }
+
+    .top_wrap_mob > div:last-of-type {
+        text-align: right;
+    }
+
+    .top_wrap_mob {
+        padding-left: 5px;
+    }
+
+    .menubg {
+        background: #003c66;
+        display: block;
+        width: 100vw;
+        position: fixed;
+        left: -100%;
+        top: 50px;
+        height: calc(100vh - 50px);
+        z-index: 99999;
+        overflow-y: scroll;
+        color: white;
+        -webkit-transition: 0.2s ease;
+        -moz-transition: 0.2s ease;
+        -ms-transition: 0.2s ease;
+        -o-transition: 0.2s ease;
+        transition: 0.2s ease;
+    }
+    .menubg.active{
+        left: 0;
+    }
+
+
+    .menubg ul{
+        display: block;
+        float: none;
+        margin-right: 20px;
+    }
+    .menubg ul li{
+        display: block;
+    }
+    .menubg .desc{
+        float: none;
+        padding: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .phone_wrap {
+        float: none;
+        text-align: center;
+        padding-top: 8px;
+        margin-top: 30px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+.mtrainerphoto, .mtrname{
+    float: none;
+}
+    .footer_left {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    .p_desc {
+        width: 310px;
+        padding-top: 6px;
+        padding-left: 0;
+        float: left;
+        text-align: center;
+    }
+    .ask_i_head {
+        font-size: 18px;
+        background: url(../img/arrow_down.png) no-repeat 20px #fff7c5;
+        background-size: 7%;
+        cursor: pointer;
+        transition: all .5s ease;
+        padding: 18px 40px 20px 70px;
+    }
+    .p_info > img {
+        float: none;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .trainer_item {
+        width: calc(100% - 40px);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .p_desc {
+        width: auto;
+    }
+
+    .p_info {
+        float: none;
+    }
+
+    .cover_video {
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .ask_lead {
+        width: calc(100% - 40px);
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: #F9F9F9;
+        padding: 40px 20px;
+    }
+
+    .lbf_h {
+        width: 100%;
+    }
+
+    .ask_size {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .hl_size {
+        width: 340px;
+        height: 60px;
+        font-size: 18px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .program_link_mod {
+        display: block;
+        font-size: 20px;
+        background: #fff9d5;
+        border: 10px solid #fff195;
+        color: #003D68;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-left: auto;
+        transition: all .5s ease;
+        text-align: center;
+        width: calc(100% - 40px);
+        padding: 10px;
+    }
+
+    .htop-1 {
+        font-size: 22px;
+        line-height: 43px;
+    }
+
+    .benef .bh_1 {
+        font-size: 24px;
+        padding-top: 11px;
+    }
+
+    .bh_1 {
+        font-size: 33px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-left: 40px;
+    }
+
+    .modal {
+        width: calc(100% - 20px);
+        margin-left: 0;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        height: 100vh;
+        text-align: center;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        border-radius: 0 !important;
+        z-index: 9999999;
+    }
+
+    .lf_form_block {
+        width: 100%;
+    }
+
+    .input_style_1 {
+        width: calc(100% - 40px);
+    }
+
+    .form_size {
+        width: 100%;
+        height: 80px;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
