@@ -25,28 +25,28 @@
 		<div class="wrapper">
 			<div class="popup d-flex justify-content-center">
 				<img src="img/@2x/closed.png" class="img-responsive closed" alt="">
-				<form>
+				<form action="mail.php" method="POST">
 					<h1>Оставьте заявку</h1>
 					<h2>И мы перезвоним вам в самое <br> ближайшее время</h2>
 					<div class="group">
-						<input type="text" required>
+						<input type="text" name="user_name">
 						<span class="highlight"></span>
 						<span class="bar"></span>
 						<label>Введите ваше Имя:</label>
 					</div>
 					<div class="group">
-						<input type="text" required>
+						<input type="text" name="user_tel">
 						<span class="highlight"></span>
 						<span class="bar"></span>
 						<label>Введите ваш номер:</label>
 					</div>
 					<div class="group">
-						<input type="text" required>
+						<input type="text" name="room">
 						<span class="highlight"></span>
 						<span class="bar"></span>
 						<label>Кол-во комнат:</label>
 					</div>
-					<div class="button sub">Оставить заявку</div>
+					<div class="button sub" type="submit">Оставить заявку</div>
 					<div class="desc">Нажимая на кнопку вы даете согласие на <br> обработку своих персональных данных.</div>
 				</form>
 			</div>
@@ -91,7 +91,7 @@
 				<div class="about-title">Обо мне</div>
 				<div class="about-desc">Работаю на рынке аренды жилой <br> недвижимости <span>с 2013 года</span></div>
 				<div class="about-item">
-					<div class="row">
+					<div class="row d-flex justify-content-center">
 						<div class="col-xl-3 col-md-6 about-items"><img src="img/@2x/about-item-1.png" alt=""><div class="about-items-desc">Сдал более <br> 500 обьектов</div></div>
 						<div class="col-xl-3 col-md-6  about-items"><img src="img/@2x/about-item-2.png"  alt=""><div class="about-items-desc t-2">Подобрал более <br>1000 объектов </div></div>
 						<div class="col-xl-3 col-md-6  about-items"><img src="img/@2x/about-item-3.png" alt=""><div class="about-items-desc t-3">Сотрудничаю с 4 агрегаторами по подбору жилья</div></div>
@@ -107,8 +107,7 @@
 			<div class="container">
 				<div class="video-title">Посмотрите видео</div>
 				<div class="video-desc">И узнайте как вы можете снять квартиру от собственника,<span>без переплаты агенствам</span></div>
-				<div class="d-flex justify-content-center"><img src="img/@2x/video.png" class="img-responsive" alt=""></div>
-				<!-- <div class="button">Оставить заявку</div> -->
+				<div class="d-flex justify-content-center"><video src="video/01.mp4" controls poster="img/@2x/video.png"></video></div>
 			</div>
 		</section>
 
@@ -136,7 +135,7 @@
 						</div>
 					</div>
 				</div>
-					<div class="d-flex justify-content-center deff"><div class="button services-btn"><a href="offer.docx">Читать договор</a></div></div>
+					<div class="d-flex justify-content-center deff"><div class="services-btn"><a href="offer.docx">Читать договор</a></div></div>
 			</div>
 		</section>
 
@@ -147,13 +146,13 @@
 				<div class="plus-title">Преимущества работы со мной</div>
 				<div class="plus-desc">Работаю на рынке аренды жилой <br> недвижимости <span>с 2013 года</span></div>
 				<div class="plus-item">
-					<div class="row">
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_1.png" alt=""><div class="plus-items-desc">Использую CRM систему, и базу данных всех имеющихся объектах на рынке недвижимости</div></div>
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_2.png" alt=""><div class="plus-items-desc">Обладаю эксклюзивными предложениями за счёт обзвона ранее сдававшихся объектов </div></div>
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_3.png" alt=""><div class="plus-items-desc">Договариваюсь с собственниками, что бы мои клиенты первыми смотрели их квартиры</div></div>
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_4.png" alt=""><div class="plus-items-desc">Договариваюсь что бы арендаторы делили на 2 месяца депозит</div></div>
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_5.png" alt=""><div class="plus-items-desc">Ценю ваше время</div></div>
-						<div class="col-xl-4 plus-items"><img src="img/@2x/plus_6.png" alt=""><div class="plus-items-desc">Довожу вас до сделки или возвращаю деньги</div></div>
+					<div class="row d-flex justify-content-center">
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_1.png" alt=""><div class="plus-items-desc">Использую CRM систему, и базу данных всех имеющихся объектах на рынке недвижимости</div></div>
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_2.png" alt=""><div class="plus-items-desc">Обладаю эксклюзивными предложениями за счёт обзвона ранее сдававшихся объектов </div></div>
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_3.png" alt=""><div class="plus-items-desc">Договариваюсь с собственниками, что бы мои клиенты первыми смотрели их квартиры</div></div>
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_4.png" alt=""><div class="plus-items-desc">Договариваюсь что бы арендаторы делили на 2 месяца депозит</div></div>
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_5.png" alt=""><div class="plus-items-desc">Ценю ваше время</div></div>
+						<div class="col-xl-4 col-md-3 plus-items"><img src="img/@2x/plus_6.png" alt=""><div class="plus-items-desc">Довожу вас до сделки или возвращаю деньги</div></div>
 					</div>
 				</div>
 			</div>
@@ -185,15 +184,6 @@
 			<div class="comm-desc">О сотрудничестве со мной:</div>
 			<div class="comm-item">
 				<div class="row owl-carousel owl-theme">
-					<!-- <div class="col-md-2"></div>
-					<div class="col-md-8 comm-item-bg">
-						<div>
-								<div class="comm-item-photo"><img src="../img/@2x/photo_1.png" alt=""></div>
-								<div class="comm-item-name">Ольга</div>
-								<div class="comm-item-desc">Спасибо огромное Денису и его подходу, к решении моей задачи, нужно было найти за 2 дня квартиру в пределах 30 000, не далеко от метро и на все у меня было 50 000, заселили и поделили депозит на 2 месяца, и инвестировала в Дениса 4500. Денис я даже не думала, что такой сервис как у вас существует, мне приятно и я с удовольствием буду рекомендовать вас друзьям.</div>
-						</div>
-					</div>
-					<div class="col-md-2"></div> -->
 					<div class="slider comm-item-bg col-md-10 offset-md-1">
 						<div class="comm-item-photo"><img src="img/@2x/photo_1.png" width="130" height="130px"  alt=""></div>
 						<div class="comm-item-name">Ольга</div>
