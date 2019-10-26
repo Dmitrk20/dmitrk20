@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
   $('.closed').click(function(){
   $('.wrapper').css('display','none');
   });
-  
+
   $('.sub').click(function(){
   $('.wrapper').css('display','none');
   });
