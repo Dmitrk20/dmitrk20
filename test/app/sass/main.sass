@@ -33,7 +33,7 @@ body
 	list-style-type: none
 	display: inline-block
 	position: absolute
-	top: 517px
+	top: 505px
 	left: 41%
 
 .text
@@ -71,7 +71,7 @@ body
 .desc
 	font-size: 18px
 	font-weight: 500
-	padding-top: 20px
+	padding-top: 50px
 	padding-bottom: 50px
 
 .button
@@ -104,7 +104,7 @@ body
 
 .about
 	text-align: center
-	margin-top: 300px
+	margin-top: 150px
 	&-title
 		font-size: 36px
 		font-weight: 700
@@ -125,9 +125,10 @@ body
 	padding-top: 70px
 	margin-right: 15px
 	margin-left: 15px
-	padding-bottom: 60px
+	padding-bottom: 30px
 	&-desc
 		text-align: center
+		padding: 14px 8px
 
 .t-2
 	padding-top: 42px
@@ -176,7 +177,6 @@ body
 		background-color: #141520
 		margin-top: 70px
 		min-height: 700px
-		margin-bottom: 100px
 		&-img
 			padding: 25px
 		&-desc
@@ -244,7 +244,7 @@ body
 	margin-right: 30px
 	&-desc
 		text-align: center
-		padding: 10px
+		padding: 20px
 		padding-top: 30px
 		font-size: 16px
 
@@ -331,10 +331,13 @@ body
 	font-size: 14px
 	font-weight: 500
 	padding: 0
+	padding-top: 50px
+	margin-bottom: 50px
 .inn
 	font-size: 14px
 	font-weight: 300
 	color: gray
+	padding-bottom: 20px
 
 .contact .li-1
 	padding-right: 10px
@@ -507,9 +510,41 @@ a
 
 
 
+.owl-prev
+	position: absolute
+	top: 46%
+	left: -5%
+	width: 41px
+	height: 41px
+	background: url('/img/@2x/prev.png') no-repeat !important
+	&:hover
+		background: url('/img/@2x/2-layers.png') no-repeat !important
+		transform: rotate(180deg)
+
+	& span
+			display: none
+
+.owl-next
+	position: absolute
+	top: 46%
+	right: -5%
+	width: 41px
+	height: 41px
+	background: url('/img/@2x/prev.png') no-repeat !important
+	transform: rotate(180deg)
+	&:hover
+		background: url('/img/@2x/2-layers.png') no-repeat !important
+		transform: rotate(0deg)
+	& span
+			display: none
 
 
 
+
+
+
+.rotate
+	transform: rotate(-180deg)
 
 
 

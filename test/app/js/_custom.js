@@ -4,7 +4,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   $(".owl-carousel").owlCarousel({
-    items : 1
+    items : 1,
+    nav: true
   });
 
 
@@ -20,5 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
   $('.sub').click(function(){
   $('.wrapper').css('display','none');
   });
+
+document.getElementsByTagName('img').ondragstart = function() { return false; };
+
 
 });
