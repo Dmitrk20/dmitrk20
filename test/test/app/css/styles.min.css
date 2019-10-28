@@ -5967,6 +5967,13 @@ video {
 
 @media (max-width:321px) {
 
+  .comm-item-desc {
+    padding: 16px 0px;
+    font-size: 12px;
+  }
+
+
+
   .contact li {
     font-size: 14px;
     padding-right: 4px;
