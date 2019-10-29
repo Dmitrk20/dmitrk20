@@ -1,0 +1,494 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: 'Gotham', sans-serif
+	overflow-x: hidden
+	color: $text
+
+// Custom Sass / Remove before use
+
+// .overlay
+// 	position: absolute
+// 	z-index: 9999
+// 	top: 0
+// 	left: 0
+// 	bottom: 0
+// 	right: 0
+// 	background-color: #000
+
+span
+	color: $accent
+
+.button
+	font-size: 18px
+	font-weight: 400
+	line-height: 23px
+	background-color: $accent
+	text-transform: uppercase
+	border: none
+	padding: 20px 42px
+	border-radius: 5px
+	&:hover
+		box-shadow: 0 0 32px rgba(103, 184, 255, 0.73)
+
+
+
+
+.logo
+	display: inline-block
+	padding-top: 30px
+
+.contact
+	display: inline-block
+	padding-top: 35px
+	& li
+		display: inline-block
+		padding-right: 25px
+		& img
+			padding-right: 9px
+
+.img-header
+	position: absolute
+
+.header
+	color: #fff
+	&-title
+		font-size: 32px
+		font-weight: 700
+		line-height: 35px
+		padding-top: 70px
+	&-desc
+		font-size: 18px
+		font-weight: 400
+		padding-top: 40px
+		padding-bottom: 40px
+		line-height: 23px
+	&-feed
+		font-size: 22px
+		font-weight: 400
+		line-height: 23px
+		padding-bottom: 35px
+		& span
+			color: #000
+			font-weight: 700
+			background-color: $accent
+			border: 1px solid $accent
+			padding: 4px 16px
+	&-plus
+		font-size: 18px
+		font-weight: 400
+		line-height: 24px
+		padding-bottom: 37px
+		& li
+			list-style-type: none
+		& img
+			padding-right: 8px
+	&-input
+		margin-bottom: 110px
+		& input
+			border-radius: 5px
+			border: 1px solid #cbcbcb
+			padding: 15px 95px 15px 24px
+			font-size: 18px
+		& .button
+				margin-left: 16px
+
+.img-project
+	position: absolute
+	margin-top: -68px
+	z-index: -10
+
+.project
+	text-align: center
+	&-title
+		font-size: 32px
+		font-weight: 700
+		padding-top: 50px
+		padding-bottom: 50px
+		color: $text
+		display: block
+	&-item
+		background-color: #ffffff
+		border-radius: 5px
+		&-name
+			margin-left: 60px
+			& li
+					display: inline-block
+					font-size: 17px
+					line-height: 35px
+					font-weight: 700
+					padding-right: 110px
+					padding-top: 40px
+					&.active
+						color: #1175e5
+						font-size: 18px
+		&-prev
+			display: inline-block
+			margin-top: 27px
+			border: 1px solid #cbcbcb
+			display: inline-block
+			text-align: left
+			width: 90%
+			&-img
+				display: inline-block
+				text-align: left
+				padding: 10px 5px 0 10px
+			&-text
+				display: inline-block
+				font-size: 13px
+				font-weight: 700
+				vertical-align: top
+				line-height: 17px
+				padding-top: 20px
+				padding-right: 30px
+				& span
+					display: block
+					color: #000
+					font-size: 17px
+					font-weight: 700
+			&.active
+				border: 2px solid #1175e5
+		&-img
+			margin-top: 30px
+			margin-left: 40px
+
+.project-pad
+	padding-right: 0
+	padding-left: 0
+	margin-right: -20px
+
+.project-first
+	margin-left: 34px
+
+
+.project-item-text
+	text-align: left
+	padding: 59px 35px
+	& h1
+		font-size: 20px
+		font-weight: 700
+		line-height: 27px
+		color: #267de6
+	& h2
+		color: #000
+		font-size: 16px
+		font-weight: 700
+		line-height: 27px
+	& span
+		color: #000
+		font-size: 14px
+		font-weight: 400
+		line-height: 22px
+	& li
+		list-style-type: none
+		font-size: 14px
+		font-weight: 700
+		line-height: 27px
+		padding-top: 10px
+		& img
+			padding-right: 10px
+
+.job
+	margin-top: 90px
+	text-align: center
+	&-title
+		font-size: 32px
+		color: $text
+		font-weight: 700
+		line-height: 35px
+		padding-top: 100px
+	&-item
+		min-height: 440px
+		box-shadow: 0 0 34px 1px rgba(130, 130, 130, 0.3)
+		margin-top: 58px
+		&-content
+			font-size: 16px
+			font-weight: 400
+			line-height: 35px
+			text-align: left
+			list-style-type: none
+			padding-top: 30px
+			& li
+				width: 150px
+				& img
+					padding: 4px 8px 7px 20px
+			& span
+				font-size: 16px
+				font-weight: 700
+				color: #3b66ad
+				padding-left: 24px
+
+
+
+.free
+	background-color: #1072e4
+	text-align: left
+	margin-top: 36px
+	&-img
+		text-align: left
+		padding-top: 10px
+
+.free .header-plus
+	color: #fff
+	font-size: 17px
+.free .header-feed
+	color: #fff
+	padding-top: 54px
+	font-weight: 700
+	padding-bottom: 10px
+
+.free .header-input
+	text-align: right
+	padding-top: 70px
+	margin-bottom: 0
+
+.free .header-input .button
+	margin-right: 35px
+
+
+.partner
+	&-title
+		font-size: 32px
+		font-weight: 700
+		line-height: 35px
+		margin-top: 50px
+		margin-bottom: 40px
+	&-item
+		border: 1px solid #bcd9ff
+		margin-top: 22px
+		padding: 30px 25px
+
+
+
+
+.recom_bg
+	position: absolute
+
+.recommend-text
+	background-color: #fff
+	padding: 41px 36px 119px 26px
+	& h1
+		font-size: 20px
+		line-height: 35px
+		font-weight: 700
+		color: #1072e3
+	& span
+		font-size: 12px
+		font-weight: 400
+		color: #000
+		line-height: 18px
+
+.recommend-item
+	padding-top: 50px
+	display: inline-block
+
+.recommend
+	padding-bottom: 25px
+
+
+
+.owl-prev
+	position: absolute
+	top: 46%
+	left: -10%
+	width: 50px
+	height: 96px
+	background: url('../img/prev.png') no-repeat !important
+	& span
+		display: none
+
+
+
+.owl-next
+	position: absolute
+	top: 46%
+	right: -10%
+	width: 50px
+	height: 96px
+	background: url('../img/next.png') no-repeat !important
+	& span
+		display: none
+
+
+.smeta-img
+	position: absolute
+
+.smeta
+	color: #ffffff
+	&-title
+		font-size: 32px
+		font-weight: 700
+		line-height: 35px
+		text-transform: uppercase
+		color: #ffffff
+		padding-top: 25px
+		padding-bottom: 30px
+	&-desc
+		font-size: 16px
+		font-weight: 400
+		line-height: 24px
+		padding-bottom: 40px
+
+.smeta .header-input
+	margin-bottom: 10px
+
+.smeta .header-input input
+	padding: 15px 125px 15px 24px
+
+.smeta .header-plus li
+	padding-top: 20px
+	padding-left: 25px
+
+.smeta .header-plus img
+	position: absolute
+	left: 9px
+	padding-top: 5px
+
+
+.join
+	text-align: center
+	&-title
+		font-size: 32px
+		color: $text
+		font-weight: 700
+		line-height: 35px
+		padding-top: 45px
+	&-desc
+		font-size: 16px
+		font-weight: 400
+		line-height: 35px
+		padding-bottom: 50px
+	&-item
+		background-color: #c6e0ff
+		z-index: 10
+		& img
+			z-index: -1
+	&-overlay
+		background-color: #000
+		height: 100px
+
+
+.popup
+	display: none
+	width: 970px
+	height: 630px
+	border-radius: 10px
+	background-color: #fff
+	top: 10%
+	left: 25%
+	position: fixed
+	z-index: 9999
+	&-title
+		font-size: 32px
+		font-weight: 700
+		line-height: 35px
+		color: #000
+		padding-top: 100px
+	&-desc
+		font-size: 18px
+		font-weight: 400
+		line-height: 22px
+		padding-top: 35px
+		padding-bottom: 35px
+
+.popup input
+		border-radius: 10px
+		border: 1px solid #b8b8b8
+		padding: 22px 263px 22px 23px
+		font-size: 18px
+		color: #000
+		margin-bottom: 12px
+
+.popup .button
+	padding: 25px 177px
+	border-right: 10px
+
+.popup-closed
+	position: absolute
+	right: 28px
+	top: 16px
+	cursor: pointer
+
+
+.popup-accept
+	padding-top: 25px
+	padding-left: 100px
+	font-size: 14px
+
+.popup-accept img
+	position: absolute
+	left: 85px
+	padding-top: 3px
+
+
+.popup-img
+	position: absolute
+	top: -63px
+	right: -90px
+
+.popup_bg
+	position: absolute
+	top: -94px
+	z-index: -10
+	right: -334px
+
+
+.button .accent
+	box-shadow: 0 0 32px rgba(103, 184, 255, 0.73)
+
+
+
+.container
+	max-width: 1200px
+	padding:
+		right: $gutter/2
+		left: $gutter/2
+	margin:
+		left: auto
+		right: auto
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.example-grid
+	display: grid
+	grid-gap: $gutter
+	grid-template-columns: 1fr 1fr
+	grid-template-areas: "left right"
+	> div:first-child
+		grid-area: left
+	> div:last-child
+		grid-area: right
+	+media-breakpoint-down(xs)
+		display: block
+		> div
+			padding: $gutter/2 0
+
+.example-img
+	width: 100%
+
+.parent // Lazy Load Placeholder Generator: https://webdesign-master.ru/services/lazy/
+	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7)
+@import "media" // Always at the end
