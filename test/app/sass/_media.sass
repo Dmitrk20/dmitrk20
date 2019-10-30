@@ -8,16 +8,33 @@
 +media-breakpoint-down(xl)
 
   .img-header
-    min-height: 500px
+    min-height: 730px
 
   .recom_bg
     min-height: 700px
+
+  .smeta-img
+    min-height: 512px
+
+  .recom_bg
+    min-height: 775px
 
 
 
 //Large: ≥992px
 +media-breakpoint-down(lg)
 
+  .smeta-png
+    display: block
+    width: 590px
+    height: 355px
+    left: -200px
+
+  .smeta-img
+    min-height: 355px
+
+  .img-header
+    min-height: 500px
 
   .header-feed
     padding-bottom: 8px
@@ -40,6 +57,7 @@
 
   .contact li
     padding-right: 2px
+    font-size: 15px
 
   .header-input
     margin-bottom: 40px
@@ -53,8 +71,21 @@
   .project-item-text
     padding: 59px 15px
 
-  .job-item-content span
-    font-size: 14px
+  .project-item-prev-text span
+    font-size: 15px
+
+  // .job-item-content span
+  //   font-size: 11px
+  //
+  // .job-item-content
+  //   font-size: 14px
+  //
+  // .job-item-content li img
+  //   padding: 4px 8px 7px 2px
+
+  .job-item
+    margin: auto
+    margin-top: 50px
 
   .free-img
     padding-top: 47px
@@ -72,17 +103,15 @@
     padding: 15px 15px 15px 24px
 
   .smeta-title
-    font-size: 20px
-    padding-top: 0
-    padding-bottom: 5px
-    line-height: 24px
+    padding-top: 12px
+    padding-bottom: 17px
 
-  .smeta .header-input input
-    padding: 4px 1px 7px 1px
-    font-size: 16px
+  // .smeta .header-input input
+  //   padding: 4px 1px 7px 1px
+  //   font-size: 16px
 
-  .smeta .header-input .button
-    padding: 10px 40px
+  // .smeta .header-input .button
+  //   padding: 10px 40px
 
   .smeta-desc
     padding-bottom: 5px
@@ -92,11 +121,11 @@
     margin-bottom: 0
 
   .smeta .header-plus li
-    padding-top: 3px
+    padding-top: 8px
 
-  .smeta .header-plus
-    font-size: 14px
-    line-height: 16px
+  // .smeta .header-plus
+  //   font-size: 14px
+  //   line-height: 16px
 
   .popup-title
     font-size: 28px
@@ -125,6 +154,12 @@
 
 //Medium: ≥768px
 +media-breakpoint-down(md)
+
+  .smeta-block
+    margin-left: 100px
+
+  .smeta-png
+    display: none
 
   .popup-title
     font-size: 26px
@@ -190,16 +225,22 @@
   .project-item-text span
     font-size: 13px
 
+  .project-item-prev-text span
+    font-size: 10px
+
+  // .job-item-content span
+  //   font-size: 11px
+  //   padding-left: 15px
+  //
+  .job-item-content li img
+    padding: 4px 8px 7px 5px
+
   .job-item-content span
-    font-size: 11px
-    padding-left: 15px
+    font-size: 13px
 
-  .job-item-content li
-    width: 131px
-    font-size: 14px
-
-  .job-item
-    min-height: 355px
+  //
+  // .job-item
+  //   min-height: 355px
 
   .free-img
     padding-top: 73px
@@ -214,26 +255,26 @@
   .free .header-input input
     padding: 5px 5px 5px 5px
 
-  .smeta-title
-    font-size: 16px
-    padding-top: 0
-    padding-bottom: 5px
-    line-height: 18px
-
-  .smeta-desc
-    padding-bottom: 0
-    line-height: 20px
-    font-size: 14px
-
-  .smeta .header-input input
-    padding: 5px 1px 5px 1px
-
-  .smeta .header-input .button
-    padding: 8px 24px
-    margin-left: 3px
+  // .smeta-title
+  //   font-size: 16px
+  //   padding-top: 0
+  //   padding-bottom: 5px
+  //   line-height: 18px
+  //
+  // .smeta-desc
+  //   padding-bottom: 0
+  //   line-height: 20px
+  //   font-size: 14px
+  //
+  // .smeta .header-input input
+  //   padding: 5px 1px 5px 1px
+  //
+  // .smeta .header-input .button
+  //   padding: 8px 24px
+  //   margin-left: 3px
 
   .smeta-img
-    min-height: 250px
+    min-height: 365px
 
 
 
@@ -256,13 +297,13 @@
     padding-top: 25px
     font-size: 12px
 
+  .contact li
+    padding-right: 8px
+    font-size: 12px
+    padding-top: 5px
+
   .project-title
     padding-top: 85px
-
-  .project-item-name li
-    padding-right: 21px
-    display: block
-    padding-top: 6px
 
   .project-first
     margin-left: 0
@@ -300,11 +341,138 @@
     padding: 5px 5px 5px 5px
     margin-right: 50px
 
+  .project-item-name
+    margin-left: 0
 
+  .project-item-name li
+    padding-right: 10px
+    padding-top: 6px
+    font-size: 14px
+
+  .project-item-name li.active
+    font-size: 14px
+
+  .project-item-prev
+    margin-left: 25px
+
+  .owl-prev
+    display: none
+
+  .owl-next
+    display: none
+
+  .header-plus li
+    font-size: 12px
+
+  .free-img
+    padding-top: 93px
+
+  .free .header-input .button
+    margin-right: 63px
+
+  .smeta-title
+    font-size: 26px
+    padding-top: 26px
+    padding-bottom: 17px
+
+  .smeta-desc
+    font-size: 16px
+    padding-bottom: 20px
+
+  .smeta .header-input .button
+    margin-left: 0
+    padding: 15px 118px
+    margin-top: 10px
+
+  .header-plus li
+    padding-top: 0
+
+  .smeta-block
+    margin-left: 40px
+
+  .smeta-img
+    min-height: 435px
 
 //Extra small: >0
 +media-breakpoint-down(xs)
 
+  .img-header
+    min-height: 560px
+
+  .contact
+    display: none
+
+  .col-logo
+    text-align: center
+
+  .logo
+    padding-top: 8px
+
+  .header-title
+    font-size: 20px
+
+  .header-block
+    margin-left: 10px
+
+  .button
+    padding: 8px 55px
+
+  .header-input .button
+    margin-left: 0
+
+  .header-input input
+    margin-bottom: 10px
+
+  .project-title
+    padding-top: 20px
+
+  .project-item-prev-text span
+    font-size: 17px
+
+
+  .job-li
+    width: 225px
+    font-size: 14px
+
+  .job-span
+    width: 150px
+
+  .free-img
+    display: none
+
+  .free .header-feed
+    padding-top: 20px
+    font-size: 22px
+    padding-left: 26px
+
+  .free .header-plus img
+    left: 16px
+
+  .free .header-plus li
+    padding-left: 26px
+    font-size: 16px
+
+  .free .header-input
+    text-align: left
+    margin-left: 26px
+    padding-top: 0
+
+  .header-input input
+    padding: 10px 62px 10px 5px
+
+  .free .button
+    padding: 12px 78px
+    margin-top: 4px
+    margin-bottom: 20px
+
+  .partner-item
+    padding-left: 95px
+
+  .smeta-block
+    margin-left: 5px
+
+  .smeta-img
+    min-height: 620px
 
 /*==========  Mobile First  ==========*/
 

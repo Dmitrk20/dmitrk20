@@ -139,9 +139,10 @@ span
 					font-weight: 700
 					padding-right: 110px
 					padding-top: 40px
+					cursor: pointer
 					&.active
 						color: #1175e5
-						font-size: 18px
+						font-size: 17px
 		&-prev
 			display: inline-block
 			margin-top: 27px
@@ -149,6 +150,7 @@ span
 			display: inline-block
 			text-align: left
 			width: 90%
+			cursor: pointer
 			&-img
 				display: inline-block
 				text-align: left
@@ -166,7 +168,7 @@ span
 					color: #000
 					font-size: 17px
 					font-weight: 700
-			&.active
+			&.active-prev
 				border: 2px solid #1175e5
 		&-img
 			margin-top: 30px
@@ -221,6 +223,7 @@ span
 		min-height: 440px
 		box-shadow: 0 0 34px 1px rgba(130, 130, 130, 0.3)
 		margin-top: 58px
+		max-width: 375px
 		&-content
 			font-size: 16px
 			font-weight: 400
@@ -229,14 +232,14 @@ span
 			list-style-type: none
 			padding-top: 30px
 			& li
-				width: 150px
 				& img
-					padding: 4px 8px 7px 20px
+					padding: 4px 8px 7px 15px
 			& span
-				font-size: 16px
+				font-size: 14px
 				font-weight: 700
 				color: #3b66ad
-				padding-left: 24px
+				display: block
+
 
 
 
@@ -264,7 +267,10 @@ span
 
 .free .header-input .button
 	margin-right: 35px
-
+.free .header-plus img
+	position: absolute
+	left: -10px
+	padding-top: 5px
 
 .partner
 	&-title
@@ -277,6 +283,29 @@ span
 		border: 1px solid #bcd9ff
 		margin-top: 22px
 		padding: 30px 25px
+
+.pi-2
+	padding: 27px 25px
+.pi-3
+	padding: 20px 25px
+.pi-4
+	padding: 27px 25px
+.pi-5
+	padding: 21px 25px
+.pi-6
+	padding: 34px 25px
+.pi-7
+	padding: 9px 25px
+.pi-8
+	padding: 4px 25px
+.pi-9
+	padding: 8px 25px
+.pi-10
+	padding: 21px 25px
+.pi-11
+	padding: 25px 25px
+.pi-12
+	padding: 16px 25px
 
 
 
@@ -332,6 +361,11 @@ span
 
 .smeta-img
 	position: absolute
+
+.smeta-png
+	position: absolute
+	left: -360px
+
 
 .smeta
 	color: #ffffff
