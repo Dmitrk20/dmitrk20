@@ -18,12 +18,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
   $('.button').click(function(){
     $('.popup').css('display','block')
+    $('.overlay-popup').css('display','block')
   });
 
 
   $('.popup-closed').click(function(){
     $('.popup').css('display','none')
+    $('.overlay-popup').css('display','none')
   });
+
+  $('.overlay-popup').click(function(){
+    $('.popup').css('display','none')
+    $('.overlay-popup').css('display','none')
+  });
+
 
   $('#project_1').click(function(){
     $('.active').removeClass('active')
