@@ -5110,8 +5110,7 @@ span {
 
 .header {
     color: #fff;
-    background-image: url('../img/header_bg.png');
-    background-size: cover;
+    background-image: url(/img/header_bg.png)
 }
 
 .header-title {
@@ -5401,6 +5400,10 @@ span {
     padding: 30px 25px
 }
 
+.partner-item img {
+    margin: auto
+}
+
 .pi-2 {
     padding: 27px 25px
 }
@@ -5572,22 +5575,26 @@ span {
     padding-bottom: 50px
 }
 
+.join-item img {
+    margin: auto
+}
+
 .over {
     width: 200px;
-    height: 158px;
     position: absolute;
     top: 0;
     background-color: #c6e0ff;
-    opacity: .3
+    opacity: .3;
+    margin: auto
 }
 
 .over-light {
     width: 200px;
-    height: 158px;
     position: absolute;
     top: 0;
     background-color: #e8f7ff;
-    opacity: .3
+    opacity: .3;
+    margin: auto
 }
 
 .ji-p {
@@ -5619,8 +5626,9 @@ span {
     box-shadow: 0 0 34px 1px rgba(130, 130, 130, .3);
     background-color: #fff;
     min-height: 510px;
-    margin-bottom: 45px;
-    max-width: 375px
+    max-width: 375px;
+    margin: auto;
+    margin-bottom: 45px
 }
 
 .system-item-title {
@@ -5681,6 +5689,10 @@ span {
     font-weight: 400;
     font-style: italic;
     padding: 0 2px
+}
+
+.team-img img {
+    margin: auto
 }
 
 .team-wrapper {
@@ -5814,6 +5826,17 @@ span {
 
 .footer .contact {
     font-size: 14px
+}
+
+.thx {
+    width: 970px;
+    height: 630px;
+    top: 50px;
+    left: 50px;
+    margin-left: -485px;
+    margin-top: -315px;
+    position: fixed;
+    z-index: 9999
 }
 
 .popup {
@@ -6093,6 +6116,12 @@ span {
 }
 
 @media (max-width:991.98px) {
+    .over {
+        display: none
+    }
+    .over-light {
+        display: none
+    }
     .feed-title {
         font-size: 24px
     }
@@ -6110,9 +6139,6 @@ span {
     }
     .feed-call-title {
         font-size: 30px
-    }
-    .team-img {
-        padding-left: 20%
     }
     .team-item {
         padding-bottom: 30px
@@ -6271,9 +6297,6 @@ span {
     .feed-img-doc {
         display: none
     }
-    .team-img {
-        padding-left: 39%
-    }
     .system-title {
         font-size: 20px
     }
@@ -6401,6 +6424,21 @@ span {
     .popup input {
         padding: 3px 52px 3px 25px
     }
+    .popup input::-webkit-input-placeholder {
+        font-size: 14px
+    }
+    .popup input::-moz-placeholder {
+        font-size: 14px
+    }
+    .popup input:-ms-input-placeholder {
+        font-size: 14px
+    }
+    .popup input::-ms-input-placeholder {
+        font-size: 14px
+    }
+    .popup input::placeholder {
+        font-size: 14px
+    }
     .popup .button {
         padding: 7px 77px
     }
@@ -6417,16 +6455,15 @@ span {
         padding-left: 20px
     }
     .popup {
-        left: 6%;
-        top: 20%;
+        left: 50%;
+        top: 50%;
         width: 333px;
-        height: 420px
+        height: 420px;
+        margin-left: -166px;
+        margin-top: -210px
     }
     .system-title {
         font-size: 16px
-    }
-    .team-img {
-        padding-left: 74px
     }
     .img-header {
         min-height: 400px
@@ -6478,8 +6515,8 @@ span {
     }
     .header-input input {
         margin-bottom: 10px;
-        font-size: 14px;
-        padding: 5px 19px 5px 5px
+        font-size: 17px;
+        padding: 5px 26px 5px 22px
     }
     .project-title {
         padding-top: 20px
@@ -6515,15 +6552,16 @@ span {
         padding-top: 0
     }
     .free .header-input input {
-        padding: 10px 62px 10px 5px
+        padding: 10px 62px 10px 5px;
+        font-size: 17px
     }
     .free .button {
         padding: 12px 78px;
         margin-top: 4px;
         margin-bottom: 20px
     }
-    .partner-item {
-        padding-left: 95px
+    .smeta {
+        margin-bottom: 50px
     }
     .smeta-block {
         margin-left: 5px
@@ -6531,8 +6569,11 @@ span {
     .smeta-img {
         min-height: 550px
     }
-    .ji-p {
-        padding-left: 90px
+    .over-light {
+        display: none
+    }
+    .over {
+        display: none
     }
 }
 

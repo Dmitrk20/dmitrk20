@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 
+  $('#phone_1').mask('+7 (999) 999-9999')
+  $('#phone_2').mask('+7 (999) 999-9999')
+  $('#phone_3').mask('+7 (999) 999-9999')
+  $('#phone_4').mask('+7 (999) 999-9999')
+  $('#phone_5').mask('+7 (999) 999-9999')
+
 
   $(".owl-carousel").owlCarousel({
     items : 2,
