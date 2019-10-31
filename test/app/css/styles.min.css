@@ -5110,7 +5110,8 @@ span {
 
 .header {
     color: #fff;
-    background-image: url('../img/header_bg.png')
+    background-image: url('../img/header_bg.png');
+    background-size: cover;
 }
 
 .header-title {
