@@ -21,6 +21,12 @@ document.addEventListener("DOMContentLoaded", function() {
     $('.overlay-popup').css('display','block')
   });
 
+  $('.system-item-button').click(function(){
+    $('.popup').css('display','block')
+    $('.overlay-popup').css('display','block')
+  });
+
+
 
   $('.popup-closed').click(function(){
     $('.popup').css('display','none')
