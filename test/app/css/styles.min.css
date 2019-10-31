@@ -5112,6 +5112,7 @@ span {
     color: #fff;
     background-image: url(../img/header_bg.png);
     background-size: cover;
+    background-position: center;
 }
 
 .header-title {
@@ -6259,8 +6260,8 @@ span {
 @media (max-width:767.98px) {
     
     .system-item-button {
-        left: 20%;
-        width: 59%;
+        left: 20%
+        width: 59%
     }
 
     .popup-img {
