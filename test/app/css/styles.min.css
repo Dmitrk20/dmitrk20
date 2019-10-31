@@ -5110,7 +5110,7 @@ span {
 
 .header {
     color: #fff;
-    background-image: url(/img/header_bg.png)
+    background-image: url(../img/header_bg.png)
 }
 
 .header-title {
@@ -6663,6 +6663,12 @@ span {
     padding: 7px 67px;
   }
 
+.free .header-input input {
+	padding: 10px 44px 10px 5px;
+}
 
+.smeta .header-input input {
+	padding: 12px 41px 12px 24px;
+}
 
 }
