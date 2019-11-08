@@ -59,71 +59,73 @@ document.addEventListener("DOMContentLoaded", function() {
   $('#project_1').click(function(){
     $('.active').removeClass('active')
     $('#project_1').addClass('active')
-    $('.project-item-prev-img img').removeAttr('src')
-    $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=1')
+    // $('.project-item-prev-img img').removeAttr('src')
+    // $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=1')
     $('.project-item-prev-text span').html('Пентхаус')
   });
 
   $('#project_2').click(function(){
     $('.active').removeClass('active')
     $('#project_2').addClass('active')
-    $('.project-item-prev-img img').removeAttr('src')
-    $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=2')
+    // $('.project-item-prev-img img').removeAttr('src')
+    // $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=2')
     $('.project-item-prev-text span').html('Дома')
   });
 
   $('#project_3').click(function(){
     $('.active').removeClass('active')
     $('#project_3').addClass('active')
-    $('.project-item-prev-img img').removeAttr('src')
-    $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=3')
+    // $('.project-item-prev-img img').removeAttr('src')
+    // $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=3')
     $('.project-item-prev-text span').html('Бассейны')
   });
 
   $('#project_4').click(function(){
     $('.active').removeClass('active')
     $('#project_4').addClass('active')
-    $('.project-item-prev-img img').removeAttr('src')
-    $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=4')
+    // $('.project-item-prev-img img').removeAttr('src')
+    // $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=4')
     $('.project-item-prev-text span').html('Коммерческие')
   });
 
   $('#project_5').click(function(){
     $('.active').removeClass('active')
     $('#project_5').addClass('active')
-    $('.project-item-prev-img img').removeAttr('src')
-    $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=5')
+    // $('.project-item-prev-img img').removeAttr('src')
+    // $('.project-item-prev-img img').attr('src','https://picsum.photos/68/68?random=5')
     $('.project-item-prev-text span').html('Промышленные')
   });
 
   $('#project_1_1').click(function(){
     $('.active-prev').removeClass('active-prev')
     $('#project_1_1').addClass('active-prev')
-    $('.project-item-img img').removeAttr('src')
-    $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=1')
+    // $('.project-item-img img').removeAttr('src')
+    // $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=1')
   });
 
   $('#project_1_2').click(function(){
     $('.active-prev').removeClass('active-prev')
     $('#project_1_2').addClass('active-prev')
-    $('.project-item-img img').removeAttr('src')
-    $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=2')
+    // $('.project-item-img img').removeAttr('src')
+    // $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=2')
   });
 
   $('#project_1_3').click(function(){
     $('.active-prev').removeClass('active-prev')
     $('#project_1_3').addClass('active-prev')
-    $('.project-item-img img').removeAttr('src')
-    $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=3')
+    // $('.project-item-img img').removeAttr('src')
+    // $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=3')
   });
 
   $('#project_1_4').click(function(){
     $('.active-prev').removeClass('active-prev')
     $('#project_1_4').addClass('active-prev')
-    $('.project-item-img img').removeAttr('src')
-    $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=4')
+    // $('.project-item-img img').removeAttr('src')
+    // $('.project-item-img img').attr('src','https://picsum.photos/547/288?random=4')
   });
 
+
+alert('true')
 
 
 });

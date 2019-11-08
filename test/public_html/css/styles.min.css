@@ -5272,8 +5272,23 @@ span {
 
 .project-item-img {
     margin-top: 30px;
-    margin-left: 40px
+    margin-left: 40px;
+    display: none;
 }
+
+.project-show {
+    display: block;
+}
+
+.section-project {
+    display: none;
+    
+}
+
+.section-poject-active {
+    display: block;
+}
+
 
 .project-pad {
     padding-right: 0;
