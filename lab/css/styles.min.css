@@ -5092,6 +5092,11 @@ ul {
     background-color: #f8f8f8
 }
 
+.preview .button a {
+  color: #fff;
+}
+
+
 .preview-title {
     font-size: 48px;
     font-weight: 700;
@@ -5767,6 +5772,6 @@ ul {
     font-size: 17px
 }
   .callback-form_title{
-    font-size: 15px   
+    font-size: 15px
   }
 }
