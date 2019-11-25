@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "CsB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ConsolasBold/ConsolasBold.eot?#iefix") format("embedded-opentype"), url("../fonts/ConsolasBold/ConsolasBold.woff") format("woff"), url("../fonts/ConsolasBold/ConsolasBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CsR";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/ConsolasRegular/ConsolasRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/ConsolasRegular/ConsolasRegular.woff") format("woff"), url("../fonts/ConsolasRegular/ConsolasRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CorbelBold/CorbelBold.eot?#iefix") format("embedded-opentype"), url("../fonts/CorbelBold/CorbelBold.woff") format("woff"), url("../fonts/CorbelBold/CorbelBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "CR";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/CorbelRegular/CorbelRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/CorbelRegular/CorbelRegular.woff") format("woff"), url("../fonts/CorbelRegular/CorbelRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansBold/OpenSansBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansBold/OpenSansBold.woff") format("woff"), url("../fonts/OpenSansBold/OpenSansBold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OI";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansItalic/OpenSansItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansItalic/OpenSansItalic.woff") format("woff"), url("../fonts/OpenSansItalic/OpenSansItalic.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OR";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "OSB";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("../fonts/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype"); }
