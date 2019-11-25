@@ -1,0 +1,681 @@
+﻿<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Dmitr.k</title>
+    <meta name="description" content="description">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/libs.css"/>
+</head>
+<body>
+<main>
+    <div class="main-absolute">
+        <div class="main-absolute__top">
+            <a href="#index" class="logo">
+                <img src="images/logo.svg" alt="">
+                <img src="images/logo-white.svg" alt="" class="logo-absolute">
+                <span class="index-link">На главную</span>
+            </a>
+            <nav class="menu">
+                <ul class="menu-item">
+                    <li class="menu-item">
+                        <a href="#rassrochka" class="menu-link">Рассрочка</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#specifications" class="menu-link">Характеристики</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#service" class="menu-link">Сервис</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="btn btn-drive test-drive">Тест-драйв на 3 дня</div>
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        <div class="main-absolute__bottom">
+            <div class="main-absolute__contact">
+                <div class="main-absolute__soc-items">
+                    <div class="main-absolute__soc-item">
+                        <a href="#" class="main-absolute__soc-link icon-vk">
+                            <span class="icon-Shape"></span>
+                        </a>
+                    </div>
+                    <div class="main-absolute__soc-item">
+                        <a href="#" class="main-absolute__soc-link icon-fb">
+                            <span class="icon-Path"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-absolute__address">
+                    г. Волгоград, ул. шоссе Авиаторов, 11
+                    <a href="tel:+78442602333">+7 (8442) 60 23 33</a>
+                </div>
+            </div>
+            <div class="main-absolute__arrow">
+                <span class="icon-arrow-point-to-right"></span>
+            </div>
+            <div class="main-absolute__right">
+                <div class="right-block">
+                    <div class="right-block__circle">
+                        <div class="right-block__circle-pic">
+                            <img src="images/circle.svg" alt="">
+                        </div>
+                        <div class="right-block__circle-pic-absolute">
+                            <img src="images/star.svg" alt="">
+                        </div>
+                        <div class="right-block__sentence">
+                            <div class="right-block__sentence-content">
+                                <div class="right-block__sentence-title">Выгода до 450 000 ₽</div>
+                                <div class="btn btn-sentence test-drive">Уточнить</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-block__car">
+                        <img src="images/mini-red.png" alt="" class="mini-car mini-red">
+                        <img src="images/mini-blue.png" alt="" class="mini-car mini-blue">
+                        <img src="images/mini-metal.png" alt="" class="mini-car mini-metal">
+                        <img src="images/mini-black.png" alt="" class="mini-car mini-black">
+                        <img src="images/mini-chrome.png" alt="" class="mini-car mini-chrome">
+                    </div>
+                </div>
+                <div class="copy">
+                    © 2019 ООО Киа Моторс Россия и СНГ <br>
+                    2019 ООО А.С.-Авто
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu-mobile__container">
+        <ul class="menu-mobile__items">
+            <li class="menu-mobile__item">
+                <a href="#rassrochka" class="menu-mobile__link">Рассрочка</a>
+            </li>
+            <li class="menu-mobile__item">
+                <a href="#specifications" class="menu-mobile__link">Характеристики</a>
+            </li>
+            <li class="menu-mobile__item">
+                <a href="#service" class="menu-mobile__link">Сервис</a>
+            </li>
+            <li class="menu-mobile__item">
+                <a href="#test" class="menu-mobile__link">Тест-драйв на 3 дня</a>
+            </li>
+        </ul>
+    </div>
+    <div class="blackout">
+
+    </div>
+    <div class="main-one">
+        <div class="main-one__left">
+            <div class="main-one__colors">
+                <div class="main-one__color main-one__color_red" id="red">
+                    <div class="main-one__absolute"><span>Rich Rome Red</span></div>
+                </div>
+                <div class="main-one__color main-one__color_chrome" id="blue">
+                    <div class="main-one__absolute"><span>Deep Chroma Blue</span></div>
+                </div>
+                <div class="main-one__color main-one__color_blue" id="metal">
+                    <div class="main-one__absolute"><span>Micro Blue</span></div>
+                </div>
+                <div class="main-one__color main-one__color_black" id="black">
+                    <div class="main-one__absolute"><span>Aurora Black Pearl</span></div>
+                </div>
+                <div class="main-one__color main-one__color_metal" id="chrome">
+                    <div class="main-one__absolute"><span>Pantera Metall</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="main-one__center">
+            <div class="main-one__title">
+                <img src="images/stinger.svg" alt="">
+                От мечты к реальности
+            </div>
+            <div class="main-one__pic active">
+                <img src="images/red-car.png" alt="" class="images-car active" data-car="red">
+                <img src="images/chrome-car.png" alt="" class="images-car" data-car="chrome">
+                <img src="images/blue-car.png" alt="" class="images-car" data-car="blue">
+                <img src="images/black-car.png" alt="" class="images-car" data-car="black">
+                <img src="images/metal-car.png" alt="" class="images-car" data-car="metal">
+                <img src="images/white-car.jpg" alt="" class="images-car" data-car="white">
+                <img src="images/bronze-car.jpg" alt="" class="images-car" data-car="bronze">
+                <div class="main-one__pic-absolute__left main-one__pic-absolute">
+                    <img src="images/wheel-left.png" alt="">
+                </div>
+                <div class="main-one__pic-absolute__right main-one__pic-absolute">
+                    <img src="images/wheel-right.png" alt="">
+                </div>
+                <div class="main-one__svet">
+                    <img src="images/svet.png" alt="">
+                </div>
+            </div>
+            <div class="main-one__circle"></div>
+        </div>
+        <div class="main-one__right">
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">370 ЛС</div>
+                <div class="main-one__right-value">Мощность</div>
+            </div>
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">8 AT</div>
+                <div class="main-one__right-value">Автомат</div>
+            </div>
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">AWD</div>
+                <div class="main-one__right-value">Привод</div>
+            </div>
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">5 лет</div>
+                <div class="main-one__right-value">Гарантия</div>
+            </div>
+        </div>
+    </div>
+    <div class="main-one__mobile" id="index">
+        <img src="images/stinger.svg" alt="">
+        <div class="main-two__price">От мечты <br>
+            к реальности
+        </div>
+        <div class="mobile-pic__container">
+            <img src="images/car1.png" alt="" class="images-car active" data-car="red">
+            <img src="images/car2.png" alt="" class="images-car" data-car="black">
+            <img src="images/car3.png" alt="" class="images-car" data-car="blue">
+            <img src="images/car4.png" alt="" class="images-car" data-car="metal">
+            <img src="images/car5.png" alt="" class="images-car" data-car="chrome">
+        </div>
+        <div class="main-one__colors">
+            <div class="main-one__color main-one__color_red" data-id="red">
+                <div class="main-one__absolute"><span>Rich Rome Red</span></div>
+            </div>
+            <div class="main-one__color main-one__color_chrome" data-id="blue">
+                <div class="main-one__absolute"><span>Deep Chroma Blue</span></div>
+            </div>
+            <div class="main-one__color main-one__color_blue" data-id="metal">
+                <div class="main-one__absolute"><span>Micro Blue</span></div>
+            </div>
+            <div class="main-one__color main-one__color_black" data-id="black">
+                <div class="main-one__absolute"><span>Aurora Black Pearl</span></div>
+            </div>
+            <div class="main-one__color main-one__color_metal" data-id="chrome">
+                <div class="main-one__absolute"><span>Pantera Metall</span></div>
+            </div>
+        </div>
+        <div class="main-one__right">
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">370 ЛС</div>
+                <div class="main-one__right-value">Мощность</div>
+            </div>
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">8 AT</div>
+                <div class="main-one__right-value">Автомат</div>
+            </div>
+            <div class="main-one__right-line">
+                <div class="main-one__right-label">AWD</div>
+                <div class="main-one__right-value">Привод</div>
+            </div>
+        </div>
+    </div>
+    <div class="main-two" id="rassrochka">
+        <div class="main-twos">
+            <div class="main-two__container">
+                <div class="main-two__price">
+                    23 542 р
+                </div>
+                <div class="main-two__price-description">ежемесячный платёж</div>
+                <div class="main-two__price-table">
+                    <div class="main-two__price-line">
+                        <div>Стоимость автомобиля</div>
+                        <div>2 804 900 ₽</div>
+                    </div>
+                    <div class="main-two__price-line">
+                        <div>Первоначальный взнос</div>
+                        <div>
+                            <span>50%</span>
+                            1 402 450 ₽
+                        </div>
+                    </div>
+                    <div class="main-two__price-line">
+                        <div>Срок кредитования</div>
+                        <div>до 5 лет</div>
+                    </div>
+                    <div class="main-two__price-line">
+                        <div>Процентная ставка</div>
+                        <div>0%</div>
+                    </div>
+                </div>
+                <div class="main-two__btn" id="main-two__btn-order">
+                    Рассчитать платежи
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-three">
+        <div class="main-threes">
+            <div class="main-three__container">
+                <div class="main-two__price">
+                    23 542 р
+                </div>
+                <div class="main-two__price-description">ежемесячный платёж</div>
+                <form action="" class="contact-form" id="callback">
+                    <div class="form-container">
+                        <input type="text" name="name" placeholder="Иван Иванов" class="input-element">
+                        <input type="tel" name="phone" placeholder="+7(999) 999 99 99" id="phone"
+                               class="input-element phone">
+                        <input type="submit" value="Оставить заявку" class="main-two__btn">
+                        <div class="four-info">
+                            Отправляя сообщения. Вы даете согласие на обработку персональных данных <br>
+                            ООО «Киа Моторс Россия и СНГ»* и официальными дилерами ООО «Киа <br>
+                            Моторс Россия и СНГ»**, а также другими компаниями-партнерами ООО «Киа<br>
+                            Моторс Россия и СНГ» в России и за рубежом***, в соответствии с <br>
+                            Федеральным законом № 152 «О защите персональных данных» на условиях, <br> указанных здесь.*
+                        </div>
+                    </div>
+                    <div class="success-container">
+                        Спасибо за заявку! <br> Наш менеджер свяжеться с вами <br> в ближайшее время
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="main-four" id="test">
+        <div class="main-fours">
+            <div class="main-four__container">
+                <img src="images/stinger.svg" alt="">
+                <div class="main-two__price">запись на тест-драйв</div>
+                <form action="#" class="contact-form" id="callback2">
+                    <div class="form-container">
+                        <input type="text" name="name2" placeholder="Иван Иванов" class="input-element">
+                        <input type="tel" name="phone2" placeholder="+7(999) 999 99 99" id="phone2"
+                               class="input-element phone">
+                        <input type="submit" value="Записаться" class="main-two__btn">
+                        <div class="four-info">
+                            Отправляя сообщения. Вы даете согласие на обработку персональных данных <br>
+                            ООО «Киа Моторс Россия и СНГ»* и официальными дилерами ООО «Киа <br>
+                            Моторс Россия и СНГ»**, а также другими компаниями-партнерами ООО «Киа<br>
+                            Моторс Россия и СНГ» в России и за рубежом***, в соответствии с <br>
+                            Федеральным законом № 152 «О защите персональных данных» на условиях, <br> указанных здесь.*
+                        </div>
+                    </div>
+                    <div class="success-container">
+                        Спасибо за заявку! <br> Наш менеджер свяжеться с вами <br> в ближайшее время
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="main-five">
+        <div class="main-fives">
+            <div class="main-five__container" id="service">
+                <img src="images/stinger.svg" alt="">
+                <div class="main-two__price">обслуживание</div>
+                <div class="services-container">
+                    <div class="services-item">
+                        <div class="services-item__top">
+                            <img src="images/icon-1.svg" alt="">
+                            <span>x</span>
+                            3
+                        </div>
+                        <div class="services-item__bottom">3 технических обслуживания <br> бесплатно</div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-item__top">
+                            <img src="images/icon-2.svg" alt="">
+                            <span>x</span>
+                            2
+                        </div>
+                        <div class="services-item__bottom">2 диагностики ходовой <br> в подрарок</div>
+                    </div>
+                    <div class="services-item">
+                        <div class="services-item__top">
+                            <img src="images/icon-3.svg" alt="">
+                            <span>x</span>
+                            8
+                        </div>
+                        <div class="services-item__bottom">8 автомобильных моек <br> бесплатно</div>
+                    </div>
+                </div>
+                <div class="main-two__btn test-drive">
+                    Записаться на тест-драйв
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-six">
+        <div class="main-sixs">
+            <div class="main-six__container" id="specifications">
+                <img src="images/stinger.svg" alt="">
+                <div class="main-two__price">Харакетристики</div>
+                <div class="main-five__pic">
+                    <img src="images/car_scheme_1.png" alt="">
+                    <img src="images/car_scheme_2.png" alt="">
+                </div>
+                <div class="tabs-container">
+                    <ul class="tabs">
+                        <li class="tabs-item active"><a href="">GT Line</a></li>
+                        <li class="tabs-item"><a href="">Prestige</a></li>
+                    </ul>
+                    <div class="tabs-content">
+                        <div class="tabs-content__item tabs-panel active" data-index="0">
+                            <div class="tab-line tab-th">
+                                Пакет ТЕПЛЫЕ ОПЦИИ
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Подогрев</div>
+                                <div class="tab-value">Передние и задние сиденья, рулевое колесо</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Боковые зеркала</div>
+                                <div class="tab-value">с электроприводом и подогревом</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Драйв
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Функции</div>
+                                <div class="tab-value">Система динамического контроля вектора тяги (DTVC)
+                                    Функция Launch Control
+                                </div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Экстерьер
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Диски</div>
+                                <div class="tab-value">Легкосплавные 19" с шинами: передние 225/40R19, задние 255/35R19
+                                </div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Фары</div>
+                                <div class="tab-value">Светодиодные ближнего и дальнего света (LED)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Зеркала</div>
+                                <div class="tab-value">Тёмный хром, с повторителями указателя поворота</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Отделка</div>
+                                <div class="tab-value">Темный хромом на решётке радиатора и переднем бампере</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Крыш и люк</div>
+                                <div class="tab-value">Панорманая с электроприводом</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Интерьер
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденья</div>
+                                <div class="tab-value">Отделка натуральной кожей</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Центральная консоль</div>
+                                <div class="tab-value">Алюминий</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Потолок</div>
+                                <div class="tab-value">Обивка искусственной замшей</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Подсветка интерьера</div>
+                                <div class="tab-value">Контурная (6 цветов)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Педали</div>
+                                <div class="tab-value">Металлические накладки</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Порог багажник</div>
+                                <div class="tab-value">Металлические накладки</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Безопасность
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Система контроля слепых зон</div>
+                                <div class="tab-value">BSW</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Боковые зеркала заднего вида</div>
+                                <div class="tab-value">Электрохромные</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Комфорт
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Трансмиссия</div>
+                                <div class="tab-value">Электронное управление трансмиссией (Shift by Wire)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденье переднего пассажира</div>
+                                <div class="tab-value">Электрорегулируемое в 8-ми направлениях, вентиляция</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденье водителя</div>
+                                <div class="tab-value">Электрорегулируемое в 10-ми направлениях с памятью, вентиляция
+                                </div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Рулевая колонка</div>
+                                <div class="tab-value">Электрорегулируемая с памятью</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Движение</div>
+                                <div class="tab-value">Круиз-контроль</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Аудиосистема</div>
+                                <div class="tab-value">Harman/Kardon, AUX/USB входы + 15 динамиков</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Навигация</div>
+                                <div class="tab-value">Система с 8'' дисплеем, 3D картами (SD-карта в комплекте)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Приборная панель</div>
+                                <div class="tab-value">Supervision c дисплеем 7''
+                                </div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Дисплей</div>
+                                <div class="tab-value">Проекционные на лобовое стекло</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Дверь багажника</div>
+                                <div class="tab-value">Электропривод</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Парковка</div>
+                                <div class="tab-value">Передние и задние датчики</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Обзор</div>
+                                <div class="tab-value">Круговой с 4-мя камерами</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Зарядка для мобильного телефона</div>
+                                <div class="tab-value">Беспроводная на центральной консоли</div>
+                            </div>
+                        </div>
+                        <div class="tabs-content__item tabs-panel" data-index="1">
+                            <div class="tab-line tab-th">
+                                Пакет ТЕПЛЫЕ ОПЦИИ
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Подогрев</div>
+                                <div class="tab-value">Передние и задние сиденья, рулевое колесо</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Боковые зеркала</div>
+                                <div class="tab-value">с электроприводом и подогревом</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Драйв
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Функции</div>
+                                <div class="tab-value">Система динамического контроля вектора тяги (DTVC)
+                                    Функция Launch Control
+                                </div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Экстерьер
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Диски</div>
+                                <div class="tab-value">Легкосплавные 18" с шинами: 225/45R18
+                                </div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Фары</div>
+                                <div class="tab-value">Светодиодные ближнего и дальнего света (LED)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Зеркала</div>
+                                <div class="tab-value">Корпуса боковых зеркал заднего вида окрашены в цвет кузова, с
+                                    повторителями указателя поворота
+                                </div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Интерьер
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденья</div>
+                                <div class="tab-value">Отделка натуральной кожей</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Центральная консоль</div>
+                                <div class="tab-value">С отделкой черным глянцем</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Потолок</div>
+                                <div class="tab-value">Обивка потолка тканью</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Безопасность
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Система контроля слепых зон</div>
+                                <div class="tab-value">BSW</div>
+                            </div>
+                            <div class="tab-line tab-th">
+                                Комфорт
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденье переднего пассажира</div>
+                                <div class="tab-value">Электрорегулируемое в 8-ми направлениях, вентиляция</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Сиденье водителя</div>
+                                <div class="tab-value">Электрорегулируемое сиденье переднего пассажира в 8-ми
+                                    направлениях
+                                </div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Рулевая колонка</div>
+                                <div class="tab-value">Электрорегулируемая с памятью</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Движение</div>
+                                <div class="tab-value">Круиз-контроль</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Аудиосистема</div>
+                                <div class="tab-value">С радио, USB и AUX входы + 9 динамиков</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Звуковое сопровождение</div>
+                                <div class="tab-value">Система активного звукового сопровождения (ASD)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Навигация</div>
+                                <div class="tab-value">Система с 8'' дисплеем, 3D картами (SD-карта в комплекте)</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Дисплей</div>
+                                <div class="tab-value">Проекционные на лобовое стекло</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Дверь багажника</div>
+                                <div class="tab-value">Электропривод</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Парковка</div>
+                                <div class="tab-value">Передние и задние датчики</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Обзор</div>
+                                <div class="tab-value">Камера заднего вида с динамической разметкой</div>
+                            </div>
+                            <div class="tab-line">
+                                <div class="tab-label">Зарядка для мобильного телефона</div>
+                                <div class="tab-value">Беспроводная на центральной консоли</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-absolute__bottom main-absolute__bottom-six">
+            <div class="main-absolute__contact">
+                <div class="main-absolute__soc-items">
+                    <div class="main-absolute__soc-item">
+                        <a href="#" class="main-absolute__soc-link icon-vk">
+                            <span class="icon-Shape"></span>
+                        </a>
+                    </div>
+                    <div class="main-absolute__soc-item">
+                        <a href="#" class="main-absolute__soc-link icon-fb">
+                            <span class="icon-Path"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-absolute__address">
+                    г. Волгоград, ул. шоссе Авиаторов, 11
+                    <a href="tel:+78442602333">+7 (8442) 60 23 33</a>
+                </div>
+            </div>
+            <div class="main-absolute__arrow">
+                <span class="icon-arrow-point-to-right"></span>
+            </div>
+            <div class="main-absolute__right">
+                <div class="right-block">
+                    <div class="right-block__circle">
+                        <div class="right-block__circle-pic">
+                            <img src="images/circle.svg" alt="">
+                        </div>
+                        <div class="right-block__circle-pic-absolute">
+                            <img src="images/star.svg" alt="">
+                        </div>
+                        <div class="right-block__sentence">
+                            <div class="right-block__sentence-content">
+                                <div class="right-block__sentence-title">Выгода до 450 000 ₽</div>
+                                <div class="btn btn-sentence">Условия акции</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-block__car">
+                        <img src="images/mini-red.png" alt="" class="mini-car mini-red">
+                        <img src="images/mini-blue.png" alt="" class="mini-car mini-blue">
+                        <img src="images/mini-metal.png" alt="" class="mini-car mini-metal">
+                        <img src="images/mini-black.png" alt="" class="mini-car mini-black">
+                        <img src="images/mini-chrome.png" alt="" class="mini-car mini-chrome">
+                    </div>
+                </div>
+                <div class="copy">
+                    © 2019 ООО Киа Моторс Россия и СНГ <br>
+                    2019 ООО А.С.-Авто
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="js/mask.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
