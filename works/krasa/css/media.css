@@ -1,0 +1,559 @@
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1600px) {
+	.s3 .container {
+		background-image:  url(../img/mockup_thunderbolt_desktops.jpg);
+		-webkit-background-size: 65%;
+		background-size: 65%;
+		min-height: 840px;
+		padding: 330px 0 0 0;
+	}
+	.s4_img {
+		width: 641px;
+		height: 1070px;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	.s6_item.big {
+		padding: 90px 40px;
+		width: 40%;
+	}
+	.s6_item {
+		padding: 80px 40px;
+		width: 30%;
+	}
+}
+@media only screen and (min-width: 1001px){
+	.s2:before{
+		background-image: url(../img/combined-shape-desktop.png);
+	}
+}
+
+@media only screen and (min-width: 1281px) and (max-width:1599px) {
+	.s3 .container {
+		box-sizing: border-box;
+		min-height: 683px;
+		padding: 217px 0 0 0;
+		margin-bottom: 114px;
+		-webkit-background-size: 53%;
+		background-size: 53%;
+	}
+	.s4_img {
+		width: 670px;
+		height: 1113px;
+		-webkit-background-size: contain;
+		background-size: contain;
+	}
+	.s3{
+		margin-bottom: -12%;
+	}
+}
+
+@media only screen and (min-width: 1281px) {
+	.header {
+		padding-top: 38px;
+	}
+	.s4 .container{
+		background-image: url(../img/newpromo-desktops.jpg);
+	}
+	.s7 .container {
+		background-position: center top;
+	}
+}
+@media only screen and (min-width: 600px) and (max-width: 1280px){
+	.s4 .container{
+		background-image: url(../img/newpromo-tabs.jpg);
+	}
+}
+@media only screen and (min-width: 601px) and (max-width: 1000px){
+	.s2:before{
+		background-image: url(../img/combined-shape-tablet.png);
+	}
+}
+
+@media only screen and (max-width: 1280px) {
+	.header {
+		padding-top: 3%;
+	}
+	.s3 .container {
+		min-height: 520px;
+		-webkit-background-size: 51%;
+		background-size: 51%;
+		padding: 217px 0 50px 0;
+	}
+	.s4_text{
+		margin-left: 0;
+	}
+	.s4_img {
+		width: 550px;
+		height: 911px;
+	}
+	.s5 {
+		margin-top: 90px;
+	}
+	.s6 {
+		margin-top: 60px;
+	}
+	.s7 .container {
+		background-position: 70% top;
+	}
+}
+
+
+/*=================== Нетбуки и выше (993 - 1920px) ===================*/
+
+@media only screen and (min-width: 993px) and (max-width:1599px) {
+	.s3 .container {
+		background-image: url(../img/mockup_thunderbolt_laptops.jpg);
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.s2 {
+		background-position: center bottom;
+	}
+	.s2 .container {
+		padding-left: 90px;
+	}
+	.s3 .container {
+		padding-right: 170px;
+		
+	}
+	.s7 .container {
+		min-height: 449px;
+		margin-top: 161px;
+		padding-left: 80px;
+	}
+}
+
+
+/*===================  ===================*/
+
+@media only screen and (max-width: 992px) {
+	.s3 .container {
+		background-image: url(../img/mockup_thunderbolt_tabs.jpg);
+		background-size: 55%;
+		background-position: -15px top;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.s2 {
+		background-position: 80% 85px;
+	}
+	.s2 .container {
+		padding-left: 5%;
+	}
+	.s3 .container {
+		padding: 100px 5% 50px 0;
+		min-height: 440px;
+	}
+	.s4 .container {
+		background-position: 95% 0;
+	}
+	.s4_text {
+		width: 47%;
+	}
+	.s4_img {
+		width: 53%;
+		height: 760px;
+		-webkit-background-size: contain;
+		background-size: contain;
+		margin-top: -108px;
+	}
+	.s5 {
+		margin-top: 5%;
+	}
+	.s7 .container {
+		background-position: 90% top;
+		background-size: 48%;
+		min-height: 480px;
+		margin-top: 100px;
+		padding-left: 5%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header,
+	.s1 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.pagination,
+	.toTop {
+		margin-right: 15px;
+	}
+	.s2 {
+		padding: 145px 0 110px;
+		background-image: url(../img/iphone-6-tabs.png);
+		background-position: 87% 87px;
+		background-size: 30% auto;
+		margin-bottom: 30px;
+		height: 563px;
+	}
+	.s3 .container {
+		padding: 30px 4% 50px 0;
+		margin-bottom: 20px;
+		min-height: 340px;
+	}
+	.s3 .container > div {
+		max-width: 50%;
+	}
+	.s4_img {
+		margin-top: -25px;
+		width: 42%;
+		height: 490px;
+	}
+	.s4_text {
+		width: 300px;
+	}
+	.s4 .btn2 {
+		margin-right: 0px;
+	}
+	.s5 li {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.s6 .title {
+		margin-bottom: 30px;
+	}
+	.s6_item {
+		padding: 7% 3%;
+	}
+	.s6_item.big {
+		padding: 9% 3%;
+	}
+	.s7 .container {
+		min-height: 375px;
+		margin-top: 70px;
+	}
+	.s7 .container > * {
+		width: 46%;
+	}
+	footer {
+		font-size: 14px;
+	}
+}
+
+
+/*=================== Планшеты и выше (769-2560px) ===================*/
+
+
+/*=================== 769 - 2560px ===================*/
+
+@media only screen and (min-width: 769px) {
+	.s1 {
+		padding: 1px 47px;
+	}
+	.s2 {
+		min-height: 670px;
+		padding: 122px 0 205px;
+		margin-bottom: 68px;
+		background-size: 286px auto;
+	}
+	.s3 .container > div {
+		max-width: 370px;
+	}
+	.s4 .btn2 {
+		margin-right: 7px;
+	}
+	.s5 li {
+		font-size: 18px;
+		line-height: 33px;
+	}
+	.s6 .title {
+		margin-bottom: 79px;
+	}
+	.s6_item {
+		padding: 65px 30px;
+	}
+	.s6_item.big {
+		padding: 79px 35px;
+	}
+}
+@media only screen and (min-width: 625px) and (max-width: 769px){
+	.s4 .container{
+		padding-left: 5%;
+	}
+}
+
+@media only screen and (min-width: 625px) {
+	.s6_item {
+		padding: 7% 3%;
+		width: 30%;
+	}
+	.s6_item.big {
+		padding: 9% 3%;
+		width: 40%;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	.header {
+		margin-bottom: 115px;
+	}
+	.s1_about {
+		line-height: 30px;
+		font-size: 22px;
+	}
+	.s1_connect {
+		font-size: 22px;
+	}
+	.s4_tBottom span {
+		font-size: 12px;
+	}
+	footer {
+		margin-top: 64px;
+	}
+	footer br {
+		display: none;
+	}
+}
+@media only screen and (max-width: 600px){
+	.s2:before{
+		background-image: url(../img/combined-shape-mobile.png);
+	}
+}
+
+
+/*===================  ===================*/
+
+
+/*=================== Телефоны ===================*/
+
+@media only screen and (max-width: 624px) {
+	.s3 .container > div{
+		max-width: none;
+		float: none;
+	}
+	.s3 .container{
+		box-sizing: content-box;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 392px;
+		min-height: 0;
+		text-align: center;
+		background-position: center bottom;		
+		background-size: 440px auto;
+	}
+	.s4 .container {
+		background: none;
+		text-align: center;
+		padding: 15% 5%;
+		height: auto;
+	}
+	.s4_text{
+		max-width: none;
+		width: 80%;
+		margin: 0 auto;
+		position: static;
+	}
+	.s4 .btn2{
+		display: block;
+		padding: 8px 14px;
+		margin-bottom: 10px;
+	}
+	.s6_item.big {
+		display: block;
+		margin: 0 auto -90px;
+		padding: 13% 35px;
+		width: 295px;
+	}
+	.s6_item {
+		padding: 10% 5%;
+		width: 45%;
+		
+	}
+	.s7 .container {
+		background-image: url(../img/6_phones.png);
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	html {
+		font-size: 14px;
+	}
+	.pagination,
+	.toTop {
+		margin-right: 10px;
+	}
+	.title {
+		font-size: 22px;
+		line-height: 25px;
+	}
+	.s1_about {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.s1_connect {
+		font-size: 20px;
+	}
+	.s2 {
+		height: 455px;
+		padding: 100px 0 110px;
+		background-position: 90% 87px;
+	}
+	.s3 .container {
+	}
+	.s4_tBottom span {
+		display: block;
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.s4 .container {
+		padding-bottom: 5%;
+	}
+	.s5 li {
+		font-size: 14px;
+	}
+	footer {
+		padding-top: 30px;
+	}
+	.none {
+		display: none;
+	}
+	.s3{
+		margin-bottom: 0;
+	}
+	.pp_form{
+		width: 300px;
+		padding: 15px 10px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	header {
+		margin-bottom: 20px;
+	}
+	.s1_about {
+		font-size: 19px;
+	}
+	.s1_footer {
+		padding: 0 3%;
+	}
+	.s2 {
+		height: 355px;
+		background-image: url(../img/iphone-6-phones.png);
+		padding: 60px 0 70px;
+		background-position: 89% 60px;
+	}
+	.s2 .container > * {
+		width: 60%;
+	}
+	.s3 .container{
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 89%;
+		background-position: center bottom;		
+		background-size: 100% auto;
+	}
+	.s4_img {
+		height: 320px;
+		margin-top: 0px;
+	}
+	.s6 {
+		margin-top: 40px;
+	}
+	.s6_item {
+		width: 50%;
+	}
+	.s7 form,
+	.s7 input[type="email"] {
+		max-width: 100%!important;
+		width: 90%!important;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+
+	}
+	.s7 input[type="email"]{
+		margin-top: 32px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.s4_text{
+		width: 100%;
+	}
+	.s5 li {
+		font-size: 13px;
+	}
+	.s6_item.big {
+		margin: 0 auto;
+		width: 280px;
+		padding: 20% 35px;
+	}
+	.s6_item {
+		float: none;
+		padding: 15% 8%;
+		width: 250px;
+		margin: 0 auto;
+	}
+	.s7 .container {
+		margin-top: 50px;
+	}
+}
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5){
+	.s1_logo {
+		background-image: url('../img/retina/barber_pole_x2.png');
+		background-size: 22px 45px;
+	}
+	.h_logo {
+		background-image: url('../img/retina/bitmap_x2.png');
+		background-size: 93px 14px;
+	}
+	.s2 a {
+		background-image: url('../img/retina/appstore_x2.png');
+		background-size: 140px 43px;
+	}
+	
+	.s5 li:first-child:before {
+		background-image: url(../img/retina/edit_property_x2.png);
+		background-size: 19px 19px;
+	}
+	.s5 li:nth-child(2):before {
+		background-image: url(../img/retina/collaboration_x2.png);
+		background-size: 19px 20px;
+	}
+	.s5 li:nth-child(3):before {
+		background-image: url(../img/retina/appointment_reminders_x2.png);
+		background-size: 17px 20px;
+	}
+	.s5 li:last-child:before {
+		background-image: url(../img/retina/discount_x2.png);
+		background-size: 19px 19px;
+	}
+	.s2{
+		background-image: url(../img/retina/iphone-6x2.png);
+	}
+	.s7 .container{
+		background-image: url(../img/retina/6_desktops@x2.png);
+	}
+	.toTop{
+		background-image: url(../img/retina/down-retina.png);
+		background-size: 12px 16px;
+	}
+	@media only screen and (min-width: 600px) and (max-width: 1280px){
+		.s4 .container{
+			background-image: url(../img/retina/newpromo-x2.jpg);
+		}
+	}
+	@media only screen and (min-width: 1600px) {
+		.s3 .container {
+			background-image:  url(../img/retina/mockup_thunderbolt_desktops@2x.jpg);
+		}
+	}
+	@media only screen and (min-width: 993px) and (max-width:1599px) {
+		.s3 .container {
+			background-image: url(../img/retina/mockup_thunderbolt_desktops@2x.jpg);
+		}
+	}
+	@media only screen and (max-width: 992px) {
+		.s3 .container {
+			background-image: url(../img/retina/mockup_thunderbolt_tablet@2x.jpg);
+		}
+	}
+}
