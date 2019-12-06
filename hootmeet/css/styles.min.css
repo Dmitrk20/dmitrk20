@@ -5114,7 +5114,8 @@ h2 {
 
 .mobile-wrapper {
     background-image: url(../img/@2x/mobile-photo.png);
-    min-height: 667px
+    min-height: 667px;
+    background-size: cover;
 }
 
 .mobile-footer li {
