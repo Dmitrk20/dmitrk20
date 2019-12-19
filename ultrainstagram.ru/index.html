@@ -7,7 +7,7 @@
 <!--<![endif]-->
 <head>
 	<meta charset="utf-8" />
-	<title>Ultrainstagram.ru - профессиональное продвижение в инстаграм и накрутка популярности в инстаграм, вконтакте и фейсбук! | Рекламное Агентство Вконтакте, Facebook, Инстаграм в Москве, СПБ | Реклама и Маркетинг в Интернете для Продвижения Бизнеса.</title>
+	<title>PRestigeagency.xyz - профессиональное продвижение в инстаграм и накрутка популярности в инстаграм, вконтакте и фейсбук! | Рекламное Агентство Вконтакте, Facebook, Инстаграм в Москве, СПБ | Реклама и Маркетинг в Интернете для Продвижения Бизнеса.</title>
 	<meta name="description" content="Ultrainstagram.ru поможет вам: раскрутить ваш бренд в инстаграм, настроить эффективную рекламу в инстаграм, грамотное оформление аккаунта в инстаграм и качественный сбор целевой аудитории (подписчиков) в инстаграм по уникальной технологии" />
     <meta name="keywords" content="Реклама,продвижение,facebook,социальные сети, вконтакте, создание сайтов, контекстная реклама в соц сетях, настройка контекстной рекламы в инстаграм, настройка контекстной рекламы вконтакте, настройка контекстной рекламы в фейсбук, инстаграм, instagram, программа instagram, instagram подписчики, лайки, инстаграм лайки, накрутка инстаграм, накрутка instagram, продвижение инстаграм, продвижение instagram, накрутка сервис, подписчики инстаграм, накрутить подписчиков в инстаграм, купить подписчиков в инстаграм, накрутка подписчиков, продвижение в инстаграм, раскрутка инстаграм, подписчик инстаграм, накрутка инстаграм, реклама инстаграм, раскручивать инстаграм, накрутка подписчик, накрутить инстаграм, накрутка лайков в инстаграме, накрутка подписчиков в инстаграме, накрутка инстаграм онлайн, накрутка лайков инстаграм, накрутка инстаграм быстро, накрутка подписчиков в инстаграме онлайн, накрутка просмотров в инстаграме" />
 
@@ -82,7 +82,7 @@
 
 					<div class="col-md-5 col-sm-12 t_right">
 						<div class="tel_text_1">
-							<p class="phone">+7 905-187-83-46</p>
+							<p class="phone">+7 960-322-21-22</p>
 							<p class="phone_subtitle">Бесплатная линия по РФ!</p>
 						</div>
 						<div class="tl-phone-box">
@@ -697,7 +697,7 @@
 
 							<div class="price-box">
 								<div class="price">
-									<p class="p-sum">5 990</p>
+									<p class="p-sum">7 490</p>
 									<p class="p-pref">руб</p>
 								</div>
 								<a href="#modal1" class="rt-btn open_modal">Заказать</a>
@@ -767,7 +767,7 @@
 
 							<div class="price-box">
 								<div class="price">
-									<p class="p-sum">13 990</p>
+									<p class="p-sum">15 490</p>
 									<p class="p-pref">руб/мес</p>
 								</div>
 								<a href="#modal1" class="rt-btn open_modal">Заказать</a>
@@ -814,7 +814,7 @@
 
 							<div class="price-box">
 								<div class="price">
-									<p class="p-sum">16 990</p>
+									<p class="p-sum">18 490</p>
 									<p class="p-pref">руб/мес</p>
 								</div>
 								<a href="#modal1" class="rt-btn open_modal">Заказать</a>
@@ -860,7 +860,7 @@
 
 							<div class="price-box">
 								<div class="price">
-									<p class="p-sum">6990/8990</p>
+									<p class="p-sum">8490/10490</p>
 									<p class="p-pref">руб/мес</p>
 								</div>
 								<a href="#modal1" class="rt-btn open_modal">Заказать</a>
@@ -1641,13 +1641,13 @@
 				<div class="box_1">
 					<img src="img/mail.png" alt="">
 					<p>E-mail:</p>
-					<span>optbag@bk.ru</span>
+					<span>web-prestige@yandex.ru</span>
 				</div>
 				<div class="clear"></div>
 				<div class="box_1">
 					<img src="img/phone_02.png" alt="">
 					<p>Телефон:</p>
-					<span>+7 905 187-83-46</span>
+					<span>+7 960-322-21-22</span>
 				</div>
 								<div class="clear"></div>
 				<a href="#modal1" class="btn h-btn open_modal">Заказать обратный звонок</a>
@@ -1691,11 +1691,11 @@
 					</a>
 				</div>
 				<p class="footer_bot_t">
-					<a href="http://ultrainstagram.ru/" class="franchise_link">Вашего бизнеса ещё нет в Instagram?&nbsp; Значит вас нет в бизнесе!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"Ultrainstagram.ru"</a>
+					<a href="http://ultrainstagram.ru/" class="franchise_link">Вашего бизнеса ещё нет в Instagram?&nbsp; Значит вас нет в бизнесе!&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;"PRestigeagency.xyz"</a>
 				</p>
 				<p class="footer_bot_t"><br>© Все права защищены.</p>
 					<p class="footer_bot_t">Политика конфиденциальности</p>
-					<p class="footer_bot_t">2019 Ultrainstagram.ru</p>
+					<p class="footer_bot_t">2019 PRestigeagency.xyz</p>
 				</div>
 			</div>
 		</div>
