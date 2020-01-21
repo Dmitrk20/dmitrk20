@@ -1,0 +1,869 @@
+﻿@media screen and (max-width:479px) {
+	#top {
+	}
+
+	#level {
+	}
+
+	#video {
+	}
+
+	#napr {
+	}
+
+	#port {
+	}
+
+	#obuch {
+	}
+
+	#train {
+	}
+
+	#tr_1 {
+	}
+
+	#tr_2 {
+	}
+
+	#tr_3 {
+	}
+
+	#tr_4 {
+	}
+
+	#tr_5 {
+	}
+
+	#tr_6 {
+	}
+
+	#tr_7 {
+	}
+
+	#calc {
+	}
+
+	#seldl {
+	}
+
+	#seldl > option {
+	}
+
+	#selqw {
+	}
+
+	#selqw > option {
+	}
+
+	#selgoal {
+	}
+
+	#selgoal > option {
+	}
+
+	#selform {
+	}
+
+	#selform > option {
+	}
+
+	#faq {
+	}
+
+	#cont {
+	}
+
+	#modal-form-1 {
+	}
+
+	#modal-form-2 {
+	}
+
+	#modal-form-3 {
+	}
+
+	#modal-form-4 {
+	}
+
+	#modal-form-5 {
+	}
+
+	#modal-form-6 {
+	}
+
+	#modal-form-7 {
+	}
+
+	#modal-form-8 {
+	}
+
+	#modal-success {
+	}
+
+	#modal-menu-1 {
+	}
+
+	#f-yacity {
+	}
+
+	#f-utm {
+	}
+
+	.header_wrap {
+	}
+
+	.home__video {
+	}
+
+	.home__video > source {
+	}
+
+	.clear-top {
+	}
+
+	.header_container {
+	}
+
+	.header_container_wrap {
+	display: block;;
+	}
+
+	.top_wrap {
+	}
+
+	.top {
+	padding-left: 10px;
+	padding-top: 0px;;;
+	}
+
+	.container {;
+	}
+
+	.container > li {
+	}
+
+	.container > li > a {
+	}
+
+	.container > ul {
+	}
+
+	.container > ul > li {
+	padding-bottom: 10px;;
+	}
+
+	.container > ul > li > a {
+	font-size: 16px;;
+	}
+
+	.rel {
+	}
+
+	.rel > h1 {
+	}
+
+	.top_left {
+	width: 50%;;
+	}
+
+	.menu {;
+	background-size: contain;;
+	margin-right: 6%;;
+	width: 12%;;;;
+	}
+
+	.tl_menu {
+	}
+
+	.logo_wrap {;
+	width: 82%;;
+	}
+
+	.logo {
+	font-size: 12px;;
+	}
+
+	.top_link {
+	}
+
+	.descriptor {;
+	}
+
+	.top_right {
+	width: 50%;;;
+	}
+
+	.phone_number {
+	font-size: 14px;;
+	}
+
+	.phone_decs {
+	}
+
+	.call_link {
+	}
+
+	.show-1 {
+	}
+
+	.clear {
+	}
+
+	.video:before, .header:before, .leadform:before, .calc:before {
+	display: none;
+	}
+
+	.level:before, .for:before, .portfolio:before, .trainer:before, .faq:before  {
+	display: none;
+	}
+
+	.usl:before {
+		display: none;
+	}
+
+	.menu_wrap {
+	}
+
+	.header {
+	display: block;;
+	}
+
+	.header_container_wrap_rel {
+	}
+
+	.header_container_wrap_rel > h1 {
+	font-size: 22px;;
+	}
+
+	.head_subhead {
+	}
+
+	.head_subhead > p {
+	font-size: 14px;
+	padding-bottom: 14px;;;
+	}
+
+	.sh_link {
+	}
+
+	.show-2 {
+	}
+
+	.show-3 {
+	}
+
+	.white_btn {
+	}
+
+	.header_size {
+	font-size: 12px;;
+	}
+
+	.show-4 {
+	}
+
+	.header_ben {
+	}
+
+	.header_ben_item {
+	}
+
+	.header_ben_item_1 {
+	}
+
+	.header_ben_item_2 {
+	}
+
+	.header_ben_item_3 {
+	}
+
+	.down {
+	}
+
+	.level_wrap {
+	}
+
+	.level {
+	}
+
+	.block_heading {
+	font-size: 22px;;
+	}
+
+	.grtext1 {
+	}
+
+	.grtext1 > br {;;
+	}
+
+	.level_items {
+	}
+
+	.level_item {
+	}
+
+	.level_item_1 {
+	}
+
+	.level_item_head {
+	font-size: 18px;;
+	}
+
+	.level_item_desc {
+	}
+
+	.level_item_2 {
+	}
+
+	.level_item_3 {
+	}
+
+	.video_wrap {
+	}
+
+	.video {
+	}
+
+	.video_head {
+	font-size: 22px;;
+	}
+
+	.video_link {
+	}
+
+	.show-5 {
+	}
+
+	.show-5 > br {
+	}
+
+	.for_wrap {
+	}
+
+	.for {
+	}
+
+	.black_block_heading {
+	font-size: 20px;;
+	}
+
+	.for_items {
+	}
+
+	.for_item {
+	}
+
+	.for_item_1 {
+	}
+
+	.for_label {
+	}
+
+	.for_btn_wrap {
+	}
+
+	.for_size {
+	}
+
+	.show-6 {
+	}
+
+	.for_item_2 {
+	}
+
+	.for_item_3 {
+	}
+
+	.for_item_4 {
+	}
+
+	.for_item_5 {
+	}
+
+	.for_item_6 {
+	}
+
+	.for_item_7 {
+	}
+
+	.for_item_8 {
+	}
+
+	.for_item_9 {
+	}
+
+	.for_item_10 {
+	}
+
+	.for_item_11 {
+	}
+
+	.for_item_12 {
+	}
+
+	.for_item_13 {
+	}
+
+	.for_item_14 {
+	}
+
+	.for_item_15 {
+	}
+
+	.portfolio_wrap {
+	}
+
+	.portfolio {
+	}
+
+	.headblock {
+	}
+
+	.portfolio_slider {
+	}
+
+	.slide_port {
+	}
+
+	.slide_block_heading {
+	}
+
+	.slide_content {
+	}
+
+	.slide {
+	}
+
+	.slide_1 {
+	}
+
+	.slide_img_wrap {
+	}
+
+	.slide_img {
+	}
+
+	.slick-next {
+		width: 20px;
+		height: 20px;
+		right: -13px;;
+	}
+
+	.slick-prev {
+	width: 20px;
+	height: 20px;
+	left: -13px;;;;
+
+	}
+
+	.slide_info {
+	padding: 20px;;
+	}
+
+	.slide_heading {
+	}
+
+	.slide_desc {
+	}
+
+	.slide_desc > p {
+	}
+
+	.case_trainers {
+	}
+
+	.ct_head {
+	}
+
+	.ct_tr_list {
+	}
+
+	.ct_tr_item {
+	}
+
+	.trainer_min {
+	}
+
+	.ct_tr_name {
+	}
+
+	.trainer_link {
+	}
+
+	.videoslider {
+	padding-top: 40px;;
+	}
+
+	.videoslide {
+	}
+
+	.videoslide_head {
+	font-size: 22px;;
+	}
+
+	.videoslide_content {
+	}
+
+	.video_player {
+	}
+
+	.leadform_wrap {
+	}
+
+	.leadform_1 {
+	}
+
+	.leadform {
+	}
+
+	.leadform-block {
+	}
+
+	.form-block {
+	}
+
+	.leadform_head {
+	}
+
+	.formhead {
+	font-size: 20px;;
+	}
+
+	.leadform_head_desc {
+	}
+
+	.fformname {
+	}
+
+	.leadform_inputs {
+	}
+
+	.input_style {
+	}
+
+	.input_size_1 {
+	}
+
+	.fphone {
+	}
+
+	.femail {
+	}
+
+	.leadform_size {
+	}
+
+	.send-btn {
+	}
+
+	.usl_wrap {
+	}
+
+	.usl {
+	}
+
+	.usl_list {
+	}
+
+	.usl_item {
+	}
+
+	.usl_head {
+	}
+
+	.usl_desc {
+	}
+
+	.usl_desc_pre {
+	}
+
+	.usl_desc_pre > p {
+	}
+
+	.usl_desc_pre > ul {
+	}
+
+	.usl_desc_pre > ul > li {
+	}
+
+	.usl_desc_pre > p > a {
+	}
+
+	.usl_desc_post {
+	}
+
+	.usl_desc_post > p {
+	}
+
+	.usl_desc_post > ul {
+	}
+
+	.usl_desc_post > ul > li {
+	}
+
+	.usl_desc_post > p > b {
+	}
+
+	.usl_desc_full_btn {
+	}
+
+	.blue-btn {
+	width: 100%;;
+	}
+
+	.show-8 {
+	}
+
+	.action_block {
+	}
+
+	.action {
+	}
+
+	.act_left {
+	}
+
+	.act_head {
+	}
+
+	.act_desc {
+	}
+
+	.act_right {
+	}
+
+	.act_size {
+	width: 100%;;
+	}
+
+	.trainer_wrap {
+	}
+
+	.trainer {
+	}
+
+	.block_wrap {
+	font-size: 20px;;
+	}
+
+	.trainers_list {
+	}
+
+	.trainer_item {
+	}
+
+	.trainer_left {
+	width: 100%;;
+	}
+
+	.trainer_img {
+	}
+
+	.trainer_name_exp {
+	}
+
+	.tr_name {
+	}
+
+	.tr_exp {
+	}
+
+	.trainer_right {
+	}
+
+	.tr_desc_item {
+	}
+
+	.trainer_desc {
+	}
+
+	.trainer_desc > p {
+	}
+
+	.tr_desc_head {
+	}
+
+	.tr_desc_item_text {
+	}
+
+	.tr_desc_item_text > p {
+	}
+
+	.tr_logo_img {
+	}
+
+	.calc_wrap {
+	}
+
+	.calc {
+	}
+
+	.calc_left {
+	}
+
+	.calc_left_head {
+	font-size: 18px;;
+	}
+
+	.calc_sel_wrap {
+	width: 100%;;
+	}
+
+	.sel_list {
+	}
+
+	.calc_sel {
+	}
+
+	.seldl {
+	}
+
+	.turnintodropdown {
+	}
+
+	.turnintodropdown > option {
+	}
+
+	.selqw {
+	}
+
+	.selgoal {
+	}
+
+	.selform {
+	}
+
+	.calc_size {
+	font-size: 13px;;
+	}
+
+	.show-7 {
+	}
+
+	.faq_wrap {
+	}
+
+	.faq {
+	}
+
+	.ask_list {
+	}
+
+	.ask_item {
+	}
+
+	.ask_item_head {
+	}
+
+	.ask_item_desc {
+	}
+
+	.ask_item_desc > p {
+	}
+
+	.leadform_2 {
+	}
+
+	.leadform-block-2 {
+	}
+
+	.footer {
+	}
+
+	.footer_left {
+	}
+
+	.footer_left > p {
+	}
+
+	.footer_left > br {
+	}
+
+	.footer_right {
+	}
+
+	.footer_right > p {
+	}
+
+	.footer_right > p > a {
+	}
+
+	.modal {
+	}
+
+	.close {
+	}
+
+	.modal_content {
+	}
+
+	.modalform_block {
+	}
+
+	.modalform_h1 {
+	}
+
+	.modalform_h2 {
+	}
+
+	.form_inputs {
+	}
+
+	.form_inputs > p {
+	}
+
+	.input_size_2 {
+	}
+
+	.modalform_size {
+	font-size: 12px;;
+	}
+
+	.video_wrap_mod {
+	}
+
+	.video_wraphead {
+	}
+
+	.video_content {
+	}
+
+	.video_content > iframe {
+	}
+
+	.for_head {
+	}
+
+	.fcalc {
+	}
+
+	.usl_head_mod {
+	}
+
+	.modal-success {
+	}
+
+	.modal-success > h3 {
+	font-size: 16px;;
+	}
+
+	.successimg {
+	}
+
+	.sucsecc_desc {
+	font-size: 14px;;
+	}
+
+	.modal_menu {
+	padding-top: 100px;;
+	}
+
+	.overlay {
+	}
+
+	.closemenu {
+	background-size: contain !important;;
+
+	}
+}
