@@ -846,7 +846,7 @@ only screen and (max-device-width :480px) {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    padding: 0 24rem;
+    padding: 0 2.4rem;
     -ms-flex-item-align: stretch;
     align-self: stretch;
     -webkit-box-pack: space-evenly;
