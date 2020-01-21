@@ -1,0 +1,56 @@
+.about {
+  background: url("../../assets/images/backs.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  &__container {
+
+  }
+  &__item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 27rem;
+    @media @tablet {
+      padding: 3rem;
+    }
+    @media @phone {
+      padding: 3rem;
+    }
+    @media @tablet-ls {
+      padding: 3rem;
+    }
+  }
+  &__article {
+    color: azure;
+    line-height: 3rem;
+    padding: 2rem 44rem;
+    @media @tablet-ls {
+      padding: 0;
+    }
+  }
+  &__pic {
+    flex-shrink: 0;
+    @media @tablet {
+      display: none;
+    }
+    @media @phone {
+      display: none;
+    }
+    @media @tablet-ls {
+      width: 50%;
+      align-self: center;
+    }
+  }
+  &__h3 {
+    color: azure;
+  }
+  &__h4 {
+    color: azure;
+    @media @tablet-ls {
+      padding-bottom: 1rem;
+    }
+  }
+}

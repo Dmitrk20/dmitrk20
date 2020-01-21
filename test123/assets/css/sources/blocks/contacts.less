@@ -1,0 +1,71 @@
+.contacts {
+  &__container {
+    width: 60%;
+    @media @tablet {
+      width: 100%;
+      padding: 2rem;
+    }
+    @media @phone {
+      width: 100%;
+      padding: 2rem;
+    }
+    @media @tablet-ls {
+      width: 100%;
+      padding: 2rem;
+    }
+  }
+  &__span {
+    font-size: 2rem;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    @media @phone {
+      width: 100%;
+      padding: 1rem 0;
+      align-items: center;
+      text-align: center;
+    }
+  }
+  &__line {
+    display: flex;
+    align-items: center;
+    @media @tablet {
+      padding: 1rem 0;
+    }
+    @media @phone {
+      padding: 1rem 0;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    color: #000;
+    font-size: 2.3rem;
+    padding-left: 3rem;
+    @media @phone {
+      padding: 0;
+    }
+  }
+  &__article {
+    font-size: 2rem;
+  }
+  &__pic {
+    @media @tablet {
+      display: none;
+    }
+    @media @phone {
+      display: none;
+    }
+  }
+  &__img {
+    @media @phone {
+      display: none;
+    }
+  }
+}

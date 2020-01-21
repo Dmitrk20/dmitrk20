@@ -1,0 +1,85 @@
+.description{
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &--darker {
+      background: #ededed;
+      flex-direction: row-reverse;
+    }
+    @media @phone {
+      flex-direction: column;
+    }
+    @media @tablet {
+      flex-direction: column;
+    }
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 27rem;
+    align-self: stretch;
+    justify-content: space-evenly;
+    @media @tablet {
+      width: 100%;
+      padding: 4rem;
+    }
+    @media @phone {
+      width: 100%;
+      padding: 4rem;
+    }
+    @media @tablet-ls {
+      padding: 4rem;
+    }
+  }
+  &__article {
+    color: #656565;
+    line-height: 3rem;
+    @media @tablet-ls {
+      line-height: 2.3rem;
+    }
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    @media @tablet {
+      padding-top: 2rem;
+    }
+    @media @phone {
+      flex-direction: column;
+      padding-top: 2rem;
+    }
+  }
+  &__price {
+    font-size: 2.4rem;
+    @media @tablet-ls {
+      font-size: 2rem;
+    }
+  }
+  &__asterisk {
+    text-align: center;
+  }
+  &__h3 {
+    padding-top: 4rem;
+  }
+  &__h4 {
+    @media @tablet-ls {
+      padding-bottom: 1rem;
+    }
+  }
+  &__img {
+    flex-shrink: 0;
+    @media @tablet {
+      padding-top: 1rem;
+      min-width: 100%;
+    }
+    @media @phone {
+      min-width: 100% !important;
+      padding-top: 1rem;
+    }
+    @media @tablet-ls {
+      width: 50%;
+      align-self: center;
+    }
+  }
+}

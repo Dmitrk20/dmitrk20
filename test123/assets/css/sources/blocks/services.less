@@ -1,0 +1,35 @@
+.services {
+  &__container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem 18rem;
+    background: #f9f9f9;
+    @media @phone {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    @media @tablet {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    @media @tablet-ls {
+      padding: 1rem;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  &__article {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    color: #656565;
+  }
+  &__icon {
+    padding: 1rem;
+  }
+}
