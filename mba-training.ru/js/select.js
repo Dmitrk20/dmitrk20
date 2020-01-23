@@ -116,4 +116,31 @@ window.onload=function()
 {
 	tamingselect();
 	// add more functions if necessary
+
+	$('.spec_items').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+	$('.work_video').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+
+
+
+$('.usl_img__wrapper').slick({
+  infinite: true,
+  speed: 300,
+  slidesToShow: 10,
+  slidesToScroll: 3,
+  variableWidth: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+	
 }
