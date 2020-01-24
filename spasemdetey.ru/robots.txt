@@ -1,0 +1,3 @@
+User-agent: *
+Host: spasemdetey.ru
+Sitemap: http://spasemdetey.ru/sitemap.xml

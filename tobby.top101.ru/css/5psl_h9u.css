@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin'), local('Roboto-Thin'), url('../woff2/zmh77k_y.woff2') format('woff2'), url('../woff/yd-19knr.woff') format('woff'), url('../ttf/3lceerxe.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url('../woff2/8t2v31c4.woff2') format('woff2'), url('../woff/e_45qygs.woff') format('woff'), url('../ttf/mrtro_5d.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light'), local('Roboto-Light'), url('../woff2/5629kp_g.woff2') format('woff2'), url('../woff/j7hw9i_d.woff') format('woff'), url('../ttf/buciermm.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Light Italic'), local('Roboto-LightItalic'), url('../woff2/f7ov97_x.woff2') format('woff2'), url('../woff/da01rjxv.woff') format('woff'), url('../ttf/8v_heem6.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url('../woff2/16cmj2t9.woff2') format('woff2'), url('../woff/4qch0s0x.woff') format('woff'), url('../ttf/qzfck2t6.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Italic'), local('Roboto-Italic'), url('../woff2/-n6sic_3.woff2') format('woff2'), url('../woff/1poky5kc.woff') format('woff'), url('../ttf/oif-12pm.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url('../woff2/wsp9q9bz.woff2') format('woff2'), url('../woff/74krutcl.woff') format('woff'), url('../ttf/g4yldeb2.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Medium Italic'), local('Roboto-MediumItalic'), url('../woff2/kflywt-n.woff2') format('woff2'), url('../woff/atqg5oso.woff') format('woff'), url('../ttf/26oou6bv.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url('../woff2/22yc10lc.woff2') format('woff2'), url('../woff/14i_rl1f.woff') format('woff'), url('../ttf/omvjusyh.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Bold Italic'), local('Roboto-BoldItalic'), url('../woff2/ra3sctav.woff2') format('woff2'), url('../woff/pbzpdery.woff') format('woff'), url('../ttf/5lq-6ahb.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black'), local('Roboto-Black'), url('../woff2/usbc1of2.woff2') format('woff2'), url('../woff/fjijpm2o.woff') format('woff'), url('../ttf/48y5l1oj.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto Black Italic'), local('Roboto-BlackItalic'), url('../woff2/jq5unl0u.woff2') format('woff2'), url('../woff/5lq-6ahb.woff') format('woff'), url('../ttf/9jkidi6t.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}

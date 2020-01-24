@@ -1,0 +1,73 @@
+.header {
+
+  &__container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    opacity: 0.8;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 333;
+    @media @tablet-ls, @tablet, @phone {
+      position: relative;
+    }
+  }
+  &__menu {
+    display: flex;
+    color: azure;
+    list-style: none;
+    margin: 0;
+    @media @tablet {
+      display: none;
+    }
+    @media @phone {
+      display: none;
+    }
+  }
+  &__item {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 2rem 4rem;
+    border-bottom: 0.2rem solid transparent;//место для анекдота про разработчика, старый код и комнату со швабрами
+    &:hover {
+      color: #E84B39;
+      border-bottom: 0.2rem solid #E84B39;
+    }
+    @media @tablet-ls {
+      padding: 1rem;
+    }
+  }
+  &__lang {
+    display: flex;
+    flex-direction: column;
+  }
+  &__lang-item {
+    color: azure;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 0.3rem;
+    text-decoration: none;
+    &:hover {
+      color: #E84B39;
+    }
+  }
+  &__call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media @phone {
+      flex-direction: column;
+      width: 80%;
+    }
+  }
+  &__number {
+    color: azure;
+    font-size: 2.4rem;
+    padding: 0 5rem;
+  }
+}

@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+
+
+window.app = {
+    timestamp: parseInt((new Date()).getTime() / 1000),
+    jq: jQuery,
+    formAction: window.location.href,
+    leadToken: '5dd01ed204ee96.09551938',
+    offers: {"12469":{"product_sku":"","prepaid_info_html":"","price":"1990","price2":"3980","id":12469,"country":{"code":"RU","name":"\u0420\u043e\u0441\u0441\u0438\u044f"},"delivery_price":"","currency":{"code":"RUB","name":"\u0440\u0443\u0431"},"link":"","discount":""}},
+    currentOffer: {"product_sku":"","prepaid_info_html":"","price":"1990","price2":"3980","id":12469,"country":{"code":"RU","name":"\u0420\u043e\u0441\u0441\u0438\u044f"},"delivery_price":"","currency":{"code":"RUB","name":"\u0440\u0443\u0431"},"link":"","discount":""},
+    allowedCountries: ["RU"],
+    _setOfferId: false,
+    
+    setOffer: function (offerId) {
+        if (offerId == this._setOfferId) {
+            return ;
+        }
+        this._setOfferId = offerId;
+        if (offerId) {
+            var offer = app.offers[offerId];
+            var previousOffer = app.currentOffer;
+            app.currentOffer = offer;
+            var event = this.jq.Event("offerchange");
+            event.previousOffer = previousOffer;
+            event.currentOffer = app.currentOffer;
+            this.jq(document).trigger(event);
+            this.updatePage(offer);
+        } else {
+            $('input[name=country]').val('');
+        }
+    },
+    
+    updatePage: function(offer) {
+        $('x-newprice').html(offer.price);
+        $('x-oldprice').html(offer.price2);
+        $('x-currency').html(offer.currency.name);
+        $('input[name=offer], select[name=offer]').val(offer.id);
+        $('input[name=country]').val(offer.country.code);
+    },
+
+    blockForm: function() {
+        // Блокируем кнопки при отправке формы
+        $('input[type=submit]', $(this)).prop( 'disabled', true ).attr( 'disabled', true );
+        $('button', $(this)).prop( 'disabled', true ).attr( 'disabled', true );
+        app.incompleteOrder.lock = true;
+        clearTimeout(app.incompleteOrder.timer);
+    },
+
+    unblockForm: function() {
+        $('input[type=submit]', $(this)).prop( 'disabled', false ).attr( 'disabled', false );
+        $('button[type=submit]', $(this)).prop( 'disabled', false ).attr( 'disabled', false );
+        app.incompleteOrder.lock = false;
+        clearTimeout(app.incompleteOrder.timer);
+    }
+
+};
+
+
+</script><script src="/shared/form.validate.js?10"></script>
+<script src="/shared/form.incomplete.js?10"></script>
+<script src="/shared/main2.js?12"></script>
+
+
+
+<title>Купить Блендер для смузи</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=480">
+<meta name="description" content="Блендер для смузи">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:title" content="Блендер для смузи" />
+<meta property="og:description" content="ВКУСНЫЙ И СОЧНЫЙ СОК ЗА 60 СЕКУНД!" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="images/sli-2.jpg" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+<div class="main_wrapper">
+
+<header class="offer_section offer3">
+<div class="title_block">
+<h1 class="main_title"></h1>
+<p class="subtitle">Блендер для смузи</p>
+</div>
+<div class="timer_block clearfix">
+<p>Это предложение закончится через:</p>
+<div class="timer clearfix">
+<div class="timer_item">
+<div class="text">дней</div>
+<div class="count">00</div>
+</div>
+<div class="timer_item">
+<div class="text">часов</div>
+<div class="count hours"></div>
+</div>
+<div class="timer_item">
+<div class="text">минут</div>
+<div class="count minutes"></div>
+</div>
+<div class="timer_item">
+<div class="text">секунд</div>
+<div class="count seconds"></div>
+</div>
+</div>
+</div>
+<div class="image_block">
+<img class="offer_image" src="images/bg-bottom.jpg" alt="">
+<div class="discount_block">
+<div class="value">50%</div>
+<div class="text">скидка</div>
+</div>
+</div>
+<div class="benefits_list clearfix">
+<div class="benefit_item">100% гарантия качества</div>
+<div class="benefit_item">Ограниченное предложение</div>
+<div class="benefit_item">Оплата при получении</div>
+</div>
+<div class="price_block clearfix">
+<div class="price_item old">
+<div class="text">Старая цена:</div>
+<div class="value"><x-oldprice>3980</x-oldprice> <x-currency>руб</x-currency></div>
+</div>
+<div class="price_item new">
+<div class="text"><span>Вы экономите 50%</span></div>
+<div class="value"><x-newprice>1990</x-newprice> <x-currency>руб</x-currency></div>
+</div>
+</div>
+<ul>
+<li>Элементарная технология приготовления</li>
+<li>Незаменимое устройство для здорового питания</li>
+<li>Устройства нового поколения</li>
+</ul>
+<a href="#order_form" class="button">Купить сейчас</a>
+<div class="products_count">* осталось <b>11</b> штук по акции</div>
+</header>
+
+
+
+
+<section class="problems_section dark_theme">
+<h2 class="title">ВКУСНЫЙ И СОЧНЫЙ СОК ЗА 60 СЕКУНД!</h2>
+<div class="reviews_list4 owl-carousel">
+<div class="benefit_item">
+<img src="images/sli-1.jpg" alt="">
+</div>
+<div class="benefit_item">
+<img src="images/sli-2.jpg" alt="">
+</div>
+<div class="benefit_item">
+<img src="images/sli-3.jpg" alt="">
+</div>
+<div class="benefit_item">
+<img src="images/sli-4.jpg" alt="">
+</div>
+</div>
+</section>
+
+<section class="list2_section dark_theme">
+<ul class="list2 marker2">
+    <li><b>Бренд:</b>b> HYU </li>
+    <li><b>Модель: </b>b>CY-802 </li>
+    <li><b>Емкость батареи: </b>b>2000 мAч </li>
+    <li><b>Время зарядки: </b>b>около 3 часов </li>
+    <li><b>Время приготовления порции: </b>b>90 сек </li>
+    <li><b>Количество порций с полным зарядом: </b>b>10-12 </li>
+    <li><b>Объём стакана: </b>b>380 мл </li>
+    <li><b>Размеры упаковки: </b>b> 8,5 х 24,5 х 8,5 см </li>
+    <li><b>Вес: </b>b>514 гр </li>
+    <li><b>Цвета: </b>b>Зеленый, розовый, голубой </li>
+</ul>
+</section>
+
+<section class="description_section">
+<h2 class="title">ПОРТАТИВНЫЙ БЛЕНДЕР</h2>
+<img class="gif_image" src="images/sli-5.jpg" alt="">
+<p class="text">Портативный блендер для смузи - это идеальное устройство для приготовления смузи из фруктов, овощей, ягод и других ингредиентов. Теперь не надо иметь стационарный большой блендер или миксер. В любом месте, на работе, в спортивном зале, в машине, на отдыхе, на пикнике, во время прогулки у вас есть возможность приготовить здоровый и вкусный смузи и вкусный коктейль. Осталось заполнить ингредиентами стакан и нажать кнопку. Буквально в течении одной минуты вкуснейший напиток готов.</p>
+</section>
+
+
+<section class="benefits_section dark_theme">
+<h2 class="title">Блендер для смузи </h2>
+<div class="benefits_list3">
+<div class="benefit_item">
+<img src="images/11.jpg" alt="">
+<div class="text_block">
+<p>За считанные секунды крупно нарежет банан, клубнику, киви, лимон и.т.д </p>
+</div>
+</div>
+<div class="benefit_item">
+<img src="images/12.jpg" alt="">
+<div class="text_block">
+<p>Быстро справляется с нарезкой фруктов или овощей</p>
+</div>
+</div>
+<div class="benefit_item">
+<img src="images/13.jpg" alt="">
+<div class="text_block">
+<p>С ними просто творить кулинарные шедевры за 1 минуту</p>
+</div>
+</div>
+</div>
+<a href="#order_form" class="button">Купить сейчас</a>
+<div class="products_count">* осталось <b>11</b> штук по акции</div>
+</section>
+
+
+<section class="reviews4_section">
+<h2 class="title">Отзывы покупателей</h2>
+<div class="reviews_stats_block">
+<p><b>98%</b> покупателей рекомендуют этот товар</p>
+<div class="line"></div>
+</div>
+<div class="reviews_list4 owl-carousel">
+<div class="review_item">
+<img class="photo" src="images/rew(1).jpg" alt="">
+<div class="text_block">
+<div class="author_info">Кристина Беличенко</div>
+<p>«Хотелось бы отметить 3 основных преимущества данного магазина:
+приветливый персонал (менеджеры все доступно и понятно объясняют
+по телефону), быстрая доставка и порадовало конечно качество
+блендера, все как на картинке. Спасибо.»</p>
+</div>
+</div>
+<div class="review_item">
+<img class="photo" src="images/rew(2).jpg" alt="">
+<div class="text_block">
+<div class="author_info">Юля Карцева</div>
+<p>Доступная цена, удобство, высокое качество. Спасибо
+за качественный товар.
+Обязательно буду рекомендовать Вас знакомым!</p>
+</div>
+</div>
+<div class="review_item">
+<img class="photo" src="images/rew(3).jpg" alt="">
+<div class="text_block">
+ <div class="author_info">Анна Карпова</div>
+<p>Отличный блендер для смузи. Долго искала себе такой, качество очень высокое,
+да еще и такая акция! Обслуживание на уровне. Покупкой довольна.</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- <section class="order_steps_section">
+<h2 class="title">Как заказать Блендер для смузи?</h2>
+<div class="order_steps_list1 clearfix">
+<div class="step_item">
+<h4>Заявка</h4>
+<p>Оставляете заявку на&nbsp;нашем сайте</p>
+</div>
+<div class="step_item">
+<h4>Звонок</h4>
+<p>Менеджер уточняет детали заказа</p>
+</div>
+<div class="step_item">
+<h4>Отправка</h4>
+<p>Доставка по СНГ от 7 рабочих дней</p>
+</div>
+<div class="step_item">
+<h4>Получение</h4>
+<p>Оплачиваете при получении на почте</p>
+</div>
+</div>
+</section> -->
+
+
+<section class="offer_section offer3">
+<div class="title_block">
+<h3 class="main_title"></h3>
+<p class="subtitle">Блендер для смузи</p>
+</div>
+<div class="timer_block clearfix">
+<p>Это предложение закончится через:</p>
+<div class="timer clearfix">
+<div class="timer_item">
+<div class="text">дней</div>
+<div class="count">00</div>
+</div>
+<div class="timer_item">
+<div class="text">часов</div>
+<div class="count hours"></div>
+</div>
+<div class="timer_item">
+<div class="text">минут</div>
+<div class="count minutes"></div>
+</div>
+<div class="timer_item">
+<div class="text">секунд</div>
+<div class="count seconds"></div>
+</div>
+</div>
+</div>
+<div class="image_block">
+<img class="offer_image" src="images/bg-bottom.jpg" alt="">
+<div class="discount_block">
+<div class="value">50%</div>
+<div class="text">скидка</div>
+</div>
+</div>
+<div class="benefits_list clearfix">
+<div class="benefit_item">100% гарантия качества</div>
+<div class="benefit_item">Ограниченное предложение</div>
+<div class="benefit_item">Оплата при получении</div>
+</div>
+<div class="price_block clearfix">
+<div class="price_item old">
+<div class="text">Старая цена:</div>
+<div class="value"><x-oldprice>3980</x-oldprice> <x-currency>руб</x-currency></div>
+</div>
+<div class="price_item new">
+<div class="text"><span>Вы экономите 50%</span></div>
+<div class="value"><x-newprice>1990</x-newprice> <x-currency>руб</x-currency></div>
+</div>
+</div>
+<form id="order_form" class="order_form" action="" method="post">
+    
+    <!-- <select name="offer" class="form-control country_chang">
+                <option 
+            data-country-code="RU"
+                        selected="selected"
+                        value="12469"
+        >
+            Россия        </option>
+            </select> -->
+    <input class="field" type="text" name="name" placeholder="Введите Ваше имя" required>
+<input class="field" type="tel" name="phone" placeholder="Введите Ваш телефон" required>
+<button class="button" type="submit">Купить сейчас</button>
+
+
+</form>
+<div class="products_count">* осталось <b>11</b> штук по акции</div>
+</section>
+
+
+<footer class="footer_section">
+<center><p>ИП Шутов , г.Москва , ИНН 222600312934</p>
+<p>ОГРНИП 309774626500388</p> 
+
+  
+              <p class="tlight-link">
+<!--        <a class="nav-link" target="_blank" href="--><?//= $default_main_site ?><!--">Партнёрская программа TLight </a>-->
+      </p>
+    
+    
+            <p class="conf-link doclinks">
+        <a class="nav-link"  href="" onclick="window.open('http://xshopgood.com/policy2.php'); return false;">Политика конфиденциальности </a>
+      </p>
+      
+<!--       <p class="policy-link doclinks"> -->
+<!--         <a class="nav-link"  href="" onclick="window.open('http://xshopgood.com/policy2.php'); return false;">Условия оформления заказа</a> -->
+<!--       </p> -->
+
+    
+</center>
+</footer>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/scripts.js"></script>
+
+<link rel="stylesheet" href="css/input_style.css">
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+.info {
+  width: 100%;
+  background: url("../../assets/images/backs.jpg") no-repeat center/cover;
+  background-attachment: fixed;
+  padding-top: 6.5rem;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 50rem;
+  }
+  &__h1 {
+    color: azure;
+    text-align: center;
+  }
+  &__h2 {
+    color: azure;
+    font-weight: 300;
+  }
+  &__logo {
+    font-family: 'UnicaOne', cursive;
+    font-size: 10rem;
+    color: #fff;
+    padding: 6rem 0;
+  }
+  &__btn {
+    padding-bottom: 1rem;
+  }
+  &__trans {
+    display: none;
+    @media @phone {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+.streaming {
+  &__container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  &__info {
+    padding: 2rem 0 0;
+    width: 70%;
+    margin: 0 auto;
+    @media @tablet {
+      width: 90%;
+    }
+    @media @tablet-ls {
+      width: 90%;
+    }
+  }
+  &__price {
+    padding-top: 2rem;
+    font-size: 2.4rem;
+    @media @tablet-ls {
+      font-size: 2rem;
+    }
+  }
+  &__items {
+    padding-top: 3rem;
+    width: 70% !important;
+    @media @tablet {
+      width: 90% !important;
+    }
+    @media @phone {
+      width: 90% !important;
+    }
+    @media @tablet-ls {
+      width: 90% !important;
+    }
+  }
+  &__block {
+    background: white;
+    box-shadow: 0 0 1.7rem 0.3rem #ADADAD;
+    width: 95%;
+    padding: 3rem !important;
+    margin: 4rem auto !important;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    @media @tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 1.5rem !important;
+      width: 95%;
+    }
+    @media @phone {
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 1.5rem !important;
+      width: 95%;
+    }
+    @media @tablet-ls {
+      width: 95%;
+    }
+  }
+  &__article {
+    padding: 0 3rem 2rem;
+    @media @phone {
+      padding: 0 0 2rem;
+    }
+    @media @tablet {
+      padding: 0 0 2rem;
+    }
+  }
+  &__img {
+    max-width: 500px;
+    @media @phone {
+      max-width: 100%;
+    }
+    @media @tablet {
+      max-width: 100%;
+    }
+  }
+  &__caption {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #7a7a7a;
+    font-family: 'Arial', sans-serif;
+    padding-top: 1rem;
+  }
+  &__h3 {
+    padding-bottom: 1.5rem;
+  }
+  &__h4 {
+    font-size: 2.5rem;
+    padding-bottom: 0;
+  }
+  &__h5 {
+    font-size: 1.3rem;
+    color: #7a7a7a;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 1rem 0 1.5rem;
+  }
+  &__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    @media @phone {
+      align-items: center;
+    }
+    @media @tablet {
+      align-items: center;
+    }
+  }
+  &__btn {
+    margin-top: 2rem;
+  }
+}

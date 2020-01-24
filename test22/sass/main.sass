@@ -1,0 +1,155 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+	color: #666
+
+::selection
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: 'AvenirLT-Medium', sans-serif
+	overflow-x: hidden
+	color: $text
+	background-color: #cfbca1
+
+ul , li
+	padding: 0
+	margin: 0
+	display: inline-block
+
+a
+	color: #000
+	&:hover
+		color: #000
+
+.top
+	&-nav
+		li
+			font-size: 25px
+			padding-right: 52px
+			line-height: 110px
+			&:nth-child(1)
+				font-size: 42px
+	&-text
+		font-family: 'AvenirLT-Medium'
+		font-size: 18px
+		font-weight: 400
+		line-height: 25px
+		background-color: #dfd1bc
+		padding: 15px 17px 17px 10px
+	&-autor
+		position: relative
+		img
+			position: absolute
+			top: -55px
+			left: -100px
+	&-desc
+		font-size: 21px
+		font-weight: 300
+		padding: 20px
+		font-family: 'AvenirLT-Medium'
+
+.partners
+	background-color: #fff
+	li
+		padding: 7px
+
+.tac
+	text-align: center
+
+.photo
+	margin-top: 30px
+	&-img
+		margin: auto
+		display: inline-block
+	&-text
+		display: block
+		text-align: center
+		font-size: 17px
+		padding-top: 10px
+
+
+.form
+	&-title
+		padding-top: 60px
+		font-size: 21px
+		font-weight: 500
+		text-transform: uppercase
+	&-desc
+		font-size: 14px
+	&-name
+		padding-top: 10px
+	& .button
+		border: none
+		text-transform: uppercase
+		background-color: #000
+		color: #fff
+		font-size: 17px
+		line-height: 33px
+		box-shadow: 1px 2px 5px rgba(33, 29, 30, 0.4)
+		font-family: 'AvenirLT-Light'
+		padding: 0 40px
+		margin-top: 10px
+		margin-right: 60px
+	&-geo
+		font-size: 21px
+		margin-top: 60px
+		text-align: left
+		padding-left: 30px
+
+
+.tar
+	text-align: right
+
+.img-text
+	text-align: center
+	margin-bottom: 40px
+
+.container
+	max-width: 1200px
+	padding:
+		right: $gutter/2
+		left: $gutter/2
+	margin:
+		left: auto
+		right: auto
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.example-grid
+	display: grid
+	grid-gap: $gutter
+	grid-template-columns: 1fr 1fr
+	grid-template-areas: "left right"
+	> div:first-child
+		grid-area: left
+	> div:last-child
+		grid-area: right
+	+media-breakpoint-down(xs)
+		display: block
+		> div
+			padding: $gutter/2 0
+
+.example-img
+	width: 100%
+
+.parent // Lazy Load Placeholder Generator: https://webdesign-master.ru/services/lazy/
+	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7)
+
+@import _media

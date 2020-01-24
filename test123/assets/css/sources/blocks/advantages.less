@@ -1,0 +1,46 @@
+.advantages {
+  &__container {
+    padding-bottom: 4rem;
+  }
+  &__img {
+    width: 6.4rem;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    @media @tablet {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    @media @phone {
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0 1rem;
+      width: 100%;
+    }
+    @media @tablet-ls {
+      width: 100%;
+    }
+  }
+  &__item {
+    display: flex;
+    //justify-content: space-around;
+    width: 33%;
+    padding: 2rem;
+    @media @tablet {
+      width: 100%;
+    }
+    @media @phone {
+      width: 100%;
+    }
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+}
