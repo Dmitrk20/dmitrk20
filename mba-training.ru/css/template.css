@@ -1,4 +1,4 @@
-﻿#selqw {
+#selqw {
 }
 
 
@@ -240,7 +240,7 @@
   padding-bottom: 40px;;
   padding-top: 20px;
   padding: 20px 5%;
-  text-align: center;
+  text-align: left;
   }
 
   .head_subhead span {
@@ -1911,10 +1911,11 @@
 
 .usl_img {
   display: inline-block;
-  max-width: 12%;
+  width: 200px;
   padding: 20px 10px;
-  height: 140px;
+  height: 100px;
   vertical-align: middle!important;
+  text-align: -webkit-center;
   
 }
 
@@ -1928,6 +1929,10 @@
 
 .usl_img img{
   vertical-align: middle;
+  height: 100px;
+ 
+  
+  
 }
 
 .img-responsive {
@@ -1940,7 +1945,7 @@
 .select_items a {
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   transition: all 0.5s ease;
 /*  border: 1px solid #DEDEDE;*/
 }
@@ -1948,7 +1953,10 @@
 .select_items a:hover {
   text-decoration: none;
   color: #fff;
-  font-size: 22px;
+  font-size: 20px;
+}
+  
+.select_items ul {
 }
   
 .select_items li {
@@ -1957,8 +1965,8 @@
   border: 2px solid #fff;
   transition: all 0.5s ease;
   border-radius: 5px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .select_items li:hover {
@@ -1983,8 +1991,7 @@
 }
 
 .item_img img{
-  width: 360px;
-  height: 300px;
+  width: 100%;
 }
 
 .item_title {
@@ -2027,6 +2034,8 @@
 
 .item_desc {
   text-align: center;
+  padding: 5px;
+  padding-bottom: 20px;
   
 }
 
