@@ -1667,7 +1667,7 @@
   padding: 0;;
   top: 60%;;
   position: absolute;;
-  left: -50px;;
+  left: -115px;;
   cursor: pointer;;
   transition: all 0.4s ease;;
   border: none;
@@ -1735,7 +1735,7 @@
   position: absolute;;
   cursor: pointer;;
   transition: all 0.4s ease;;
-  right: -50px;
+  right: -115px;
   }
 
 
