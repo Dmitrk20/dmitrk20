@@ -142,10 +142,18 @@
 
 
    .header  h1 {;
-  font-size: 42px;;
-  font-weight: 900;;
-  text-transform: uppercase;
+  font-size: 70px;;
+  font-weight: 900;
   text-align: center;
+  font-family: "Roboto"
+  
+  }
+
+  .header  h2 {;
+  font-size: 50px;;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Roboto"
   
   }
 
@@ -245,7 +253,6 @@
 
   .head_subhead span {
     font-weight: 900;
-    font-style: italic;
     font-size: 26px;
   }
 
@@ -256,7 +263,7 @@
 
 
    .head_subhead > p {;
-  font-size: 23px;
+  font-size: 24px;
   }
 
   .head_subhead > p::before {;
@@ -1891,10 +1898,48 @@
 .level_p {
   padding-top: 40px;
   font-size: 20px;
+  
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
 }
 
 .level_p p {
   padding-top: 15px;
+}
+
+.level_p img {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.level_p ul {
+  display: inline-block;
+  text-align: justify;
+  
+}
+
+.level_p li {
+  display: inline-block;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.level_p li:nth-child(5) {
+  display: block;
+  margin: auto;
+}
+
+.level_p li:nth-child(4) {
+  padding-right: 0;
+  padding-left: 150px;
 }
 
 .level_p span {
