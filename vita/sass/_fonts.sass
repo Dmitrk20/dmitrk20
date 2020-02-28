@@ -1,0 +1,46 @@
+// font-weight helper:
+
+// 100 Extra Light or Ultra Light;
+// 200 Light or Thin; 300 Book or Demi;
+// 400 Regular or Normal;
+// 500 Medium;
+// 600 Semibold or Demibold;
+// 700 Bold;
+// 800 Black or Extra Bold or Heavy;
+// 900 Extra Black or Fat or Ultra Black
+
+
+@mixin font($f-name, $f-style, $f-weight, $f-url)
+	@font-face
+		font-family: $f-name
+		font-style: $f-style
+		font-weight: $f-weight
+		src: url($f-url) format('woff2')
+
+
+
+/* PTSerif */
+@include font('PTSerif-Bold', normal, 700, '../fonts/PTSerif-Bold.woff2')
+@include font('PTSerif-BoldItalic', italic, 700, '../fonts/PTSerif-BoldItalic.woff2')
+@include font('PTSerif-Italic', italic, 400, '../fonts/PTSerif-Italic.woff2')
+@include font('PTSerif-Regular', normal, 400, '../fonts/PTSerif-Regular.woff2')
+
+/* Poppins */
+@include font('Poppins-Black', normal, 400, '../fonts/Poppins-Black.woff2')
+@include font('Poppins-BlackItalic', italic, 400, '../fonts/Poppins-BlackItalic.woff2')
+@include font('Poppins-Bold', normal, 700, '../fonts/Poppins-Bold.woff2')
+@include font('Poppins-BoldItalic', italic, 700, '../fonts/Poppins-BoldItalic.woff2')
+@include font('Poppins-ExtraBold', normal, 700, '../fonts/Poppins-ExtraBold.woff2')
+@include font('Poppins-ExtraBoldItalic', italic, 700, '../fonts/Poppins-ExtraBoldItalic.woff2')
+@include font('Poppins-ExtraLight', normal, 400, '../fonts/Poppins-ExtraLight.woff2')
+@include font('Poppins-ExtraLightItalic', italic, 400, '../fonts/Poppins-ExtraLightItalic.woff2')
+@include font('Poppins-Italic', italic, 400, '../fonts/Poppins-Italic.woff2')
+@include font('Poppins-Light', normal, 400, '../fonts/Poppins-Light.woff2')
+@include font('Poppins-LightItalic', italic, 400, '../fonts/Poppins-LightItalic.woff2')
+@include font('Poppins-Medium', normal, 400, '../fonts/Poppins-Medium.woff2')
+@include font('Poppins-MediumItalic', italic, 400, '../fonts/Poppins-MediumItalic.woff2')
+@include font('Poppins-Regular', normal, 400, '../fonts/Poppins-Regular.woff2')
+@include font('Poppins-SemiBold', normal, 700, '../fonts/Poppins-SemiBold.woff2')
+@include font('Poppins-SemiBoldItalic', italic, 700, '../fonts/Poppins-SemiBoldItalic.woff2')
+@include font('Poppins-Thin', normal, 400, '../fonts/Poppins-Thin.woff2')
+@include font('Poppins-ThinItalic', italic, 400, '../fonts/Poppins-ThinItalic.woff2')
