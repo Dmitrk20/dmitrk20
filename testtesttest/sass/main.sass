@@ -1,0 +1,195 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: 'Roboto', sans-serif
+	overflow-x: hidden
+	color: $text
+
+.section_1
+	background-image: url(/img/meyou.jpg)
+	background-size: contain
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #7B6B8F
+	background-position: center
+
+		
+.wrapper
+  position: absolute
+  top: 38%
+  width: 90%
+  left: 6%
+  margin-top: -87.5px
+  font-size: 28px
+  height: 175px
+  font-weight: 900
+
+.wave
+  color: #7457E9
+  animation: 3s color infinite
+
+@keyframes color
+  50%
+    color: #FE41BF
+
+
+.fa:before
+	content: '\f063'
+	position: absolute
+	font-family: 'fontawesome'
+	width: 60px
+	height: 60px
+	font-size: 60px
+	color: #D5006A
+	left: 50%
+	margin-left: -30px
+	bottom: 50px
+
+.section_2
+	background-image: url(/img/d1.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #7B6B8F
+	background-position: center
+	& span
+		font-size: 20px
+		color: #A1A1A1
+		padding: 15px
+		padding-top: 5px
+		display: block
+		
+
+.s2s2
+	background-image: url(/img/ezaem.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #7B6B8F
+	background-position: -265px
+	& span
+		font-size: 20px
+		color: #000
+		padding: 15px
+		padding-top: 5px
+		display: block
+
+.s2s3
+	background-image: url(/img/moneza.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #7B6B8F
+	background-position: -270px
+
+.s2s4
+	background-image: url(/img/ekapusta.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #7B6B8F
+	background-position: -410px
+
+
+.section_3
+	background-image: url(/img/siga.jpg)
+	background-size: contain
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #BDB5AA
+	background-position: center
+
+.s3s2 
+	background-image: url(/img/vk.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #BDB5AA
+	background-position: center
+
+.s3s3
+	background-image: url(/img/koleno.jpg)
+	background-size: cover
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #BDB5AA
+	background-position: center
+
+.s3s4
+	background-image: url(/img/plank.jpg)
+	background-size: contain
+	background-repeat: no-repeat
+	width: 100vw
+	height: 100vh
+	background-color: #77448C
+	background-position: center
+
+.fp-prev 
+	display: none
+
+.fp-next	
+	display: none
+
+.container
+	max-width: 700px
+	padding:
+		right: $gutter/2
+		left: $gutter/2
+	margin:
+		left: auto
+		right: auto
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.example-grid
+	display: grid
+	grid-gap: $gutter
+	grid-template-columns: 1fr 1fr
+	grid-template-areas: "left right"
+	> div:first-child
+		grid-area: left
+	> div:last-child
+		grid-area: right
+	+media-breakpoint-down(xs)
+		display: block
+		> div
+			padding: $gutter/2 0
+
+.example-img
+	width: 100%
+
+.parent // Lazy Load Placeholder Generator: https://webdesign-master.ru/services/lazy/
+	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7)
+
+@import _media	
