@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BMWlink</title>
+	<link rel="shortcut icon" href="img/icons/shortcut.png">
+	<link rel="stylesheet" href="css/fonts/fonts.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+
+	<div class="overlay"></div>
+	<div class="overlay_form"></div>
+	<div class="form_block">
+		<div class="close">&times;</div>
+		<div class="form_title">Оставьте Ваши данные и мы свяжемся с Вами</div>
+		<form class="form" id="form_1" action="mail.php" method="POST">
+			<div class="form_input">
+				<i class="fas fa-user-tie"></i>
+				<input type="text" name="user_name" placeholder="Ваше имя" required>
+			</div>
+			<div class="form_input">
+				<i class="fas fa-envelope"></i>
+				<input type="text" name="user_email" placeholder="E-mail или телефон" required>
+			</div>
+			<div class="form_button">
+				<button class="button">Отправить заявку</button>
+			</div>
+		</form>
+		<!-- /.section_9__form -->
+		<div class="form_text">
+			Мы не занимаемся рассылкой рекламных сообщений, а также не передаем контактные данные третьим лицам.
+		</div>
+	</div>
+	<!-- /.form_block -->
+	<header class="header">
+		<div class="header__left">
+			<div class="hamburger">
+				<div class="hamburger-line"></div>
+				<div class="hamburger-line"></div>
+				<div class="hamburger-line"></div>
+				<div class="hamburger-line"></div>
+			</div>
+			<a href="#" class="header__left_phone">
+				<i class="fas fa-phone"></i>
+			</a>
+		</div>
+		<!-- /.header__left -->
+		<a href="index.html" class="logo">
+			<img src="img/logo.svg" alt="BMWlink">
+		</a>
+		<!-- /.logo -->
+		<div class="header__right">
+			<a href="http://bmwshop.takercorporation.com/basket.html" class="shopping">
+				<span class="count">2</span>
+				<i class="fas fa-shopping-cart"></i>
+			</a>
+			<a href="#" class="feedback button">Обратная связь</a>
+		</div>
+		<!-- /.header__right -->
+		<div class="header__menu">
+			<ul class="header__menu_link">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="services.html">Услуги</a></li>
+				<!-- <li><a href="reglament_works.html">Регламентные работы</a></li> -->
+				<!-- <li><a href="retooling.html">Дооснащение</a></li> -->
+				<!-- <li><a href="repair.html">Слесарный ремонт</a></li> -->
+				<!-- <li><a href="coding.html">Кодирование</a></li> -->
+				<!-- <li><a href="chip_tuning.html">Чип-тюнинг</a></li> -->
+				<!-- <li><a href="individualization.html">Индивидуализация</a></li> -->
+				<!-- <li><a href="remote_collaboration.html">Удаленное сотрудничеств</a></li> -->
+				<li><a href="configurator.html">Конфигуратор</a></li>
+				<li><a href="http://bmwshop.takercorporation.com">Магазин</a></li>
+				<li><a href="questions.html">Частые вопросы</a></li>
+				<li><a href="contacts.html">Контакты</a></li>
+			</ul>
+			<!-- /.header__menu_link -->
+			<ul class="header__menu_phone">
+				<li class="phone_number_item">
+					<a href="tel:+79015000555">
+						<div class="phone_icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="text">
+							+7 901 5000 555
+						</div>
+					</a>
+				</li>
+				<!-- /.phone_number_item -->
+				<li class="phone_number_item">
+					<a href="tel:+79096503515">
+						<div class="phone_icon">
+							<i class="fas fa-mobile-alt"></i>
+						</div>
+						<div class="text">
+							+7 909 650 35 15
+						</div>
+					</a>
+				</li>
+				<!-- /.phone_number_item -->
+				<li class="phone_number_item">
+					<a href="https://wa.me/79096503515">
+						<div class="phone_icon">
+							<i class="fab fa-whatsapp"></i>
+						</div>
+						<div class="text">
+							+7 909 650 35 15
+						</div>
+					</a>
+				</li>
+				<!-- /.phone_number_item -->
+			</ul>
+			<!-- /.header__menu_phone -->
+			<div class="header__menu_button">
+				<a href="#" class="feedback button">Обратная связь</a>
+			</div>
+			<!-- /.header__menu_button -->
+			<ul class="header__menu_icons">
+				<li><a href="https://www.instagram.com/bmwlink/?hl=ru"><i class="fab fa-instagram"></i></a></li>
+				<!-- <li><a href="#"><i class="fab fa-youtube"></i></a></li> -->
+			</ul>
+			<!-- /.header__menu_icons -->
+		</div>
+		<!-- /.header__menu -->
+		<ul class="phone_dropdown">
+			<li class="phone_number_item">
+				<a href="tel:+79015000555">
+					<div class="phone_icon">
+						<i class="fas fa-phone"></i>
+					</div>
+					<div class="text">
+						+7 901 5000 555
+					</div>
+				</a>
+			</li>
+			<!-- /.phone_number_item -->
+			<li class="phone_number_item">
+				<a href="tel:+79096503515">
+					<div class="phone_icon">
+						<i class="fas fa-mobile-alt"></i>
+					</div>
+					<div class="text">
+						+7 909 650 35 15
+					</div>
+				</a>
+			</li>
+			<!-- /.phone_number_item -->
+			<li class="phone_number_item">
+				<a href="https://wa.me/79096503515">
+					<div class="phone_icon">
+						<i class="fab fa-whatsapp"></i>
+					</div>
+					<div class="text">
+						+7 909 650 35 15
+					</div>
+				</a>
+			</li>
+			<!-- /.phone_number_item -->
+		</ul>
+		<!-- /.phone_dropdown -->
+	</header>
+	<div class="wrapper">
+
+	<div class="wrapper__configurator">
+
+
+
+		<div class="page__title">
+			<div class="container">
+				<h1 class="title_4">Конфигуратор</h1>
+			</div>
+		</div>
+
+
+
+		<!--========== SECTION 1 ==========-->
+		<div class="configurator">
+			<div class="container">
+				<div class="road">
+					<a href="index.html">Главная</a>
+					&nbsp;/&nbsp;
+					<a href="configurator.html">Конфигуратор</a>
+					&nbsp;/&nbsp;
+					<span>Series</span>
+				</div>
+			</div>
+			<!-- /.container -->
+		</div>
+
+
+
+		<!--========== SECTION 2 ==========-->
+		<ul class="configurator__top">
+			<li>
+				<div class="configurator__top_title">BMW 3</div>
+				<img src="img/Series/car_small-1.png" alt="BMWlink">
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="configurator__top_title">BMW 4</div>
+				<img src="img/Series/car_small-2.png" alt="BMWlink">
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="configurator__top_title">BMW 5</div>
+				<img src="img/Series/car_small-3.png" alt="BMWlink">
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="configurator__top_title">BMW 6</div>
+				<img src="img/Series/car_small-4.png" alt="BMWlink">
+			</li>
+			<!-- /.configurator__item -->
+		</ul>
+		<!-- /.configurator__top -->
+		<ul class="configurator__bot">
+			<li>
+				<div class="car active">
+					<div class="car_img">
+						<div class="dot dot-1">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-2">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-3">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-4">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-5">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<img src="img/Series/car-1.png" alt="BMWlink">
+					</div>
+				</div>
+				<!-- /.car -->
+				<div class="salon">
+					<div class="dot dot-1">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-2">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-3">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-4">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-5">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/Series/salon-1.jpg" alt="BMWlink">
+				</div>
+				<!-- /.salon -->
+				<div class="configurator__bot_block">
+					<h5 class="title_5">BMW 3 series</h5>
+					<div class="configurator__bot_buttons">
+						<a href="#" class="button_car configurator__bot_button_active">Кузов</a>
+						<a href="#" class="button_salon">Салон</a>
+					</div>
+				</div>
+				<!-- /.configurator__bot_block -->
+				<ul class="page__block_list">
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 15 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 25 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 40 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+				</ul>
+				<!-- /.page__block_list -->
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="car active">
+					<div class="car_img">
+						<div class="dot dot-1">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-2">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-3">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-4">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-5">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<img src="img/Series/car-2.png" alt="BMWlink">
+					</div>
+				</div>
+				<!-- /.car -->
+				<div class="salon">
+					<div class="dot dot-1">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-2">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-3">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-4">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-5">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/Series/salon-2.jpg" alt="BMWlink">
+				</div>
+				<!-- /.salon -->
+				<div class="configurator__bot_block">
+					<h5 class="title_5">BMW 4 series</h5>
+					<div class="configurator__bot_buttons">
+						<a href="#" class="button_car configurator__bot_button_active">Кузов</a>
+						<a href="#" class="button_salon">Салон</a>
+					</div>
+				</div>
+				<!-- /.configurator__bot_block -->
+				<ul class="page__block_list">
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 15 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 25 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 40 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+				</ul>
+				<!-- /.page__block_list -->
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="car active">
+					<div class="car_img">
+						<div class="dot dot-1">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-2">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-3">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-4">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-5">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<img src="img/Series/car-3.png" alt="BMWlink">
+					</div>
+				</div>
+				<!-- /.car -->
+				<div class="salon">
+					<div class="dot dot-1">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-2">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-3">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-4">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-5">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/Series/salon-3.jpg" alt="BMWlink">
+				</div>
+				<!-- /.salon -->
+				<div class="configurator__bot_block">
+					<h5 class="title_5">BMW 5 series</h5>
+					<div class="configurator__bot_buttons">
+						<a href="#" class="button_car configurator__bot_button_active">Кузов</a>
+						<a href="#" class="button_salon">Салон</a>
+					</div>
+				</div>
+				<!-- /.configurator__bot_block -->
+				<ul class="page__block_list">
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 15 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 25 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 40 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+				</ul>
+				<!-- /.page__block_list -->
+			</li>
+			<!-- /.configurator__item -->
+			<li>
+				<div class="car active">
+					<div class="car_img">
+						<div class="dot dot-1">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-2">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-3">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-4">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<div class="dot dot-5">
+							<div class="dot_content">
+								<div class="dot_content_top">Ремонт двигателей</div>
+								<div class="dot_content_bot">
+									<div class="dot_text">Сроки: от 7 дней</div>
+									<div class="dot_text">Цена от 10 000 рублей</div>
+								</div>
+							</div>
+						</div>
+						<img src="img/Series/car-4.png" alt="BMWlink">
+					</div>
+				</div>
+				<!-- /.car -->
+				<div class="salon">
+					<div class="dot dot-1">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-2">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-3">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-4">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<div class="dot dot-5">
+						<div class="dot_content">
+							<div class="dot_content_top">Ремонт двигателей</div>
+							<div class="dot_content_bot">
+								<div class="dot_text">Сроки: от 7 дней</div>
+								<div class="dot_text">Цена от 10 000 рублей</div>
+							</div>
+						</div>
+					</div>
+					<img src="img/Series/salon-4.jpg" alt="BMWlink">
+				</div>
+				<!-- /.salon -->
+				<div class="configurator__bot_block">
+					<h5 class="title_5">BMW 6 series</h5>
+					<div class="configurator__bot_buttons">
+						<a href="#" class="button_car configurator__bot_button_active">Кузов</a>
+						<a href="#" class="button_salon">Салон</a>
+					</div>
+				</div>
+				<!-- /.configurator__bot_block -->
+				<ul class="page__block_list">
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 15 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 10 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 25 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+					<li class="page__block_text">
+						<div class="name">Ремонт двигателей</div>
+						<div class="dotted_line"></div>
+						<div class="text_2">7 дней / 40 000 руб.</div>
+					</li>
+					<!-- /.page__block_text -->
+				</ul>
+				<!-- /.page__block_list -->
+			</li>
+			<!-- /.configurator__item -->
+		</ul>
+		<!-- /.configurator__bot -->
+		
+
+
+		<div class="section_9">
+			<div class="container">
+				<h2 class="title_2">Контакты</h2>
+				<div class="section_9__grid">
+					<ul class="section_9__contacts">
+						<li>
+							<h4 class="section_9__contacts_title">Адрес:</h4>
+							<div class="section_9__contacts_link">
+								<a href="https://yandex.ua/maps/213/moscow/?ll=37.751894%2C55.773273&z=15&mode=search&text=%D0%B3.%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%201-%D1%8F%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%98%D0%B7%D0%BC%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B2%D0%B5%D1%80%D0%B8%D0%BD%D1%86%D0%B0%2C%20%D0%B4.8.&sll=24.029709%2C49.839678&sspn=0.252342%2C0.091369" target="_blank">
+									<div class="section_9__contacts_icon">
+										<i class="fas fa-map-marker-alt"></i>
+									</div>
+									<div class="text">
+										г.Москва, 1-я улица<br>Измайловского Зверинца, д.8.
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<h4 class="section_9__contacts_title">Время работы:</h4>
+							<div class="section_9__contacts_grid">
+								<div class="section_9__contacts_icon">
+									<i class="fas fa-clock"></i>
+								</div>
+								<div class="text">
+									работаем с 10:00 до 21:00
+								</div>
+							</div>
+						</li>
+						<li>
+							<h4 class="section_9__contacts_title">Почта:</h4>
+							<div class="section_9__contacts_link">
+								<a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=info@bmwlink.ru" target="_blank">
+									<div class="section_9__contacts_icon">
+										<i class="fas fa-envelope"></i>
+									</div>
+									<div class="text">
+										info@bmwlink.ru
+									</div>
+								</a>
+							</div>
+						</li>
+						<li>
+							<h4 class="section_9__contacts_title">Телефон</h4>
+							<ul class="section_9__contacts_phone">
+								<li class="phone_number_item">
+									<a href="tel:+79015000555">
+										<div class="phone_icon">
+											<i class="fas fa-phone"></i>
+										</div>
+										<div class="text">
+											+7 901 5000 555
+										</div>
+									</a>
+								</li>
+								<!-- /.phone_number_item -->
+								<li class="phone_number_item">
+									<a href="tel:+79096503515">
+										<div class="phone_icon">
+											<i class="fas fa-mobile-alt"></i>
+										</div>
+										<div class="text">
+											+7 909 650 35 15
+										</div>
+									</a>
+								</li>
+								<!-- /.phone_number_item -->
+								<li class="phone_number_item">
+									<a href="https://wa.me/79096503515">
+										<div class="phone_icon">
+											<i class="fab fa-whatsapp"></i>
+										</div>
+										<div class="text">
+											+7 909 650 35 15
+										</div>
+									</a>
+								</li>
+								<!-- /.phone_number_item -->
+							</ul>
+							<!-- /.section_9__contacts_phone -->
+						</li>
+					</ul>
+					<!-- /.section_9__contacts -->
+					<form class="section_9__form" id="form_2" action="mail.php" method="POST">
+						<div class="section_9__form_input">
+							<i class="fas fa-user-tie"></i>
+							<input type="text" name="user_name" placeholder="Ваше имя" required>
+						</div>
+						<div class="section_9__form_input">
+							<i class="fas fa-envelope"></i>
+							<input type="email" name="user_email" placeholder="E-mail" required>
+						</div>
+						<textarea name="user_text" placeholder="Ваше сообщение..." required></textarea>
+						<button class="button">Отправить</button>
+					</form>
+					<!-- /.section_9__form -->
+				</div>
+				<!-- /.section_9__grid -->
+			</div>
+			<!-- /.container -->
+		</div>
+		<!-- /.section_9 -->
+	</div>
+	<!-- /.wrapper__configurator -->
+	<!--========== MAP ==========-->
+	<div id="map"></div>
+	</div>
+	<!-- /.wrapper -->
+	
+	
+	<!--========== FOOTER ==========-->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__grid">
+				<div class="footer__logo">
+					<a href="index.html" class="logo">
+						<img src="img/logo.svg" alt="BMWlink">
+					</a>
+				</div>
+				<div class="copy">&copy;2018. Все права защищены.</div>
+			</div>
+			<!-- /.footer__grid -->
+		</div>
+		<!-- /.container -->
+	</footer>
+
+
+
+	<!-- JS -->
+	<script src="js/jquery.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/slick.js"></script>
+	<script src="js/slider.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiwyKCFU3ZprAyC-WtqVlwSNgIK_IeRyE"></script>
+	<script src="js/maps.js"></script>
+	<script src="js/main.js"></script>
+	
+
+
+</body>
+</html>
