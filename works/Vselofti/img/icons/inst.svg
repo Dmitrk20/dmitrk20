@@ -1,0 +1,16 @@
+<svg id="Group_52_copy_3" data-name="Group 52 copy 3" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #8a8487;
+      }
+
+      .cls-2 {
+        fill: #24252b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Rounded_Rectangle_12" data-name="Rounded Rectangle 12" class="cls-1" width="28" height="28" rx="8" ry="8"/>
+  <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M41.643,629.5H38.932V640H34.915V629.5H33.006v-3.356h1.909v-2.171a3.73,3.73,0,0,1,4.054-3.984L41.944,620v3.257h-2.16a0.81,0.81,0,0,0-.851.914v1.973h3.06Z" transform="translate(-26 -612)"/>
+</svg>
