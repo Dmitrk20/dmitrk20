@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'FuturaDemi';
+    src: url('Futura/FuturaDemi.ttf');
+}
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src: url('Futura/FuturaMedium.ttf');
+}
+
+@font-face {
+    font-family: 'FuturaBook';
+    src: url('Futura/FuturaBook.ttf');
+}
+
+@font-face {
+    font-family: 'FuturaLight';
+    src: url('Futura/FuturaLight.ttf');
+}
